@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y":  { "model": "maidensmaterials:block/jade_log" },
+        "axis=z":   { "model": "maidensmaterials:block/jade_log", "x": 90 },
+        "axis=x":   { "model": "maidensmaterials:block/jade_log", "x": 90, "y": 90 }
+    }
+}

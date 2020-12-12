@@ -1,0 +1,36 @@
+
+
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "FFF",
+		"FMF",
+		"FFF"
+    ],
+    
+    "key":
+    {
+		
+		"F":
+        {
+            "item": "maidensmaterials:poinciana_blossoms"
+        },
+		
+		
+		"M":
+		{
+			"item": "maidensmaterials:mortar_and_pestle"
+			
+		}
+		
+		
+    },
+    
+    "result":
+    {
+        "item": "maidensmaterials:pulverized_orange",
+        "count": 8
+    }
+}

@@ -1,0 +1,34 @@
+
+
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "TTT",
+		"TST",
+		"TTT"
+    ],
+    
+    "key":
+    {
+        "S":
+        {
+            "item": "maidensmaterials:stain_brown"
+        },
+		
+		"T":
+		{
+			"item": "maidensmaterials:whitewashed_slab"
+			
+		}
+		
+		
+    },
+    
+    "result":
+    {
+        "item": "maidensmaterials:brown_stained_slab",
+	"count": 6
+    }
+}

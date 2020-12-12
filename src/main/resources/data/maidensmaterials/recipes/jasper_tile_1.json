@@ -1,0 +1,40 @@
+
+
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+    " F ",
+	"FMF",
+	" B "
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "maidensmaterials:jasper_fragments"
+        },
+		
+		"M":
+		{
+			
+			"item": "maidensmaterials:grout"
+		},
+		
+		"B":
+		{
+			"item": "minecraft:stone"
+			
+		}
+		
+		
+    },
+    
+    "result":
+    {
+        "item": "maidensmaterials:jasper_tile_1",
+        "count": 64
+    }
+}

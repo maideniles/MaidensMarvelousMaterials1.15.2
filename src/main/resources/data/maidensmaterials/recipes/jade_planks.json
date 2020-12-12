@@ -1,0 +1,13 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+	  "item": "maidensmaterials:jade_log"
+	}
+  ],
+  "result": {
+    "item": "maidensmaterials:jade_planks",
+    "count": 4
+  }
+}

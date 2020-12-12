@@ -1,0 +1,32 @@
+
+
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+    
+	
+	"FFF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "maidensmaterials:jade_tile_4"
+        }
+		
+		
+		
+		
+		
+		
+    },
+    
+    "result":
+    {
+        "item": "maidensmaterials:jade_tile_4_slab",
+        "count": 6
+    }
+}

@@ -1,0 +1,32 @@
+
+
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+    
+	
+	"FFF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "maidensmaterials:mica_tile_3"
+        }
+		
+		
+		
+		
+		
+		
+    },
+    
+    "result":
+    {
+        "item": "maidensmaterials:mica_tile_3_slab",
+        "count": 6
+    }
+}

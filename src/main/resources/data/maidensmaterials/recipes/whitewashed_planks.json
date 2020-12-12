@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": [
+	  {
+       "tag": "minecraft:planks"
+      },
+      
+      {
+       "item": "maidensmaterials:cedar_planks"
+      },
+      {
+        "item": "maidensmaterials:crabapple_planks"
+      },
+	  
+	  {
+        "item": "maidensmaterials:poinciana_planks"
+      },
+	  
+	  {
+        "item": "maidensmaterials:jade_planks"
+      },
+      {
+        "item": "maidensmaterials:dogwood_planks"
+      },
+      {
+        "item": "maidensmaterials:jacaranda_planks"
+      },
+      {
+        "item": "maidensmaterials:laburnum_planks"
+      },
+	  {"item": "maidensmaterials:paulownia_planks"},
+	  {"item": "maidensmaterials:silverbell_planks"},
+	  {"item": "maidensmaterials:wisteria_planks"}
+	  
+    ],
+    "X": {
+      "item": "maidensmaterials:whitewash"
+    }
+  },
+  "result": {
+   "item": "maidensmaterials:whitewashed_planks",
+    "count": 8
+  }
+}

@@ -1,0 +1,35 @@
+
+
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "PP ",
+		"PP ",
+		"PPB"
+    ],
+    
+    "key":
+    {
+        "P":
+        {
+            "item": "minecraft:acacia_planks"
+			
+        },
+		
+		"B":
+		{
+			"item": "maidensmaterials:door_plans_1"
+			
+		}
+		
+		
+    },
+    
+    "result":
+    {
+        "item": "maidensmaterials:acacia_door_1",
+        "count": 3
+    }
+}

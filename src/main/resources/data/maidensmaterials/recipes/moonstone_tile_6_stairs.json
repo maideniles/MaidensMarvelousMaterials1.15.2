@@ -1,0 +1,32 @@
+
+
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+    "F  ",
+	"FF ",
+	"FFF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "maidensmaterials:moonstone_tile_6"
+        }
+		
+		
+		
+		
+		
+		
+    },
+    
+    "result":
+    {
+        "item": "maidensmaterials:moonstone_tile_6_stairs",
+        "count": 4
+    }
+}

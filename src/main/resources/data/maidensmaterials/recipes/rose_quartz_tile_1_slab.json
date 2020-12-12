@@ -1,0 +1,32 @@
+
+
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+    
+	
+	"FFF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "maidensmaterials:rose_quartz_tile_1"
+        }
+		
+		
+		
+		
+		
+		
+    },
+    
+    "result":
+    {
+        "item": "maidensmaterials:rose_quartz_tile_1_slab",
+        "count": 6
+    }
+}

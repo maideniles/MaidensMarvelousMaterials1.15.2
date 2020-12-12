@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "maidensmaterials:jacaranda_log"
+    }
+  },
+  "result": {
+    "item": "maidensmaterials:jacaranda_wood",
+    "count": 3
+  }
+}

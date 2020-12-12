@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SBS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "tag": "minecraft:stairs"
+    },
+    "B": {
+      "item": "maidensmaterials:whitewash"
+    }
+  },
+  "result": {
+    "item": "maidensmaterials:whitewashed_stairs",
+    "count": 4
+  }
+}

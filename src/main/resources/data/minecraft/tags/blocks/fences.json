@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "maidensmaterials:crabapple_fence",
+	"maidensmaterials:poinciana_fence",
+	"maidensmaterials:laburnum_fence",
+	"maidensmaterials:jade_fence",
+	"maidensmaterials:paulownia_fence",
+	"maidensmaterials:wisteria_fence",
+	"maidensmaterials:jacaranda_fence",
+	"maidensmaterials:dogwood_fence",
+	"maidensmaterials:silverbell_fence",
+	"maidensmaterials:red_stained_fence",
+	"maidensmaterials:orange_stained_fence",
+	"maidensmaterials:yellow_stained_fence",
+	"maidensmaterials:lime_stained_fence",
+	"maidensmaterials:green_stained_fence",
+	"maidensmaterials:cyan_stained_fence",
+	"maidensmaterials:light_blue_stained_fence",
+	"maidensmaterials:blue_stained_fence",
+	"maidensmaterials:purple_stained_fence",
+	"maidensmaterials:magenta_stained_fence",
+	"maidensmaterials:pink_stained_fence",
+	"maidensmaterials:white_stained_fence",
+	"maidensmaterials:light_gray_stained_fence",
+	"maidensmaterials:gray_stained_fence",
+	"maidensmaterials:black_stained_fence",
+	"maidensmaterials:brown_stained_fence"
+  ]
+}

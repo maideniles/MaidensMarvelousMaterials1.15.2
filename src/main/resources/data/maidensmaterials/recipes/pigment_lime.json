@@ -1,0 +1,40 @@
+
+
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BFB",
+		"FMF",
+		"BFB"
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "maidensmaterials:laburnum_blossoms"
+        },
+		
+		"F":
+        {
+            "item": "maidensmaterials:jade_blossoms"
+        },
+		
+		
+		"M":
+		{
+			"item": "maidensmaterials:mortar_and_pestle"
+			
+		}
+		
+		
+    },
+    
+    "result":
+    {
+        "item": "maidensmaterials:pulverized_lime",
+        "count": 8
+    }
+}

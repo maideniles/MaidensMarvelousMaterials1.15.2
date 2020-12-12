@@ -1,0 +1,40 @@
+
+
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+    " F ",
+	"FMF",
+	" B "
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "maidensmaterials:chalcopyrite_fragments"
+        },
+		
+		"M":
+		{
+			
+			"item": "maidensmaterials:grout"
+		},
+		
+		"B":
+		{
+			"item": "minecraft:stone"
+			
+		}
+		
+		
+    },
+    
+    "result":
+    {
+        "item": "maidensmaterials:chalcopyrite_tile_2",
+        "count": 64
+    }
+}

@@ -1,0 +1,12 @@
+modLoader="javafml" #mandatory
+loaderVersion="[28.2,)" #mandatory. 26 for 1.14.2, 27 for 1.14.3, 28 for 1.14.4. 29,30,31 for 1.15, 1.15.2/3
+
+[[mods]] #mandatory
+modId="maidensmaterials" #mandatory
+license="All rights reserved"
+version="4.0" #mandatory
+displayName="Maiden's Marvelous Materials" #mandatory
+credits="Thanks suppergerrie2 for this example!" #optional
+description='''
+Maiden's Marvelous Materials update for 1.14.4
+'''

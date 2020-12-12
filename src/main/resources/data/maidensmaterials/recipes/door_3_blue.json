@@ -1,0 +1,35 @@
+
+
+
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "PP ",
+		"PP ",
+		"PPB"
+    ],
+    
+    "key":
+    {
+        "P":
+        {
+            "item": "maidensmaterials:blue_stained_planks"
+        },
+		
+		"B":
+		{
+			
+			"item": "maidensmaterials:door_plans_3"
+		}
+		
+		
+    },
+    
+    "result":
+    {
+        "item": "maidensmaterials:blue_stained_door_3",
+        "count": 3
+    }
+}

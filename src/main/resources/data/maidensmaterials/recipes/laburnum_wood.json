@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "maidensmaterials:laburnum_log"
+    }
+  },
+  "result": {
+    "item": "maidensmaterials:laburnum_wood",
+    "count": 3
+  }
+}

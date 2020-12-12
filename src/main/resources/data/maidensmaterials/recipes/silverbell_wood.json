@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "maidensmaterials:silverbell_log"
+    }
+  },
+  "result": {
+    "item": "maidensmaterials:silverbell_wood",
+    "count": 3
+  }
+}

@@ -1,0 +1,40 @@
+
+
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+    " F ",
+	"FMF",
+	" B "
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "maidensmaterials:aventurine_fragments"
+        },
+		
+		"M":
+		{
+			
+			"item": "maidensmaterials:grout"
+		},
+		
+		"B":
+		{
+			"item": "minecraft:stone"
+			
+		}
+		
+		
+    },
+    
+    "result":
+    {
+        "item": "maidensmaterials:aventurine_tile_3",
+        "count": 64
+    }
+}

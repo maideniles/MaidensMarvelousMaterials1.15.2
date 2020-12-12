@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+      
+    },
+	{
+      "item": "minecraft:paper"
+      
+    },
+	{
+      "item": "minecraft:paper"
+      
+    },
+    {
+      "item": "minecraft:leather"
+      
+    },
+	
+	{
+	"item": "maidensmaterials:pulverized_purple"
+     
+	},
+	
+	{
+	"item": "maidensmaterials:pulverized_black"
+      
+	},
+	
+	{
+	"item": "minecraft:feather"
+	
+	}
+	
+  ],
+  "result": {
+    "item": "maidensmaterials:guide_book",
+    "count": 1
+  }
+}

@@ -1,0 +1,41 @@
+
+
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "PPG",
+		"PPG",
+		"PPB"
+    ],
+    
+    "key":
+    {
+        "P":
+        {
+            "item": "maidensmaterials:purple_stained_planks"
+        },
+		
+		"G":
+        {
+            "item": "minecraft:white_stained_glass_pane"
+			
+        },
+		
+		
+		"B":
+		{
+				
+			"item": "maidensmaterials:door_plans_5"
+		}
+		
+		
+    },
+    
+    "result":
+    {
+        "item": "maidensmaterials:purple_stained_door_5",
+        "count": 3
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "maidensmaterials:poinciana_log"
+    }
+  },
+  "result": {
+    "item": "maidensmaterials:poinciana_wood",
+    "count": 3
+  }
+}

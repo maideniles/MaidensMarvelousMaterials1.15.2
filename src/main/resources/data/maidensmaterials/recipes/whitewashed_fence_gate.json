@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": [
+	  
+      {
+       "item": "minecraft:acacia_fence_gate"
+      },
+	  {
+       "item": "minecraft:birch_fence_gate"
+      },
+	  {
+       "item": "minecraft:oak_fence_gate"
+      },
+	  {
+       "item": "minecraft:dark_oak_fence_gate"
+      },
+	  {
+       "item": "minecraft:spruce_fence_gate"
+      },
+	  {
+       "item": "minecraft:jungle_fence_gate"
+      },
+      {
+       "item": "maidensmaterials:cedar_fence_gate"
+      },
+      {
+        "item": "maidensmaterials:crabapple_fence_gate"
+      },
+	  
+	  {
+        "item": "maidensmaterials:poinciana_fence_gate"
+      },
+	  
+	  {
+        "item": "maidensmaterials:jade_fence_gate"
+      },
+      {
+        "item": "maidensmaterials:dogwood_fence_gate"
+      },
+      {
+        "item": "maidensmaterials:jacaranda_fence_gate"
+      },
+      {
+        "item": "maidensmaterials:laburnum_fence_gate"
+      },
+	  {"item": "maidensmaterials:paulownia_fence_gate"},
+	  {"item": "maidensmaterials:silverbell_fence_gate"},
+	  {"item": "maidensmaterials:wisteria_fence_gate"}
+	  
+    ],
+    "X": {
+      "item": "maidensmaterials:whitewash"
+    }
+  },
+  "result": {
+   "item": "maidensmaterials:whitewashed_fence_gate",
+    "count": 8
+  }
+}

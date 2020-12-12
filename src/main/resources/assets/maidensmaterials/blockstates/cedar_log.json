@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y":  { "model": "maidensmaterials:block/cedar_log" },
+        "axis=z":   { "model": "maidensmaterials:block/cedar_log", "x": 90 },
+        "axis=x":   { "model": "maidensmaterials:block/cedar_log", "x": 90, "y": 90 }
+    }
+}
