@@ -12,6 +12,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class OreGen {
 
+    /*
     public static void setupOreGeneration() {
         if(ConfigBuilder.generate_overworld.get()) {
             for (Biome biome : ForgeRegistries.BIOMES) {
@@ -127,5 +128,5 @@ public class OreGen {
             }
         }
     }
-
+*/
 }

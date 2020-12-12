@@ -1,8 +1,5 @@
 package com.maideniles.maidensmaterials.world.biomes;
 
-import com.maideniles.maidensmaterials.world.feature.MaidensFeatures;
-import com.maideniles.maidensmaterials.world.feature.tree.MaidensTreeFeature;
-import com.maideniles.maidensmaterials.world.feature.tree.MaidensTrees;
 import net.minecraft.block.Blocks;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.EntityType;
@@ -24,8 +21,8 @@ public class BiomeOasisShore extends Biome {
         super(biomeBuilder);
         this.addCarver(GenerationStage.Carving.AIR,
                 Biome.createCarver(WorldCarver.CAVE, new ProbabilityConfig(0.14285715F)));
-        this.addStructure(Feature.MINESHAFT, new MineshaftConfig(0.004D, MineshaftStructure.Type.NORMAL));
-        this.addStructure(Feature.VILLAGE, new VillageConfig("village/desert/town_centers", 8));
+      //  this.addStructure(Feature.MINESHAFT, new MineshaftConfig(0.004D, MineshaftStructure.Type.NORMAL));
+     //   this.addStructure(Feature.VILLAGE, new VillageConfig("village/desert/town_centers", 8));
         this.addCarver(GenerationStage.Carving.AIR,
                 Biome.createCarver(WorldCarver.CAVE, new ProbabilityConfig(0.14285715F)));
         DefaultBiomeFeatures.addOres(this);
@@ -40,7 +37,7 @@ public class BiomeOasisShore extends Biome {
         DefaultBiomeFeatures.addGrass(this);
         DefaultBiomeFeatures.addDefaultFlowers(this);
 
-
+/*
 //PALM TREES//
         this.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Biome.createDecoratedFeature(MaidensFeatures.PALM_1, IFeatureConfig.NO_FEATURE_CONFIG, Placement.COUNT_EXTRA_HEIGHTMAP, new AtSurfaceWithExtraConfig(0, 0.5F, 1)));
 
@@ -58,7 +55,7 @@ public class BiomeOasisShore extends Biome {
           new IFeatureConfig[]{IFeatureConfig.NO_FEATURE_CONFIG, IFeatureConfig.NO_FEATURE_CONFIG, IFeatureConfig.NO_FEATURE_CONFIG}), Placement.TOP_SOLID_HEIGHTMAP_NOISE_BIASED, new TopSolidWithNoiseConfig(5, 400.0D, 0.0D, Heightmap.Type.OCEAN_FLOOR_WG)));
 
         this.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Biome.createDecoratedFeature(Feature.SPRING_FEATURE, new LiquidsConfig(Fluids.WATER.getDefaultState()), Placement.COUNT_BIASED_RANGE, new CountRangeConfig(50, 8, 8, 256)));
-
+*/
 //FRIENDLY CREATURES//
         this.addSpawn(EntityClassification.WATER_CREATURE, new Biome.SpawnListEntry(EntityType.TROPICAL_FISH, 25, 8, 8));
         this.addSpawn(EntityClassification.WATER_CREATURE, new Biome.SpawnListEntry(EntityType.PUFFERFISH, 9, 8, 8));

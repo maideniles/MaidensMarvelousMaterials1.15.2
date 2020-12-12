@@ -27,7 +27,7 @@ public class BlockOrnamentalGrass extends GrassBlock implements IGrowable {
         super(properties);
     }
 
-
+/*
     public boolean canUseBonemeal(World worldIn, Random rand, BlockPos pos, BlockState state) {
         return true;
     }
@@ -89,7 +89,7 @@ public class BlockOrnamentalGrass extends GrassBlock implements IGrowable {
         return true;
     }
 
-
+*/
 
 }
 

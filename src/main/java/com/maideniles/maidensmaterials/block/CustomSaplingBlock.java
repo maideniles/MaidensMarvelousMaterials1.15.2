@@ -2,20 +2,20 @@ package com.maideniles.maidensmaterials.block;
 
 
 import com.maideniles.maidensmaterials.init.ModBlocks;
-import com.maideniles.maidensmaterials.world.feature.tree.MaidensTrees;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.SaplingBlock;
+import net.minecraft.block.trees.Tree;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockReader;
 
 public class CustomSaplingBlock extends SaplingBlock {
 
-    public CustomSaplingBlock(Properties properties, MaidensTrees tree) {
-        super(tree, properties);
-    }
 
+    protected CustomSaplingBlock(Tree treeIn, Properties properties) {
+        super(treeIn, properties);
+    }
 
     @Override
     protected boolean isValidGround(BlockState state, IBlockReader worldIn, BlockPos pos) {

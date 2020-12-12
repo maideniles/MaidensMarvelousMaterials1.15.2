@@ -1,6 +1,5 @@
 package com.maideniles.maidensmaterials.world.biomes;
 
-import com.maideniles.maidensmaterials.world.feature.MaidensFeatures;
 import net.minecraft.block.Blocks;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.EntityType;
@@ -11,7 +10,7 @@ import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.carver.WorldCarver;
 import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.IFeatureConfig;
-import net.minecraft.world.gen.feature.LakesConfig;
+//import net.minecraft.world.gen.feature.LakesConfig;
 import net.minecraft.world.gen.feature.ProbabilityConfig;
 import net.minecraft.world.gen.feature.structure.VillageConfig;
 import net.minecraft.world.gen.placement.*;
@@ -23,13 +22,13 @@ public class BiomeOrnamentalOrchard extends Biome{
     public BiomeOrnamentalOrchard(Builder biomeBuilder) {
         super(biomeBuilder);
 
-        this.addStructure(Feature.VILLAGE, new VillageConfig("village/plains/town_centers", 8));
+        //   this.addStructure(Feature.VILLAGE, new VillageConfig("village/plains/town_centers", 8));
         this.addCarver(GenerationStage.Carving.AIR,
                 Biome.createCarver(WorldCarver.CAVE, new ProbabilityConfig(0.14285715F)));
 
-        this.addFeature(GenerationStage.Decoration.LOCAL_MODIFICATIONS, Biome.createDecoratedFeature(Feature.LAKE, new LakesConfig(Blocks.WATER.getDefaultState()), Placement.WATER_LAKE, new LakeChanceConfig(12)));
+        //   this.addFeature(GenerationStage.Decoration.LOCAL_MODIFICATIONS, Biome.createDecoratedFeature(Feature.LAKE, new LakesConfig(Blocks.WATER.getDefaultState()), Placement.WATER_LAKE, new LakeChanceConfig(12)));
 
-
+/*
 //FRUIT TREES//
         this.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Biome.createDecoratedFeature(MaidensFeatures.APPLE_TREE, IFeatureConfig.NO_FEATURE_CONFIG, Placement.COUNT_EXTRA_HEIGHTMAP, new AtSurfaceWithExtraConfig(0, .05F, 2)));
 
@@ -105,6 +104,6 @@ public class BiomeOrnamentalOrchard extends Biome{
     {
         return 3781945;
     }
-
-
+*/
+    }
 }

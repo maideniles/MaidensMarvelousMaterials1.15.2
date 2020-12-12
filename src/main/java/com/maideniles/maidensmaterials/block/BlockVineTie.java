@@ -2,7 +2,7 @@ package com.maideniles.maidensmaterials.block;
 
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
-import net.minecraft.util.BlockRenderLayer;
+//import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.shapes.VoxelShape;
@@ -32,7 +32,7 @@ public class BlockVineTie extends Block {
         return SHAPE;
     }
 
-    public BlockRenderLayer getBlockLayer() {
-        return BlockRenderLayer.CUTOUT;
-    }
+  //  public BlockRenderLayer getBlockLayer() {
+  //      return BlockRenderLayer.CUTOUT;
+   // }
 }

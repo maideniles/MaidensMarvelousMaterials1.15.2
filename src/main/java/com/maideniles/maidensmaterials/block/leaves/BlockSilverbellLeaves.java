@@ -1,7 +1,6 @@
 package com.maideniles.maidensmaterials.block.leaves;
 
 import com.maideniles.maidensmaterials.init.ModItems;
-import com.maideniles.maidensmaterials.init.ItemInit;
 import com.maideniles.maidensmaterials.potion.MaidensPotions;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -12,6 +11,7 @@ import net.minecraft.entity.item.ItemEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.ActionResultType;
 import net.minecraft.util.Hand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.BlockRayTraceResult;
@@ -26,7 +26,7 @@ public class BlockSilverbellLeaves extends LeavesBlock {
     }
 
     @Override
-    public boolean onBlockActivated(BlockState state, World worldIn, BlockPos pos, PlayerEntity player, Hand handIn, BlockRayTraceResult hit) {
+    public ActionResultType onBlockActivated(BlockState state, World worldIn, BlockPos pos, PlayerEntity player, Hand handIn, BlockRayTraceResult hit) {
         ItemStack shears = player.getHeldItem(handIn);
 
 
@@ -56,7 +56,7 @@ public class BlockSilverbellLeaves extends LeavesBlock {
 
         }
 
-        return true;
+        return ActionResultType.SUCCESS;
     }
 
 
