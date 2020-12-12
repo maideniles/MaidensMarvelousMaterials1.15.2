@@ -4,7 +4,6 @@ package com.maideniles.maidensmaterials.block;
 import com.maideniles.maidensmaterials.init.ModBlocks;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
-import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.util.Direction;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.shapes.ISelectionContext;
@@ -74,7 +73,7 @@ public class BlockFlowerGrass extends BushBlock {
 
 
 
-    public BlockRenderLayer getBlockLayer() {
+    /*public BlockRenderLayer getBlockLayer() {
         return BlockRenderLayer.CUTOUT;
-    }
+    }*/
 }
