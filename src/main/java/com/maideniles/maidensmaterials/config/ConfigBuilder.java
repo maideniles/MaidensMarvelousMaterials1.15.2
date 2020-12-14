@@ -29,6 +29,7 @@ public class ConfigBuilder {
     public static ForgeConfigSpec.IntValue sodalite_chance;
     public static ForgeConfigSpec.IntValue sodalite_nether_chance;
     public static ForgeConfigSpec.BooleanValue generate_overworld;
+    public static ForgeConfigSpec.BooleanValue generate_nether;
 
     public static ForgeConfigSpec.IntValue ornamental_forest_biome_chances;
     public static ForgeConfigSpec.IntValue oasis_shore_biome_chances;
@@ -42,6 +43,10 @@ public class ConfigBuilder {
                 .comment("Decide if you want Marvelous Material ores to generate")
                 .define("oregen.generate_overworld", true);
 
+        generate_nether = server
+                .comment("Decide if you want Marvelous Material ores to generate in the nether")
+                .define("oregen.generate_nether", true);
+
         amethyst_chance = server
                 .comment("Maximum number of ore veins of the amethyst ore that can spawn in one chunk.")
                 .defineInRange("oregen.amethyst_chance", 17, 1, 1000000);
@@ -53,6 +58,7 @@ public class ConfigBuilder {
         aventurine_chance = server
                 .comment("Maximum number of ore veins of the aventurine ore that can spawn in one chunk.")
                 .defineInRange("oregen.aventurine_chance", 17, 1, 1000000);
+
 
         aventurine_nether_chance = server
                 .comment("Maximum number of ore veins of the aventurine nether ore that can spawn in one chunk.")

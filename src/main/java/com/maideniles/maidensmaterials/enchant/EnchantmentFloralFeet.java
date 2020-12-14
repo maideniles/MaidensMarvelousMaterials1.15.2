@@ -75,7 +75,7 @@ public class EnchantmentFloralFeet extends Enchantment{
         return canApply(stack);
     }
 
-    @SubscribeEvent
+    /*@SubscribeEvent
     public static void growFlowersUnderFeet(LivingEvent.LivingUpdateEvent event) {
         if (!event.getEntity().world.isRemote) {
             int level = EnchantmentHelper.getMaxEnchantmentLevel(ModEnchantments.FANCY_FEET,
@@ -112,11 +112,11 @@ public class EnchantmentFloralFeet extends Enchantment{
                     }
                 }
             }
-        }
+        }*/
 
     }
 
-    }
+
 
 
 

@@ -68,7 +68,7 @@ import net.minecraftforge.fml.common.Mod;
 
 
 
-    @SubscribeEvent
+    /*@SubscribeEvent
     public static void canHarvestOrnamentalGrass(BlockEvent.BreakEvent event) {
 
         PlayerEntity player = event.getPlayer();
@@ -88,5 +88,5 @@ import net.minecraftforge.fml.common.Mod;
             }
 
         }
-    }
+    }*/
 }

@@ -66,7 +66,7 @@ public final class MarvelousMaterials {
 
 
     public void setup(final FMLCommonSetupEvent event) {// K9#8016
-      //  OreGen.setupOreGeneration();
+      OreGen.setupOreGen();
     }
 
 }
