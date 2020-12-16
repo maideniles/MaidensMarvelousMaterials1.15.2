@@ -21,8 +21,8 @@ public class BiomeOasisShore extends Biome {
         super(biomeBuilder);
         this.addCarver(GenerationStage.Carving.AIR,
                 Biome.createCarver(WorldCarver.CAVE, new ProbabilityConfig(0.14285715F)));
-      //  this.addStructure(Feature.MINESHAFT, new MineshaftConfig(0.004D, MineshaftStructure.Type.NORMAL));
-     //   this.addStructure(Feature.VILLAGE, new VillageConfig("village/desert/town_centers", 8));
+        this.addStructure(Feature.MINESHAFT.withConfiguration(new MineshaftConfig(0.004D, MineshaftStructure.Type.NORMAL)));
+        this.addStructure(Feature.VILLAGE.withConfiguration(new VillageConfig("village/desert/town_centers", 8)));
         this.addCarver(GenerationStage.Carving.AIR,
                 Biome.createCarver(WorldCarver.CAVE, new ProbabilityConfig(0.14285715F)));
         DefaultBiomeFeatures.addOres(this);

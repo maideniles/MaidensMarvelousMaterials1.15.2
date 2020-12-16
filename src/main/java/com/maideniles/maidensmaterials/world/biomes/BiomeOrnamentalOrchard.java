@@ -22,7 +22,7 @@ public class BiomeOrnamentalOrchard extends Biome{
     public BiomeOrnamentalOrchard(Builder biomeBuilder) {
         super(biomeBuilder);
 
-        //   this.addStructure(Feature.VILLAGE, new VillageConfig("village/plains/town_centers", 8));
+        this.addStructure(Feature.VILLAGE.withConfiguration(new VillageConfig("village/plains/town_centers", 8)));
         this.addCarver(GenerationStage.Carving.AIR,
                 Biome.createCarver(WorldCarver.CAVE, new ProbabilityConfig(0.14285715F)));
 
