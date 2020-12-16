@@ -40,6 +40,7 @@ public class MaidensEventHandler {
 
                         event.getWorld().addEntity(item);
                     item.addVelocity(0, 0.01d, 0);
+                    MarvelousMaterials.LOGGER.debug("Event fired");
                 }
             }
         }
@@ -60,6 +61,7 @@ public class MaidensEventHandler {
                     item.setPickupDelay(40); // To Set a Small Pickup Delay
                     if (rand.nextInt(20) ==0)  //set 1 in 20 chance?// {
                         event.getWorld().addEntity(item);
+                        MarvelousMaterials.LOGGER.debug("Event fired");
                     }
                 }
             }
@@ -79,6 +81,7 @@ public class MaidensEventHandler {
                 if (!event.getWorld().isRemote()) {
                     item.setPickupDelay(40); // To Set a Small Pickup Delay
                     event.getWorld().addEntity(item);
+                    MarvelousMaterials.LOGGER.debug("Event fired");
                 }
             }
         }

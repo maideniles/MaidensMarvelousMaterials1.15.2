@@ -39,20 +39,25 @@ public final class MarvelousMaterials {
         LOGGER.debug("Hello from Maiden's Materials!");
 
         MaidensPotions.EFFECTS.register(modEventBus);
+        LOGGER.debug("Effects Registered!");
         MaidensPotions.POTIONS.register(modEventBus);
-
+        LOGGER.debug("Potions Registered!");
 
 
         ModBlocks.BLOCKS.register(modEventBus);
+        LOGGER.debug("Blocks Registered!");
         ModItems.ITEMS.register(modEventBus);
+        LOGGER.debug("Items Registered!");
 
         BiomeInit.BIOMES.register(modEventBus);
+        LOGGER.debug("Biomes Registered!");
 
 
         instance = this;
 
         Config.loadConfig(Config.CLIENT, FMLPaths.CONFIGDIR.get().resolve("maidensmaterials-client.toml").toString());
         Config.loadConfig(Config.SERVER, FMLPaths.CONFIGDIR.get().resolve("maidensmaterials-server.toml").toString());
+        LOGGER.debug("Config Loaded!");
 
         MinecraftForge.EVENT_BUS.register(this);
 
@@ -67,6 +72,7 @@ public final class MarvelousMaterials {
 
     public void setup(final FMLCommonSetupEvent event) {// K9#8016
       OreGen.setupOreGen();
+      LOGGER.debug("Oregen Registered!");
     }
 
 }
