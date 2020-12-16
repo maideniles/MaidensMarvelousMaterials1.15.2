@@ -1,6 +1,6 @@
 package com.maideniles.maidensmaterials.item;
 
-public class BlossomsItem {
+public class lossomsItem {
 
 
 }
