@@ -1,9 +1,13 @@
 package com.maideniles.maidensmaterials.world.biomes;
 
+import com.maideniles.maidensmaterials.world.feature.tree.CrabappleTreeGen;
 import net.minecraft.block.Blocks;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.EntityType;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.world.FoliageColors;
+import net.minecraft.world.GrassColors;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.gen.GenerationStage;
@@ -66,6 +70,11 @@ public class BiomeOrnamentalForest extends Biome {
         this.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Biome.createDecoratedFeature(MaidensFeatures.ORNAMENTAL_MUSHROOM, IFeatureConfig.NO_FEATURE_CONFIG, Placement.COUNT_HEIGHTMAP_32, new FrequencyConfig(40)));
 */
 
+         this.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
+        Feature.NORMAL_TREE.withConfiguration(CrabappleTreeGen.CRABAPPLE_TREE_CONFIG).withPlacement(
+         Placement.COUNT_EXTRA_HEIGHTMAP.configure(new AtSurfaceWithExtraConfig(7,
+         0.1f, 1))));
+
         DefaultBiomeFeatures.addOres(this);
 
         this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.SHEEP, 12, 4, 4));
@@ -77,19 +86,19 @@ public class BiomeOrnamentalForest extends Biome {
 
 
     }
-/*
+
+
+@Override
     @OnlyIn(Dist.CLIENT)
-    @Override
-    public int getGrassColor(BlockPos pos)
-    {
+    public int getGrassColor(double posX, double posZ) {
         return 108855;
     }
 
-    @OnlyIn(Dist.CLIENT)
     @Override
-    public int getFoliageColor(BlockPos pos)
-    {
+    @OnlyIn(Dist.CLIENT)
+    public int getFoliageColor() {
         return 108855;
     }
-*/
+
+
 }
