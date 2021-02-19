@@ -1,13 +1,19 @@
 package com.maideniles.maidensmaterials;
 
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import com.maideniles.maidensmaterials.config.Config;
 import com.maideniles.maidensmaterials.init.BiomeInit;
 import com.maideniles.maidensmaterials.init.ModBlocks;
+import com.maideniles.maidensmaterials.init.ModFeatures;
 import com.maideniles.maidensmaterials.init.ModItems;
 import com.maideniles.maidensmaterials.potion.MaidensPotions;
 import com.maideniles.maidensmaterials.world.gen.OreGen;
+
 import net.minecraft.world.biome.Biome;
+import net.minecraft.world.gen.feature.Feature;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -16,8 +22,6 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.loading.FMLPaths;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 @Mod(MarvelousMaterials.MODID)
 @Mod.EventBusSubscriber(modid = MarvelousMaterials.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -69,6 +73,10 @@ public final class MarvelousMaterials {
         BiomeInit.registerBiomes();
     }
 
+    @SubscribeEvent
+    public static void onRegisterFeatures(final RegistryEvent.Register<Feature<?>> event) {
+        ModFeatures.registerFeatures(event.getRegistry());
+    }
 
     public void setup(final FMLCommonSetupEvent event) {// K9#8016
       OreGen.setupOreGen();
