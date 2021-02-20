@@ -20,7 +20,9 @@ public class MaidensTrees extends Tree {
     protected ConfiguredFeature<TreeFeatureConfig, ?> getTreeFeature(Random random, boolean var2) {
         switch (this.color) {
         case RED:
-            return random.nextInt(6) == 0 ? ModConfiguredFeatures.CRABAPPLE_TREE_VINES : ModConfiguredFeatures.CRABAPPLE_TREE;
+            return random.nextInt(6) == 0 ? ModConfiguredFeatures.CRABAPPLE_TREE.base : ModConfiguredFeatures.CRABAPPLE_TREE.vines;
+        case PALM:
+            return ModConfiguredFeatures.PALM_TREE.base;
         default:
             return null; // TODO other trees
         }

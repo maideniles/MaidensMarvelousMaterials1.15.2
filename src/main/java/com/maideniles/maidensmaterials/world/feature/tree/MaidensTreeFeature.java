@@ -4,6 +4,7 @@ import java.util.Optional;
 
 import com.maideniles.maidensmaterials.init.ModBlocks;
 
+import net.minecraft.block.Block;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.gen.Heightmap;
 import net.minecraft.world.gen.IWorldGenerationReader;
@@ -13,8 +14,15 @@ import net.minecraftforge.common.IPlantable;
 
 public class MaidensTreeFeature extends TreeFeature {
     public MaidensTreeFeature() {
-        super(TreeFeatureConfig::func_227338_a_); // Note in 1.16 this will switch to codecs.
+        this(ModBlocks.ornamentalGrass.get());
     }
+
+    protected MaidensTreeFeature(Block extraSoil) {
+        super(TreeFeatureConfig::func_227338_a_); // Note in 1.16 this will switch to codecs.
+        this.extraSoil = extraSoil;
+    }
+
+    private final Block extraSoil; // the additional soil block
 
     @Override
     public Optional<BlockPos> func_227212_a_(IWorldGenerationReader world, int height, int trunkHeight, int foliage, BlockPos pos, TreeFeatureConfig config) {
@@ -63,6 +71,6 @@ public class MaidensTreeFeature extends TreeFeature {
     }
 
     private boolean isMaidenSoil(IWorldGenerationReader world, BlockPos soilPos, IPlantable sapling) {
-        return isSoilOrFarm(world, soilPos, sapling) || world.hasBlockState(soilPos, state -> state.getBlock() == ModBlocks.ornamentalGrass.get());
+        return isSoilOrFarm(world, soilPos, sapling) || world.hasBlockState(soilPos, state -> state.getBlock() == this.extraSoil);
     }
 }

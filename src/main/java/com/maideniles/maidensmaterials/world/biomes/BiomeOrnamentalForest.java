@@ -65,7 +65,7 @@ public class BiomeOrnamentalForest extends Biome {
         this.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Biome.createDecoratedFeature(MaidensFeatures.ORNAMENTAL_MUSHROOM, IFeatureConfig.NO_FEATURE_CONFIG, Placement.COUNT_HEIGHTMAP_32, new FrequencyConfig(40)));
         */
 
-        this.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, ModConfiguredFeatures.CRABAPPLE_TREE_WORLDGEN);
+        this.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, ModConfiguredFeatures.CRABAPPLE_TREE.worldgen);
 
         DefaultBiomeFeatures.addOres(this);
 
