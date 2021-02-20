@@ -41,6 +41,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.FenceBlock;
 import net.minecraft.block.FenceGateBlock;
+import net.minecraft.block.FireBlock;
 import net.minecraft.block.LeavesBlock;
 import net.minecraft.block.PressurePlateBlock;
 import net.minecraft.block.RotatedPillarBlock;
@@ -4408,19 +4409,22 @@ COMMENTING OUT UNTIL FIXED
             () -> new BlockClayVaseBrown(BlockClayVaseBrown.Properties.create(Material.CLAY).hardnessAndResistance(2.0F, 2.0F)));
 */
 
+    public static void registerFlammables() {
+        // Automatically sets fire info for some blocks
+        // Code originally from Zoesteria 2. used with permission.
+        BLOCKS.getEntries().stream().map(ro -> ro.get()).forEach(block -> {
+            Material material = block.getDefaultState().getMaterial();
+            FireBlock fire = (FireBlock) Blocks.FIRE;
 
-
-
-
-
-
-
-
-
-
-
-
-
+            if (material == Material.LEAVES) {
+                fire.setFireInfo(block, 30, 60);
+            } else if (material == Material.WOOD) {
+                fire.setFireInfo(block, 5, 20);
+            } else if (material == Material.PLANTS) {
+                fire.setFireInfo(block, 60, 100);
+            }
+        });
+    }
 
 }
 
