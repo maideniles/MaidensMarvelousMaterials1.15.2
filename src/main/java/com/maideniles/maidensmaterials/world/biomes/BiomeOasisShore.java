@@ -1,5 +1,7 @@
 package com.maideniles.maidensmaterials.world.biomes;
 
+import com.maideniles.maidensmaterials.init.ModConfiguredFeatures;
+
 import net.minecraft.block.Blocks;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.EntityType;
@@ -37,9 +39,9 @@ public class BiomeOasisShore extends Biome {
         DefaultBiomeFeatures.addGrass(this);
         DefaultBiomeFeatures.addDefaultFlowers(this);
 
-/*
 //PALM TREES//
-        this.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Biome.createDecoratedFeature(MaidensFeatures.PALM_1, IFeatureConfig.NO_FEATURE_CONFIG, Placement.COUNT_EXTRA_HEIGHTMAP, new AtSurfaceWithExtraConfig(0, 0.5F, 1)));
+        this.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, ModConfiguredFeatures.PALM_TREE.worldgen);
+        /*
 
 //VEGETATION//
         this.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Biome.createDecoratedFeature(Feature.DEAD_BUSH, IFeatureConfig.NO_FEATURE_CONFIG, Placement.COUNT_HEIGHTMAP_DOUBLE, new FrequencyConfig(2)));

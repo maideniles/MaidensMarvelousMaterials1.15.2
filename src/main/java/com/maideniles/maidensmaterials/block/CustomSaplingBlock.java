@@ -13,12 +13,13 @@ import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.world.World;
 import net.minecraft.world.server.ServerWorld;
+import net.minecraftforge.common.IPlantable;
 import net.minecraftforge.event.ForgeEventFactory;
 
 import java.util.Random;
 import java.util.function.Supplier;
 
-public class CustomSaplingBlock extends BushBlock implements IGrowable {
+public class CustomSaplingBlock extends BushBlock implements IGrowable, IPlantable {
 
     public static final IntegerProperty STAGE = BlockStateProperties.STAGE_0_1;
     protected static final VoxelShape SHAPE = Block.makeCuboidShape(2.0D, 0.0D, 2.0D, 14.0D, 12.0D, 14.0D);
