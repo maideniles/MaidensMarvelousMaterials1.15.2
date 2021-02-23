@@ -15,6 +15,9 @@ public class RenderLayers {
         // Set the render layer of blocks that need transparency here
         RenderTypeLookup.setRenderLayer(ModBlocks.palmSapling.get(), RenderType.getCutoutMipped());
         RenderTypeLookup.setRenderLayer(ModBlocks.crabappleSapling.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.crabappleVine.get(), RenderType.getCutoutMipped());
+
+        RenderTypeLookup.setRenderLayer(ModBlocks.palmLeaves.get(), RenderType.getCutoutMipped());
     }
 
     public static void safeRunClient() {

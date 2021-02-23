@@ -1,6 +1,11 @@
 package com.maideniles.maidensmaterials;
 
 
+import com.maideniles.maidensmaterials.world.gen.decorator.tree.MaidensTreeDecoratorTypes;
+import com.maideniles.maidensmaterials.world.gen.decorator.tree.trunk.CrabappleTrunkVineTreeDecorator;
+import net.minecraft.world.gen.treedecorator.TreeDecorator;
+import net.minecraft.world.gen.treedecorator.TreeDecoratorType;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -35,6 +40,8 @@ public final class MarvelousMaterials {
     public static final String MODID = "maidensmaterials";
 
     public static final Logger LOGGER = LogManager.getLogger(MODID);
+
+
 
 
 
@@ -77,7 +84,15 @@ public final class MarvelousMaterials {
 
     @SubscribeEvent
     public static void onRegisterFeatures(final RegistryEvent.Register<Feature<?>> event) {
+
         ModFeatures.registerFeatures(event.getRegistry());
+    }
+
+    @SubscribeEvent
+    public void registerTreeDecoratorTypes(RegistryEvent.Register<TreeDecoratorType<?>> event) {
+
+        event.getRegistry().register(MaidensTreeDecoratorTypes.MAIDENS_TRUNK_VINE.setRegistryName("maidens_trunk_vine_decorator"));
+        event.getRegistry().register(MaidensTreeDecoratorTypes.MAIDENS_LEAF_VINE.setRegistryName("maidens_leaf_vine_decorator"));
     }
 
     public void setup(final FMLCommonSetupEvent event) {// K9#8016

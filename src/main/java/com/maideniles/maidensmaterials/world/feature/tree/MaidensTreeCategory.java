@@ -2,6 +2,7 @@ package com.maideniles.maidensmaterials.world.feature.tree;
 
 import com.google.common.collect.ImmutableList;
 
+import com.maideniles.maidensmaterials.world.gen.decorator.tree.trunk.CrabappleTrunkVineTreeDecorator;
 import net.minecraft.block.BlockState;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.gen.blockstateprovider.SimpleBlockStateProvider;
@@ -35,7 +36,7 @@ public class MaidensTreeCategory {
 
         // Add vines to the settings then use these modified settings to create a version with vines
         this.vines = feature.withConfiguration(configBuilder
-                .decorators(ImmutableList.of(new TrunkVineTreeDecorator(), new LeaveVineTreeDecorator()))
+                .decorators(ImmutableList.of(new CrabappleTrunkVineTreeDecorator(), new LeaveVineTreeDecorator()))
                 .build());
 
         int baseTreesPerChunk = MathHelper.floor(treesPerChunk);
