@@ -1,6 +1,7 @@
 package com.maideniles.maidensmaterials.world.gen.decorator.tree.leaf;
 
 import com.google.common.collect.ImmutableMap;
+import com.maideniles.maidensmaterials.block.CustomVineBlock;
 import com.maideniles.maidensmaterials.init.ModBlocks;
 import com.maideniles.maidensmaterials.world.gen.decorator.tree.MaidensTreeDecoratorTypes;
 import com.mojang.datafixers.Dynamic;

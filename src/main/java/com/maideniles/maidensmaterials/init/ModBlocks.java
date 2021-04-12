@@ -37,17 +37,7 @@ import com.maideniles.maidensmaterials.block.tree.PalmLeaves;
 import com.maideniles.maidensmaterials.util.MaidensTreeColor;
 import com.maideniles.maidensmaterials.world.feature.tree.MaidensTrees;
 
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.FenceBlock;
-import net.minecraft.block.FenceGateBlock;
-import net.minecraft.block.FireBlock;
-import net.minecraft.block.LeavesBlock;
-import net.minecraft.block.PressurePlateBlock;
-import net.minecraft.block.RotatedPillarBlock;
-import net.minecraft.block.SlabBlock;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.StairsBlock;
+import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.material.MaterialColor;
 import net.minecraft.item.BlockItem;
@@ -445,7 +435,7 @@ COMMENTING OUT UNTIL FIXED
     //VINES
     public static final RegistryObject<Block>  crabappleVine = createBlock("crabapple_vine",
             () -> new
-                    CustomVineBlock(Block.Properties.create(Material.TALL_PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.2F).sound(SoundType.PLANT)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+                    VineBlock(Block.Properties.create(Material.TALL_PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.2F).sound(SoundType.PLANT)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block>  poincianaVine = createBlock("poinciana_vine",
             () -> new CustomVineBlock(Block.Properties.create(Material.TALL_PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.2F).sound(SoundType.PLANT)), ModItemGroups.MAIDENS_BLOCKS_GROUP);

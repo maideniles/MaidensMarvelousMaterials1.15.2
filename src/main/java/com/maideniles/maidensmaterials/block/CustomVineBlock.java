@@ -24,6 +24,7 @@ import net.minecraft.world.IBlockReader;
 import net.minecraft.world.IWorld;
 import net.minecraft.world.IWorldReader;
 import net.minecraft.world.World;
+import net.minecraftforge.common.IPlantable;
 
 public class CustomVineBlock extends Block implements net.minecraftforge.common.IShearable {
     public static final BooleanProperty UP = SixWayBlock.UP;
@@ -89,6 +90,8 @@ public class CustomVineBlock extends Block implements net.minecraftforge.common.
 
         return i;
     }
+
+
 
     private boolean func_196541_a(IBlockReader p_196541_1_, BlockPos p_196541_2_, Direction p_196541_3_) {
         if (p_196541_3_ == Direction.DOWN) {
