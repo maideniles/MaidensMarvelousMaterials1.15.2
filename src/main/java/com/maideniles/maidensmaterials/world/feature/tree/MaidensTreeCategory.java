@@ -43,24 +43,28 @@ public class MaidensTreeCategory {
 
         // Add vines to the settings then use these modified settings to create a version with vines
         this.vines = feature.withConfiguration(configBuilder
-                .decorators(ImmutableList.of(new CrabappleTrunkVineTreeDecorator(), new CrabappleLeavesVineTreeDecorator()))
+                .decorators(ImmutableList.of(new MushroomTreeDecorator(0.25f), new CrabappleTrunkVineTreeDecorator(), new CrabappleLeavesVineTreeDecorator()))
                 .build());
 
         int baseTreesPerChunk = MathHelper.floor(treesPerChunk);
 
-
+        this.mushrooms = feature.withConfiguration(configBuilder
+                .decorators(ImmutableList.of(new MushroomTreeDecorator(0.25f)))
+                .build());
         // If VinesInWorldgen == true, Alternate between base version and vines version in the world gen placer
         // (uses a ternary expression instead of an if statement)
         this.worldgen = (vinesInWorldgen ?
                 Feature.RANDOM_SELECTOR.withConfiguration(new MultipleRandomFeatureConfig(
-                        ImmutableList.of(new ConfiguredRandomFeatureList<>(this.vines, 0.33f), new ConfiguredRandomFeatureList<>(
-                                this.mushrooms = feature.withConfiguration(configBuilder.decorators(ImmutableList.of(new MushroomTreeDecorator(4.0f))).build()),
-                                0.33f)), // This specifies to replace the base tree with vines tree 50% of the time
-                        this.base)) : this.base).withPlacement(Placement.COUNT_EXTRA_HEIGHTMAP.configure(new AtSurfaceWithExtraConfig(baseTreesPerChunk,
-                treesPerChunk - baseTreesPerChunk, 1)));
+                        ImmutableList.of(new ConfiguredRandomFeatureList<>(this.vines, 0.5f)), // This specifies to replace the base tree with vines tree 50% of the time
+                        this.base
+                ))
+                : this.base)
+                .withPlacement(
+                        Placement.COUNT_EXTRA_HEIGHTMAP.configure(new AtSurfaceWithExtraConfig(baseTreesPerChunk, treesPerChunk - baseTreesPerChunk, 1)));
     }
 
     public ConfiguredFeature<TreeFeatureConfig, ?> mushrooms;
+  //  public ConfiguredFeature<TreeFeatureConfig, ?> mushrooms2;
     public final ConfiguredFeature<TreeFeatureConfig, ?> base;
     public final ConfiguredFeature<TreeFeatureConfig, ?> vines;
 

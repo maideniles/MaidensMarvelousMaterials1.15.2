@@ -38,7 +38,7 @@ public class MushroomTreeDecorator extends TreeDecorator {
         if (!(p_225576_2_.nextFloat() >= this.field_227417_b_)) {
             int i = p_225576_3_.get(0).getY();
             p_225576_3_.stream().filter((p_227418_1_) -> {
-                return p_227418_1_.getY() - i <= 2;
+                return p_227418_1_.getY() - i <= 11;
             }).forEach((p_227419_5_) -> {
                 for(Direction direction : Direction.Plane.HORIZONTAL) {
                     if (p_225576_2_.nextFloat() <= 0.25F) {
