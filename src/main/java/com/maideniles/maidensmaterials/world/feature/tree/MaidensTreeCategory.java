@@ -2,9 +2,10 @@ package com.maideniles.maidensmaterials.world.feature.tree;
 
 import com.google.common.collect.ImmutableList;
 
-import com.maideniles.maidensmaterials.world.gen.decorator.tree.leaf.CrabappleLeavesVineTreeDecorator;
+
+import com.maideniles.maidensmaterials.world.gen.decorator.tree.leaf.MaidenLeavesVineTreeDecorator;
 import com.maideniles.maidensmaterials.world.gen.decorator.tree.mushroom.MushroomTreeDecorator;
-import com.maideniles.maidensmaterials.world.gen.decorator.tree.trunk.CrabappleTrunkVineTreeDecorator;
+import com.maideniles.maidensmaterials.world.gen.decorator.tree.trunk.MaidenTrunkVineTreeDecorator;
 import net.minecraft.block.BlockState;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.gen.blockstateprovider.SimpleBlockStateProvider;
@@ -16,12 +17,7 @@ import net.minecraft.world.gen.feature.TreeFeatureConfig;
 import net.minecraft.world.gen.foliageplacer.BlobFoliagePlacer;
 import net.minecraft.world.gen.placement.AtSurfaceWithExtraConfig;
 import net.minecraft.world.gen.placement.Placement;
-import net.minecraft.world.gen.treedecorator.LeaveVineTreeDecorator;
-import net.minecraft.world.gen.treedecorator.TreeDecorator;
-import net.minecraft.world.gen.treedecorator.TrunkVineTreeDecorator;
 import net.minecraftforge.common.IPlantable;
-
-import java.util.List;
 
 public class MaidensTreeCategory {
 
@@ -43,7 +39,7 @@ public class MaidensTreeCategory {
 
         // Add vines to the settings then use these modified settings to create a version with vines
         this.vines = feature.withConfiguration(configBuilder
-                .decorators(ImmutableList.of(new MushroomTreeDecorator(0.25f), new CrabappleTrunkVineTreeDecorator(), new CrabappleLeavesVineTreeDecorator()))
+                .decorators(ImmutableList.of(new MushroomTreeDecorator(0.25f), new MaidenTrunkVineTreeDecorator(), new MaidenLeavesVineTreeDecorator()))
                 .build());
 
         int baseTreesPerChunk = MathHelper.floor(treesPerChunk);

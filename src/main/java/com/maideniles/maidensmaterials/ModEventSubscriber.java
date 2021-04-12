@@ -1,7 +1,6 @@
 package com.maideniles.maidensmaterials;
 
 import com.maideniles.maidensmaterials.potion.MaidensPotions;
-import com.maideniles.maidensmaterials.world.gen.decorator.tree.trunk.CrabappleTrunkVineTreeDecorator;
 import net.minecraft.potion.Potion;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;

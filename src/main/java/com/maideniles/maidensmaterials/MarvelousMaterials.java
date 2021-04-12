@@ -2,8 +2,6 @@ package com.maideniles.maidensmaterials;
 
 
 import com.maideniles.maidensmaterials.world.gen.decorator.tree.MaidensTreeDecoratorTypes;
-import com.maideniles.maidensmaterials.world.gen.decorator.tree.trunk.CrabappleTrunkVineTreeDecorator;
-import net.minecraft.world.gen.treedecorator.TreeDecorator;
 import net.minecraft.world.gen.treedecorator.TreeDecoratorType;
 
 import org.apache.logging.log4j.LogManager;

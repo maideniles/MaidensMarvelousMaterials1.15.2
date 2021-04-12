@@ -8,7 +8,6 @@ import com.mojang.datafixers.types.DynamicOps;
 import java.util.List;
 import java.util.Random;
 import java.util.Set;
-import java.util.function.Function;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -20,22 +19,16 @@ import net.minecraft.util.registry.Registry;
 import net.minecraft.world.IWorld;
 import net.minecraft.world.gen.feature.AbstractTreeFeature;
 import net.minecraft.world.gen.treedecorator.TreeDecorator;
-import net.minecraft.world.gen.treedecorator.TreeDecoratorType;
-import net.minecraft.world.gen.treedecorator.TrunkVineTreeDecorator;
-import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.fml.RegistryObject;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
 
-public class CrabappleTrunkVineTreeDecorator extends TreeDecorator {
+public class MaidenTrunkVineTreeDecorator extends TreeDecorator {
 
 
-    public CrabappleTrunkVineTreeDecorator() {
+    public MaidenTrunkVineTreeDecorator() {
         super(MaidensTreeDecoratorTypes.MAIDENS_TRUNK_VINE);
 
     }
 
-    public <T> CrabappleTrunkVineTreeDecorator(Dynamic<T> dynamic) {
+    public <T> MaidenTrunkVineTreeDecorator(Dynamic<T> dynamic) {
 
         this();
     }
@@ -51,7 +44,10 @@ public class CrabappleTrunkVineTreeDecorator extends TreeDecorator {
                 Block log = p_225576_1_.getBlockState(p_225576_3_.get(0)).getBlock();
                 if (log == ModBlocks.crabappleLog.get()) {
                     vine = ModBlocks.crabappleVine.get();
-                } // Continue an else if chain here for each case of logs
+                }
+                if( log == ModBlocks.poincianaLog.get()) {
+                    vine = ModBlocks.poincianaVine.get();
+                }
             }
 
 

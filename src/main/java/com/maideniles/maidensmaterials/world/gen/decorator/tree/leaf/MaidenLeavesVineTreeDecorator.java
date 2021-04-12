@@ -23,12 +23,12 @@ import net.minecraft.world.gen.feature.AbstractTreeFeature;
 import net.minecraft.world.gen.treedecorator.TreeDecorator;
 import net.minecraft.world.gen.treedecorator.TreeDecoratorType;
 
-public class CrabappleLeavesVineTreeDecorator extends TreeDecorator {
-    public CrabappleLeavesVineTreeDecorator() {
+public class MaidenLeavesVineTreeDecorator extends TreeDecorator {
+    public MaidenLeavesVineTreeDecorator() {
         super(MaidensTreeDecoratorTypes.MAIDENS_LEAF_VINE);
     }
 
-    public <T> CrabappleLeavesVineTreeDecorator(Dynamic<T> p_i225870_1_) {
+    public <T> MaidenLeavesVineTreeDecorator(Dynamic<T> p_i225870_1_) {
         this();
     }
 
@@ -36,17 +36,15 @@ public class CrabappleLeavesVineTreeDecorator extends TreeDecorator {
     public void func_225576_a_(IWorld p_225576_1_, Random p_225576_2_, List<BlockPos> p_225576_3_, List<BlockPos> p_225576_4_, Set<BlockPos> p_225576_5_, MutableBoundingBox p_225576_6_) {
         p_225576_4_.forEach((p_227421_5_) -> {
 
-            Block vine = ModBlocks.crabappleVine.get();
+            Block vine = Blocks.VINE;
             if (!p_225576_3_.isEmpty())  {
                 Block leaf = p_225576_1_.getBlockState(p_225576_3_.get(0)).getBlock();
                 if (leaf == ModBlocks.crabappleLeaves.get()) {
                     vine = ModBlocks.crabappleVine.get();
                 }
-
                 if( leaf == ModBlocks.poincianaLeaves.get()) {
                     vine = ModBlocks.poincianaVine.get();
                 }
-
 
             }
 
