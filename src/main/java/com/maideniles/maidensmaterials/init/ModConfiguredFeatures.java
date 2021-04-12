@@ -8,11 +8,22 @@ public class ModConfiguredFeatures {
             ModFeatures.MAIDENS_TREE,
             ModBlocks.crabappleLog.get().getDefaultState(),
             ModBlocks.crabappleLeaves.get().getDefaultState(),
-            5,
-            9,
+            8,
+            15,
             7.1f,
             true,
             ModBlocks.crabappleSapling.get());
+
+    public static final MaidensTreeCategory POINCIANA_TREE = new MaidensTreeCategory(
+            ModFeatures.MAIDENS_TREE,
+            ModBlocks.poincianaLog.get().getDefaultState(),
+            ModBlocks.poincianaLeaves.get().getDefaultState(),
+            5,
+    9,
+    7.1f,
+    true,
+    ModBlocks.poincianaSapling.get());
+
 
     public static final MaidensTreeCategory PALM_TREE = new MaidensTreeCategory(
             ModFeatures.PALM_TREE,

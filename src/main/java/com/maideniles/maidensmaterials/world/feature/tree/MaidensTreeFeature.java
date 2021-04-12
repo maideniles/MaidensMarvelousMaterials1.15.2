@@ -39,6 +39,8 @@ public class MaidensTreeFeature extends TreeFeature {
             blockpos = pos;
         }
 
+
+
         if (blockpos.getY() >= 1 && blockpos.getY() + height + 1 <= world.getMaxHeight()) {
             for(int yOffset = 0; yOffset <= height + 1; ++yOffset) {
                 int width = config.foliagePlacer.func_225570_a_(trunkHeight, height, foliage, yOffset);
@@ -73,4 +75,6 @@ public class MaidensTreeFeature extends TreeFeature {
     private boolean isMaidenSoil(IWorldGenerationReader world, BlockPos soilPos, IPlantable sapling) {
         return isSoilOrFarm(world, soilPos, sapling) || world.hasBlockState(soilPos, state -> state.getBlock() == this.extraSoil);
     }
+
+
 }

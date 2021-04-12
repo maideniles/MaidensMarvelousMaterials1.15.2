@@ -269,6 +269,73 @@ COMMENTING OUT UNTIL FIXED
     public static final RegistryObject<Block> palmLeaves = createBlock("palm_leaves",
             () -> new PalmLeaves(Block.Properties.create(Material.PLANTS).hardnessAndResistance(0.5F, 2.0F).sound(SoundType.PLANT)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
+    //SAPLINGS
+
+    public static final RegistryObject<CustomSaplingBlock> crabappleSapling = createBlock("crabapple_sapling",
+            () -> new CustomSaplingBlock(() -> new MaidensTrees(MaidensTreeColor.RED), Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<CustomSaplingBlock> poincianaSapling = createBlock("poinciana_sapling",
+            () -> new CustomSaplingBlock(() -> new MaidensTrees(MaidensTreeColor.ORANGE), Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    /*
+    public static final RegistryObject<CustomSaplingBlock> laburnumSapling = createBlock("laburnum_sapling",
+            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.YELLOW)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+
+    public static final RegistryObject<CustomSaplingBlock> jadeSapling = createBlock("jade_sapling",
+            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.GREEN)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<CustomSaplingBlock> paulowniaSapling = createBlock("paulownia_sapling",
+            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.TEAL)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<CustomSaplingBlock> wisteriaSapling = createBlock("wisteria_sapling",
+            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.BLUE)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<CustomSaplingBlock> jacarandaSapling = createBlock("jacaranda_sapling",
+            () ->  new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.PURPLE)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<CustomSaplingBlock> dogwoodSapling = createBlock("dogwood_sapling",
+            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.PINK)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<CustomSaplingBlock> silverbellSapling = createBlock("silverbell_sapling",
+            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.WHITE)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<CustomSaplingBlock> cedarSapling = createBlock("cedar_sapling",
+            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.CEDAR)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<CustomSaplingBlock> appleSapling = createBlock("apple_sapling",
+            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.APPLE)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<CustomSaplingBlock> grapefruitSapling = createBlock("grapefruit_sapling",
+            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.GRAPEFRUIT)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<CustomSaplingBlock> orangeSapling = createBlock("orange_sapling",
+            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.ORANGE_FRUIT)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<CustomSaplingBlock> lemonSapling = createBlock("lemon_sapling",
+            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.LEMON)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<CustomSaplingBlock> limeSapling = createBlock("lime_sapling",
+            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.LIME)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<CustomSaplingBlock> peachSapling = createBlock("peach_sapling",
+            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.PEACH)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<CustomSaplingBlock> pearSapling = createBlock("pear_sapling",
+            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.PEAR)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<CustomSaplingBlock> plumSapling = createBlock("plum_sapling",
+            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.PLUM)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<CustomSaplingBlock> cherrySapling = createBlock("cherry_sapling",
+            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.CHERRY)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+     */
+
+    public static final RegistryObject<CustomSaplingBlock> palmSapling = createBlock("palm_sapling",
+            () -> new CustomSaplingBlock(() -> new MaidensTrees(MaidensTreeColor.PALM), Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+
     //PLANKS--TREES//
     public static final RegistryObject<Block>  crabapplePlanks = createBlock("crabapple_planks",
             () -> new Block(Block.Properties.create(Material.WOOD).hardnessAndResistance(1.5F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
@@ -352,85 +419,8 @@ COMMENTING OUT UNTIL FIXED
     public static final RegistryObject<Block> brownStainedPlanks = createBlock(  "brown_stained_planks",
             () -> new Block(Block.Properties.create(Material.WOOD).hardnessAndResistance(1.5F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
-
-
-
-
     //COMMENTING OUT UNTIL WE FIX TREES FOR 1.15
 
-   //SAPLINGS
-
-
-   // public static final RegistryObject<Block> JAZZ_SAPLING = BLOCKS.register("jazz_sapling",
-    //        () -> new CustomSaplingBlock(() -> new CrabappleTreeGen(configFactoryIn), Block.Properties.from(Blocks.OAK_SAPLING)));
-
-   // public static final RegistryObject<Block> MAPLE_SAPLING = createBlock("maple_sapling",
-    //        () -> new CustomSaplingBlock(new CrabappleTreeGen(), Block.Properties.create(Material.PLANTS), ItemGroup.DECORATIONS);
-
-
-    public static final RegistryObject<CustomSaplingBlock> crabappleSapling = createBlock("crabapple_sapling",
-            () -> new CustomSaplingBlock(() -> new MaidensTrees(MaidensTreeColor.RED), Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
-
-    
-    /*
-    public static final RegistryObject<CustomSaplingBlock> laburnumSapling = createBlock("laburnum_sapling",
-            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.YELLOW)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
-
-    public static final RegistryObject<CustomSaplingBlock> poincianaSapling = createBlock("poinciana_sapling",
-            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.ORANGE)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
-
-    public static final RegistryObject<CustomSaplingBlock> jadeSapling = createBlock("jade_sapling",
-            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.GREEN)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
-
-    public static final RegistryObject<CustomSaplingBlock> paulowniaSapling = createBlock("paulownia_sapling",
-            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.TEAL)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
-
-    public static final RegistryObject<CustomSaplingBlock> wisteriaSapling = createBlock("wisteria_sapling",
-            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.BLUE)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
-
-    public static final RegistryObject<CustomSaplingBlock> jacarandaSapling = createBlock("jacaranda_sapling",
-            () ->  new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.PURPLE)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
-
-    public static final RegistryObject<CustomSaplingBlock> dogwoodSapling = createBlock("dogwood_sapling",
-            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.PINK)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
-
-    public static final RegistryObject<CustomSaplingBlock> silverbellSapling = createBlock("silverbell_sapling",
-            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.WHITE)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
-
-    public static final RegistryObject<CustomSaplingBlock> cedarSapling = createBlock("cedar_sapling",
-            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.CEDAR)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
-
-    public static final RegistryObject<CustomSaplingBlock> appleSapling = createBlock("apple_sapling",
-            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.APPLE)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
-
-    public static final RegistryObject<CustomSaplingBlock> grapefruitSapling = createBlock("grapefruit_sapling",
-            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.GRAPEFRUIT)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
-
-    public static final RegistryObject<CustomSaplingBlock> orangeSapling = createBlock("orange_sapling",
-            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.ORANGE_FRUIT)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
-
-    public static final RegistryObject<CustomSaplingBlock> lemonSapling = createBlock("lemon_sapling",
-            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.LEMON)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
-
-    public static final RegistryObject<CustomSaplingBlock> limeSapling = createBlock("lime_sapling",
-            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.LIME)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
-
-    public static final RegistryObject<CustomSaplingBlock> peachSapling = createBlock("peach_sapling",
-            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.PEACH)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
-
-    public static final RegistryObject<CustomSaplingBlock> pearSapling = createBlock("pear_sapling",
-            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.PEAR)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
-
-    public static final RegistryObject<CustomSaplingBlock> plumSapling = createBlock("plum_sapling",
-            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.PLUM)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
-
-    public static final RegistryObject<CustomSaplingBlock> cherrySapling = createBlock("cherry_sapling",
-            () -> new CustomSaplingBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT), new MaidensTrees(MaidensTreeColor.CHERRY)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
-
-     */
-
-    public static final RegistryObject<CustomSaplingBlock> palmSapling = createBlock("palm_sapling",
-            () -> new CustomSaplingBlock(() -> new MaidensTrees(MaidensTreeColor.PALM), Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     //VINES
     public static final RegistryObject<Block>  crabappleVine = createBlock("crabapple_vine",

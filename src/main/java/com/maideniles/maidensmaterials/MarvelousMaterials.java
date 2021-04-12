@@ -93,6 +93,7 @@ public final class MarvelousMaterials {
 
         event.getRegistry().register(MaidensTreeDecoratorTypes.MAIDENS_TRUNK_VINE.setRegistryName("maidens_trunk_vine_decorator"));
         event.getRegistry().register(MaidensTreeDecoratorTypes.MAIDENS_LEAF_VINE.setRegistryName("maidens_leaf_vine_decorator"));
+        event.getRegistry().register(MaidensTreeDecoratorTypes.MAIDENS_MUSHROOM.setRegistryName("maidens_mushroom_decorator"));
     }
 
     public void setup(final FMLCommonSetupEvent event) {// K9#8016

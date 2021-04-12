@@ -41,34 +41,43 @@ public class CrabappleLeavesVineTreeDecorator extends TreeDecorator {
                 Block leaf = p_225576_1_.getBlockState(p_225576_3_.get(0)).getBlock();
                 if (leaf == ModBlocks.crabappleLeaves.get()) {
                     vine = ModBlocks.crabappleVine.get();
-                } // Continue an else if chain here for each case of leaves
+                }
+
+                if( leaf == ModBlocks.poincianaLeaves.get()) {
+                    vine = ModBlocks.poincianaVine.get();
+                }
+
+
             }
 
             if (p_225576_2_.nextInt(4) == 0) {
                 BlockPos blockpos = p_227421_5_.west();
                 if (AbstractTreeFeature.isAir(p_225576_1_, blockpos)) {
-                    this.placeVine(p_225576_1_, blockpos, VineBlock.EAST, p_225576_5_, p_225576_6_,vine);
+                    this.growVines(p_225576_1_, blockpos, VineBlock.EAST, p_225576_5_, p_225576_6_,vine);
+
                 }
             }
 
             if (p_225576_2_.nextInt(4) == 0) {
                 BlockPos blockpos1 = p_227421_5_.east();
                 if (AbstractTreeFeature.isAir(p_225576_1_, blockpos1)) {
-                    this.placeVine(p_225576_1_, blockpos1, VineBlock.WEST, p_225576_5_, p_225576_6_,vine);
+                    this.growVines(p_225576_1_, blockpos1, VineBlock.WEST, p_225576_5_, p_225576_6_,vine);
                 }
             }
 
             if (p_225576_2_.nextInt(4) == 0) {
                 BlockPos blockpos2 = p_227421_5_.north();
                 if (AbstractTreeFeature.isAir(p_225576_1_, blockpos2)) {
-                    this.placeVine(p_225576_1_, blockpos2, VineBlock.SOUTH, p_225576_5_, p_225576_6_,vine);
+                    this.growVines(p_225576_1_, blockpos2, VineBlock.SOUTH, p_225576_5_, p_225576_6_,vine);
                 }
             }
 
             if (p_225576_2_.nextInt(4) == 0) {
                 BlockPos blockpos3 = p_227421_5_.south();
                 if (AbstractTreeFeature.isAir(p_225576_1_, blockpos3)) {
-                    this.placeVine(p_225576_1_, blockpos3, VineBlock.NORTH, p_225576_5_, p_225576_6_,vine);
+                    this.growVines(p_225576_1_, blockpos3, VineBlock.NORTH, p_225576_5_, p_225576_6_,vine);
+
+
                 }
             }
 
@@ -78,6 +87,17 @@ public class CrabappleLeavesVineTreeDecorator extends TreeDecorator {
     private void placeVine(IWorld iWorld, BlockPos blockpos3, BooleanProperty north, Set<BlockPos> posSet, MutableBoundingBox box, Block vine) {
 
         this.func_227423_a_(iWorld, blockpos3, vine.getDefaultState().with(north, Boolean.valueOf(true)), posSet, box);
+    }
+
+    private void growVines(IWorld world, BlockPos blockPos, BooleanProperty north, Set<BlockPos> setPos, MutableBoundingBox box, Block vine) {
+        this.placeVine(world, blockPos, north, setPos, box, vine);
+        int i = 4;
+
+        for(BlockPos blockpos = blockPos.down(); AbstractTreeFeature.isAir(world, blockpos) && i > 0; --i) {
+            this.placeVine(world, blockpos, north, setPos, box, vine);
+            blockpos = blockpos.down();
+        }
+
     }
 
     public <T> T serialize(DynamicOps<T> p_218175_1_) {
