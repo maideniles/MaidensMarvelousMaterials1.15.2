@@ -38,12 +38,12 @@ public class MushroomTreeDecorator extends TreeDecorator {
         if (!(p_225576_2_.nextFloat() >= this.field_227417_b_)) {
             int i = p_225576_3_.get(0).getY();
             p_225576_3_.stream().filter((p_227418_1_) -> {
-                return p_227418_1_.getY() - i <= 11;
+                return p_227418_1_.getY() - i <= 2;
             }).forEach((p_227419_5_) -> {
                 for(Direction direction : Direction.Plane.HORIZONTAL) {
                     if (p_225576_2_.nextFloat() <= 0.25F) {
                         Direction direction1 = direction.getOpposite();
-                        BlockPos blockpos = p_227419_5_.add(direction1.getXOffset(), 0, direction1.getZOffset());
+                        BlockPos blockpos = p_227419_5_.add(direction1.getXOffset(), 9, direction1.getZOffset());
                         if (AbstractTreeFeature.isAir(p_225576_1_, blockpos)) {
                             BlockState blockstate = ModBlocks.fairyGlowCup.get().getDefaultState().with(FairyGlowCup.AGE, Integer.valueOf(p_225576_2_.nextInt(3))).with(FairyGlowCup.HORIZONTAL_FACING, direction);
                             this.func_227423_a_(p_225576_1_, blockpos, blockstate, p_225576_5_, p_225576_6_);
