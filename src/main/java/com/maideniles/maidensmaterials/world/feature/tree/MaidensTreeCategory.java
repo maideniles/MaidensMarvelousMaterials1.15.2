@@ -59,10 +59,8 @@ public class MaidensTreeCategory {
                         Placement.COUNT_EXTRA_HEIGHTMAP.configure(new AtSurfaceWithExtraConfig(baseTreesPerChunk, treesPerChunk - baseTreesPerChunk, 1)));
     }
 
-    public ConfiguredFeature<TreeFeatureConfig, ?> mushrooms;
-  //  public ConfiguredFeature<TreeFeatureConfig, ?> mushrooms2;
+    public final ConfiguredFeature<TreeFeatureConfig, ?> mushrooms;
     public final ConfiguredFeature<TreeFeatureConfig, ?> base;
     public final ConfiguredFeature<TreeFeatureConfig, ?> vines;
-
     public final ConfiguredFeature<?, ?> worldgen;
 }

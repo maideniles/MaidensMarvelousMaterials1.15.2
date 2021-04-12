@@ -45,7 +45,6 @@ public class MaidenLeavesVineTreeDecorator extends TreeDecorator {
                 if( leaf == ModBlocks.poincianaLeaves.get()) {
                     vine = ModBlocks.poincianaVine.get();
                 }
-
             }
 
             if (p_225576_2_.nextInt(4) == 0) {
