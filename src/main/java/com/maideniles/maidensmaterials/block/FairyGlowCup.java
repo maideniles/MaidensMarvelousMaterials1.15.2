@@ -8,7 +8,6 @@ import net.minecraft.state.IntegerProperty;
 import net.minecraft.state.StateContainer;
 import net.minecraft.state.properties.BlockStateProperties;
 import net.minecraft.tags.BlockTags;
-//import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.util.Direction;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.shapes.ISelectionContext;
@@ -24,20 +23,10 @@ import java.util.Random;
 public class FairyGlowCup extends CocoaBlock implements IGrowable {
     public static final IntegerProperty AGE = BlockStateProperties.AGE_0_2;
 
-    protected static final VoxelShape[] GLOW_CUP_EAST_AABB = new VoxelShape[]{Block.makeCuboidShape(0.6875D, 0.4375D, 0.375D, 0.9375D, 0.75D, 0.625D),
-            Block.makeCuboidShape(0.5625D, 0.3125D, 0.3125D, 0.9375D, 0.75D, 0.6875D), Block.makeCuboidShape(0.4375D, 0.1875D, 0.25D, 0.9375D, 0.75D, 0.75D)};
-
-
-    protected static final VoxelShape[] GLOW_CUP_WEST_AABB = new VoxelShape[]{Block.makeCuboidShape(0.0625D, 0.4375D, 0.375D, 0.3125D, 0.75D, 0.625D),
-            Block.makeCuboidShape(0.0625D, 0.3125D, 0.3125D, 0.4375D, 0.75D, 0.6875D), Block.makeCuboidShape(0.0625D, 0.1875D, 0.25D, 0.5625D, 0.75D, 0.75D)};
-
-
-    protected static final VoxelShape[] GLOW_CUP_NORTH_AABB = new VoxelShape[]{Block.makeCuboidShape(0.375D, 0.4375D, 0.0625D, 0.625D, 0.75D, 0.3125D),
-            Block.makeCuboidShape(0.3125D, 0.3125D, 0.0625D, 0.6875D, 0.75D, 0.4375D), Block.makeCuboidShape(0.25D, 0.1875D, 0.0625D, 0.75D, 0.75D, 0.5625D)};
-
-
-    protected static final VoxelShape[] GLOW_CUP_SOUTH_AABB = new VoxelShape[]{Block.makeCuboidShape(0.375D, 0.4375D, 0.6875D, 0.625D, 0.75D, 0.9375D),
-            Block.makeCuboidShape(0.3125D, 0.3125D, 0.5625D, 0.6875D, 0.75D, 0.9375D), Block.makeCuboidShape(0.25D, 0.1875D, 0.4375D, 0.75D, 0.75D, 0.9375D)};
+    protected static final VoxelShape[] FGC_EAST_AABB = new VoxelShape[]{Block.makeCuboidShape(11.0D, 7.0D, 6.0D, 15.0D, 12.0D, 10.0D), Block.makeCuboidShape(9.0D, 5.0D, 5.0D, 15.0D, 12.0D, 11.0D), Block.makeCuboidShape(7.0D, 3.0D, 4.0D, 15.0D, 12.0D, 12.0D)};
+    protected static final VoxelShape[] FGC_WEST_AABB = new VoxelShape[]{Block.makeCuboidShape(1.0D, 7.0D, 6.0D, 5.0D, 12.0D, 10.0D), Block.makeCuboidShape(1.0D, 5.0D, 5.0D, 7.0D, 12.0D, 11.0D), Block.makeCuboidShape(1.0D, 3.0D, 4.0D, 9.0D, 12.0D, 12.0D)};
+    protected static final VoxelShape[] FGC_NORTH_AABB = new VoxelShape[]{Block.makeCuboidShape(6.0D, 7.0D, 1.0D, 10.0D, 12.0D, 5.0D), Block.makeCuboidShape(5.0D, 5.0D, 1.0D, 11.0D, 12.0D, 7.0D), Block.makeCuboidShape(4.0D, 3.0D, 1.0D, 12.0D, 12.0D, 9.0D)};
+    protected static final VoxelShape[] FGC_SOUTH_AABB = new VoxelShape[]{Block.makeCuboidShape(6.0D, 7.0D, 11.0D, 10.0D, 12.0D, 15.0D), Block.makeCuboidShape(5.0D, 5.0D, 9.0D, 11.0D, 12.0D, 15.0D), Block.makeCuboidShape(4.0D, 3.0D, 7.0D, 12.0D, 12.0D, 15.0D)};
 
     public FairyGlowCup(Block.Properties properties) {
         super(properties);
@@ -65,14 +54,14 @@ public class FairyGlowCup extends CocoaBlock implements IGrowable {
         int i = state.get(AGE);
         switch((Direction)state.get(HORIZONTAL_FACING)) {
             case SOUTH:
-                return GLOW_CUP_SOUTH_AABB[i];
+                return FGC_SOUTH_AABB[i];
             case NORTH:
             default:
-                return GLOW_CUP_NORTH_AABB[i];
+                return FGC_NORTH_AABB[i];
             case WEST:
-                return GLOW_CUP_WEST_AABB[i];
+                return FGC_WEST_AABB[i];
             case EAST:
-                return GLOW_CUP_EAST_AABB[i];
+                return FGC_EAST_AABB[i];
         }
     }
 

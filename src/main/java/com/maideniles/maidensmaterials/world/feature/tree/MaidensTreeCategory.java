@@ -54,7 +54,7 @@ public class MaidensTreeCategory {
         this.worldgen = (vinesInWorldgen ?
                 Feature.RANDOM_SELECTOR.withConfiguration(new MultipleRandomFeatureConfig(
                         ImmutableList.of(new ConfiguredRandomFeatureList<>(this.vines, 0.33f), new ConfiguredRandomFeatureList<>(
-                                this.mushrooms = feature.withConfiguration(configBuilder.decorators(ImmutableList.of(new MushroomTreeDecorator(0.25f))).build()),
+                                this.mushrooms = feature.withConfiguration(configBuilder.decorators(ImmutableList.of(new MushroomTreeDecorator(4.0f))).build()),
                                 0.33f)), // This specifies to replace the base tree with vines tree 50% of the time
                         this.base)) : this.base).withPlacement(Placement.COUNT_EXTRA_HEIGHTMAP.configure(new AtSurfaceWithExtraConfig(baseTreesPerChunk,
                 treesPerChunk - baseTreesPerChunk, 1)));
