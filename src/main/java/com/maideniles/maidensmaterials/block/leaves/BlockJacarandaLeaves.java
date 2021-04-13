@@ -15,13 +15,14 @@ import net.minecraft.util.ActionResultType;
 import net.minecraft.util.Hand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.BlockRayTraceResult;
+import net.minecraft.world.IBlockReader;
 import net.minecraft.world.World;
 
 import java.util.Random;
 
 public class BlockJacarandaLeaves extends LeavesBlock {
     public BlockJacarandaLeaves(Properties properties) {
-        super(Block.Properties.create(Material.LEAVES).hardnessAndResistance(2.5F).sound(SoundType.PLANT));
+        super(Block.Properties.create(Material.LEAVES).notSolid().hardnessAndResistance(2.5F).sound(SoundType.PLANT));
         ;
     }
 
@@ -58,7 +59,10 @@ public class BlockJacarandaLeaves extends LeavesBlock {
 
         return ActionResultType.SUCCESS;
     }
-
+    @Override
+    public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+        return 1;
+    }
 }
 
 

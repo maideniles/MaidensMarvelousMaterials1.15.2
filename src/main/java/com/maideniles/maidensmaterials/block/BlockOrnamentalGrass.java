@@ -83,13 +83,13 @@ public class BlockOrnamentalGrass extends GrassBlock implements IGrowable {
     public boolean isSolid(BlockState state) {
         return true;
     }
-
+*/
     @Override
     public boolean canSustainPlant(BlockState state, IBlockReader world, BlockPos pos, Direction facing, IPlantable plantable) {
         return true;
     }
 
-*/
+
 
 }
 

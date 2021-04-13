@@ -14,17 +14,32 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ActionResultType;
+import net.minecraft.util.Direction;
 import net.minecraft.util.Hand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.BlockRayTraceResult;
+import net.minecraft.util.math.shapes.ISelectionContext;
+import net.minecraft.util.math.shapes.VoxelShape;
+import net.minecraft.world.IBlockReader;
 import net.minecraft.world.World;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.api.distmarker.OnlyIn;
 
 import java.util.Random;
 
 public class BlockCrabappleLeaves extends LeavesBlock {
+
+    private static final VoxelShape SHAPE = Block.makeCuboidShape(0, 0, 0, 16, 16.0, 16);
+
     public BlockCrabappleLeaves(Properties properties) {
-        super(Block.Properties.create(Material.LEAVES).hardnessAndResistance(2.5F).sound(SoundType.PLANT));
+        super(Block.Properties.create(Material.LEAVES).notSolid().hardnessAndResistance(2.5F).sound(SoundType.PLANT));
         ;
+    }
+
+    @Override
+    public VoxelShape getShape(BlockState state, IBlockReader worldIn, BlockPos pos, ISelectionContext selectionContext)
+    {  return SHAPE;
+
     }
 
     @Override
@@ -62,6 +77,14 @@ public class BlockCrabappleLeaves extends LeavesBlock {
         }
 
 
+    public boolean isNormalCube(BlockState state, IBlockReader worldIn, BlockPos pos) {
+        return false;
+    }
+
+    @OnlyIn(Dist.CLIENT)
+    public boolean isSideInvisible(BlockState state, BlockState adjacentBlockState, Direction side) {
+        return false;
+    }
 
 }
 

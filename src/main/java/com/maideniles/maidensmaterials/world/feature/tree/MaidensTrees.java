@@ -25,6 +25,31 @@ public class MaidensTrees extends Tree {
         case ORANGE:
             return random.nextInt(6) == 0 ? ModConfiguredFeatures.POINCIANA_TREE.base : ModConfiguredFeatures.POINCIANA_TREE.vines;
 
+        case YELLOW:
+            return random.nextInt(6) == 0 ? ModConfiguredFeatures.LABURNUM_TREE.base : ModConfiguredFeatures.LABURNUM_TREE.vines;
+
+        case GREEN:
+            return random.nextInt(6) == 0 ? ModConfiguredFeatures.JADE_TREE.base : ModConfiguredFeatures.JADE_TREE.vines;
+
+        case CYAN:
+            return random.nextInt(6) == 0 ? ModConfiguredFeatures.PAULOWNIA_TREE.base : ModConfiguredFeatures.PAULOWNIA_TREE.vines;
+
+        case BLUE:
+            return random.nextInt(6) == 0 ? ModConfiguredFeatures.WISTERIA_TREE.base : ModConfiguredFeatures.WISTERIA_TREE.vines;
+
+        case PURPLE:
+            return random.nextInt(6) == 0 ? ModConfiguredFeatures.JACARANDA_TREE.base : ModConfiguredFeatures.JACARANDA_TREE.vines;
+
+        case PINK:
+            return random.nextInt(6) == 0 ? ModConfiguredFeatures.DOGWOOD_TREE.base : ModConfiguredFeatures.DOGWOOD_TREE.vines;
+
+        case WHITE:
+            return random.nextInt(6) == 0 ? ModConfiguredFeatures.SILVERBELL_TREE.base : ModConfiguredFeatures.SILVERBELL_TREE.vines;
+
+        case CEDAR:
+            return random.nextInt(6) == 0 ? ModConfiguredFeatures.CEDAR_TREE.base: ModConfiguredFeatures.CEDAR_TREE.vines ;
+
+
 
             case PALM:
             return ModConfiguredFeatures.PALM_TREE.base;

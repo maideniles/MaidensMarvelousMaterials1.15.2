@@ -5,6 +5,7 @@ import java.util.Set;
 
 import com.maideniles.maidensmaterials.init.ModBlocks;
 
+import net.minecraft.block.Blocks;
 import net.minecraft.block.CocoaBlock;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.util.Direction;
@@ -86,9 +87,11 @@ public class PalmTreeFeature extends MaidensTreeFeature {
         int i = -4;
         int j = -6;
 
-        this.setBlockState(worldIn, pos.add(i + 0, j + 7, k + 5), config.leavesProvider, config, leaves, box, random);
 
-        this.setBlockState(worldIn, pos.add(i + 0, j + 8, k + 5), config.leavesProvider, config, leaves, box, random);
+
+        this.setBlockState(worldIn, pos.add(i + 4, j + 7, k + 5), ModBlocks.palmLog.get().getDefaultState());
+
+        this.setBlockState(worldIn, pos.add(i + 5, j + 8, k + 5), ModBlocks.palmLog.get().getDefaultState());
 
 
 

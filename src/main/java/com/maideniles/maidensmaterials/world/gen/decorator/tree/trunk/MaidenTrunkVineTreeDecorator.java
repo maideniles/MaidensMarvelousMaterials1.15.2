@@ -48,6 +48,31 @@ public class MaidenTrunkVineTreeDecorator extends TreeDecorator {
                 if( log == ModBlocks.poincianaLog.get()) {
                     vine = ModBlocks.poincianaVine.get();
                 }
+                if( log == ModBlocks.laburnumLog.get()) {
+                    vine = ModBlocks.laburnumVine.get();
+                }
+                if( log == ModBlocks.jadeLog.get()) {
+                    vine = ModBlocks.jadeVine.get();
+                }
+                if( log == ModBlocks.paulowniaLog.get()) {
+                    vine = ModBlocks.paulowniaVine.get();
+                }
+                if( log == ModBlocks.wisteriaLog.get()) {
+                    vine = ModBlocks.wisteriaVine.get();
+                }
+                if( log == ModBlocks.jacarandaLog.get()) {
+                    vine = ModBlocks.jacarandaVine.get();
+                }
+                if( log == ModBlocks.dogwoodLog.get()) {
+                    vine = ModBlocks.dogwoodVine.get();
+                }
+                if( log == ModBlocks.silverbellLog.get()) {
+                    vine = ModBlocks.silverbellVine.get();
+                }
+                if( log == ModBlocks.cedarLog.get()) {
+                    vine = ModBlocks.cedarVine.get();
+                }
+
             }
 
 

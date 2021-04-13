@@ -33,17 +33,41 @@ public class MaidenLeavesVineTreeDecorator extends TreeDecorator {
     }
 
 
-    public void func_225576_a_(IWorld p_225576_1_, Random p_225576_2_, List<BlockPos> p_225576_3_, List<BlockPos> p_225576_4_, Set<BlockPos> p_225576_5_, MutableBoundingBox p_225576_6_) {
-        p_225576_4_.forEach((p_227421_5_) -> {
+    public void func_225576_a_(IWorld p_225576_1_, Random p_225576_2_, List<BlockPos> p_225576_3_, List<BlockPos> blockPos, Set<BlockPos> p_225576_5_, MutableBoundingBox p_225576_6_) {
+        blockPos.forEach((p_227421_5_) -> {
 
             Block vine = Blocks.VINE;
-            if (!p_225576_3_.isEmpty())  {
-                Block leaf = p_225576_1_.getBlockState(p_225576_3_.get(0)).getBlock();
+            if (!blockPos.isEmpty())  {
+                Block leaf = p_225576_1_.getBlockState(blockPos.get(0)).getBlock();
                 if (leaf == ModBlocks.crabappleLeaves.get()) {
                     vine = ModBlocks.crabappleVine.get();
                 }
                 if( leaf == ModBlocks.poincianaLeaves.get()) {
                     vine = ModBlocks.poincianaVine.get();
+                }
+                if( leaf == ModBlocks.laburnumLeaves.get()) {
+                    vine = ModBlocks.laburnumVine.get();
+                }
+                if( leaf == ModBlocks.jadeLeaves.get()) {
+                    vine = ModBlocks.jadeVine.get();
+                }
+                if( leaf == ModBlocks.paulowniaLeaves.get()) {
+                    vine = ModBlocks.paulowniaVine.get();
+                }
+                if( leaf == ModBlocks.wisteriaLeaves.get()) {
+                    vine = ModBlocks.wisteriaVine.get();
+                }
+                if( leaf == ModBlocks.jacarandaLeaves.get()) {
+                    vine = ModBlocks.jacarandaVine.get();
+                }
+                if( leaf == ModBlocks.dogwoodLeaves.get()) {
+                    vine = ModBlocks.dogwoodVine.get();
+                }
+                if( leaf == ModBlocks.silverbellLeaves.get()) {
+                    vine = ModBlocks.silverbellVine.get();
+                }
+                if(leaf == ModBlocks.cedarLeaves.get()){
+                    vine = ModBlocks.cedarVine.get();
                 }
             }
 

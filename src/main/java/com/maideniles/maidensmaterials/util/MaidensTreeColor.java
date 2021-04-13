@@ -5,7 +5,7 @@ public enum MaidensTreeColor {
     ORANGE, // POINCIANA
     YELLOW, //LABURNUM
     GREEN,  //JADE
-    TEAL,  //PAULOWNIA
+    CYAN,  //PAULOWNIA
     BLUE,  //WISTERIA
     PURPLE,  //JACARANDA
     PINK,  //DOGWOOD
