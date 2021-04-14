@@ -2,7 +2,6 @@ package com.maideniles.maidensmaterials.init;
 
 import com.maideniles.maidensmaterials.world.feature.tree.MaidensTreeCategory;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.Blocks;
 import net.minecraft.world.gen.blockplacer.SimpleBlockPlacer;
 import net.minecraft.world.gen.blockstateprovider.SimpleBlockStateProvider;
 import net.minecraft.world.gen.feature.BlockClusterFeatureConfig;
@@ -124,6 +123,10 @@ public class ModConfiguredFeatures {
             0.5f,
             false,
             ModBlocks.palmSapling.get());
+
+
+
+
 
     public static final BlockClusterFeatureConfig ORNAMENTAL_MUSHROOM_CONFIG = (new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(mushroom), new SimpleBlockPlacer())).tries(64).build();
 }

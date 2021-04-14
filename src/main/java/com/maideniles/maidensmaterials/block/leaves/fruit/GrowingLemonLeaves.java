@@ -2,6 +2,7 @@ package com.maideniles.maidensmaterials.block.leaves.fruit;
 
 
 import com.maideniles.maidensmaterials.init.ModBlocks;
+import com.maideniles.maidensmaterials.init.ModItems;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.Entity;
@@ -26,12 +27,12 @@ import net.minecraft.world.server.ServerWorld;
 
 import java.util.Random;
 
-public class GrowingAppleLeaves extends BushBlock implements IGrowable {
+public class GrowingLemonLeaves extends BushBlock implements IGrowable {
     public static final IntegerProperty AGE = BlockStateProperties.AGE_0_3;
     private static final VoxelShape field_220126_b = Block.makeCuboidShape(0, 0.0D, 0, 16.0D, 16.0D, 16.0D);
     private static final VoxelShape field_220127_c = Block.makeCuboidShape(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D);
 
-    public GrowingAppleLeaves(Block.Properties properties) {
+    public GrowingLemonLeaves(Block.Properties properties) {
         super(Block.Properties.create(Material.LEAVES).notSolid().hardnessAndResistance(2.5F).sound(SoundType.PLANT));
         this.setDefaultState(this.stateContainer.getBaseState().with(AGE, Integer.valueOf(0)));
 
@@ -40,7 +41,7 @@ public class GrowingAppleLeaves extends BushBlock implements IGrowable {
 
 
     public ItemStack getItem(IBlockReader worldIn, BlockPos pos, BlockState state) {
-        return new ItemStack(Items.APPLE);
+        return new ItemStack(ModItems.LEMON.get());
     }
 
     public VoxelShape getShape(BlockState state, IBlockReader worldIn, BlockPos pos, ISelectionContext context) {
@@ -70,7 +71,7 @@ public class GrowingAppleLeaves extends BushBlock implements IGrowable {
             return ActionResultType.PASS;
         } else if (i > 1) {
             int j = 1 + worldIn.rand.nextInt(2);
-            spawnAsEntity(worldIn, pos, new ItemStack(Items.APPLE, j + (flag ? 1 : 0)));
+            spawnAsEntity(worldIn, pos, new ItemStack(ModItems.LEMON.get(), j + (flag ? 1 : 0)));
             worldIn.playSound((PlayerEntity)null, pos, SoundEvents.ITEM_SWEET_BERRIES_PICK_FROM_BUSH, SoundCategory.BLOCKS, 1.0F, 0.8F + worldIn.rand.nextFloat() * 0.4F);
             worldIn.setBlockState(pos, state.with(AGE, Integer.valueOf(1)), 2);
             return ActionResultType.SUCCESS;
@@ -101,6 +102,6 @@ public class GrowingAppleLeaves extends BushBlock implements IGrowable {
 
     protected boolean isValidGround(BlockState state, IBlockReader worldIn, BlockPos pos) {
         Block block = state.getBlock();
-        return block == Blocks.AIR ||block.isIn(BlockTags.LOGS) || block == Blocks.DIRT || block == ModBlocks.growingAppleLeaves.get()|| block == Blocks.COARSE_DIRT || block == Blocks.PODZOL || block == Blocks.FARMLAND || block == Blocks.SAND || block.isIn(BlockTags.LEAVES);
+        return block == Blocks.AIR ||block.isIn(BlockTags.LOGS) || block == Blocks.DIRT || block == ModBlocks.growingLemonLeaves.get()|| block == Blocks.COARSE_DIRT || block == Blocks.PODZOL || block == Blocks.FARMLAND || block == Blocks.SAND || block.isIn(BlockTags.LEAVES);
     }
 }

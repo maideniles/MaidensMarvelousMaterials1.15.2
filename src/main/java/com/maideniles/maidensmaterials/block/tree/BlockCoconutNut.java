@@ -1,3 +1,4 @@
+
 package com.maideniles.maidensmaterials.block.tree;
 
 import com.maideniles.maidensmaterials.init.ModItems;
@@ -26,12 +27,12 @@ import net.minecraft.world.World;
 import javax.annotation.Nullable;
 import java.util.Random;
 
-public class CoconutNut extends CocoaBlock {
+public class BlockCoconutNut extends CocoaBlock {
 
     protected static final VoxelShape SHAPE = Block.makeCuboidShape(2.0D, 4.0D, 2.0D, 14.0D, 16.0D, 14.0D);
     public static final IntegerProperty AGE = BlockStateProperties.AGE_0_2;
 
-    public CoconutNut(Block.Properties properties) {
+    public BlockCoconutNut(Block.Properties properties) {
         super(properties);
         this.setDefaultState(this.stateContainer.getBaseState().with(HORIZONTAL_FACING, Direction.NORTH).with(AGE, Integer.valueOf(0)));
 

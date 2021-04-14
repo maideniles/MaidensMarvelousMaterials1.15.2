@@ -7,6 +7,7 @@ import com.maideniles.maidensmaterials.util.MaidensTreeColor;
 
 import net.minecraft.block.trees.Tree;
 import net.minecraft.world.gen.feature.ConfiguredFeature;
+import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.TreeFeatureConfig;
 
 public class MaidensTrees extends Tree {
@@ -49,6 +50,25 @@ public class MaidensTrees extends Tree {
         case CEDAR:
             return random.nextInt(6) == 0 ? ModConfiguredFeatures.CEDAR_TREE.base: ModConfiguredFeatures.CEDAR_TREE.vines ;
 
+
+
+                /*    case PEAR:
+                return random.nextInt(6) == 0 ? ModConfiguredFeatures.APPLE_TREE.base: ModConfiguredFeatures.APPLE_TREE.vines ;
+            case PEACH:
+                return random.nextInt(6) == 0 ? ModConfiguredFeatures.APPLE_TREE.base: ModConfiguredFeatures.APPLE_TREE.vines ;
+            case PLUM:
+                return random.nextInt(6) == 0 ? ModConfiguredFeatures.APPLE_TREE.base: ModConfiguredFeatures.APPLE_TREE.vines ;
+            case ORANGE_FRUIT:
+                return random.nextInt(6) == 0 ? ModConfiguredFeatures.APPLE_TREE.base: ModConfiguredFeatures.APPLE_TREE.vines ;
+            case GRAPEFRUIT:
+                return random.nextInt(6) == 0 ? ModConfiguredFeatures.APPLE_TREE.base: ModConfiguredFeatures.APPLE_TREE.vines ;
+            case LEMON:
+                return random.nextInt(6) == 0 ? ModConfiguredFeatures.APPLE_TREE.base: ModConfiguredFeatures.APPLE_TREE.vines ;
+            case LIME:
+                return random.nextInt(6) == 0 ? ModConfiguredFeatures.APPLE_TREE.base: ModConfiguredFeatures.APPLE_TREE.vines ;
+            case CHERRY:
+                return random.nextInt(6) == 0 ? ModConfiguredFeatures.APPLE_TREE.base: ModConfiguredFeatures.APPLE_TREE.vines ;
+*/
 
 
             case PALM:

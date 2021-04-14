@@ -27,6 +27,16 @@ public class RenderLayers {
 
         RenderTypeLookup.setRenderLayer(ModBlocks.palmSapling.get(), RenderType.getCutoutMipped());
 
+        RenderTypeLookup.setRenderLayer(ModBlocks.appleSapling.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.pearSapling.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.peachSapling.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.plumSapling.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.lemonSapling.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.limeSapling.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.orangeSapling.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.grapefruitSapling.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.cherrySapling.get(), RenderType.getCutoutMipped());
+
 
 
 
@@ -50,20 +60,26 @@ public class RenderLayers {
 
         RenderTypeLookup.setRenderLayer(ModBlocks.palmLeaves.get(), RenderType.getCutout());
 
-        RenderTypeLookup.setRenderLayer(ModBlocks.crabappleLeaves.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.poincianaLeaves.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.laburnumLeaves.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.jadeLeaves.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.paulowniaLeaves.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.wisteriaLeaves.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.jacarandaLeaves.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.dogwoodLeaves.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.silverbellLeaves.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.cedarLeaves.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.crabappleLeaves.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.poincianaLeaves.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.laburnumLeaves.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.jadeLeaves.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.paulowniaLeaves.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.wisteriaLeaves.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.jacarandaLeaves.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.dogwoodLeaves.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.silverbellLeaves.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.cedarLeaves.get(), RenderType.getCutoutMipped());
 
-        RenderTypeLookup.setRenderLayer(ModBlocks.growingAppleLeaves.get(), RenderType.getCutout());
-
-
+        RenderTypeLookup.setRenderLayer(ModBlocks.growingAppleLeaves.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.growingPearLeaves.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.growingPlumLeaves.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.growingPeachLeaves.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.growingOrangeLeaves.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.growingGrapefruitLeaves.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.growingLemonLeaves.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.growingLimeLeaves.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.growingCherryLeaves.get(), RenderType.getCutoutMipped());
 
 
     }
