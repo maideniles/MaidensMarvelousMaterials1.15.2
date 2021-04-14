@@ -104,4 +104,9 @@ public class GrowingPlumLeaves extends BushBlock implements IGrowable {
         Block block = state.getBlock();
         return block == Blocks.AIR ||block.isIn(BlockTags.LOGS) || block == Blocks.DIRT || block == ModBlocks.growingPlumLeaves.get()|| block == Blocks.COARSE_DIRT || block == Blocks.PODZOL || block == Blocks.FARMLAND || block == Blocks.SAND || block.isIn(BlockTags.LEAVES);
     }
+
+    @Override
+    public boolean ticksRandomly(BlockState state) {
+        return true;
+    }
 }
