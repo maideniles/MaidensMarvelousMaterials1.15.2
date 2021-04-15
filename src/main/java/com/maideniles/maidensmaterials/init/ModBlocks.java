@@ -313,13 +313,13 @@ public class ModBlocks
     public static final RegistryObject<CustomSaplingBlock> orangeSapling = createBlock("orange_sapling",
             () -> new CustomSaplingBlock(() ->new FruitTrees(MaidensTreeColor.ORANGE_FRUIT), Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT)),  ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
-    public static final RegistryObject<CustomSaplingBlock> grapefruitSapling = createBlock("grapfruit_sapling",
+    public static final RegistryObject<CustomSaplingBlock> grapefruitSapling = createBlock("grapefruit_sapling",
             () -> new CustomSaplingBlock(() ->new FruitTrees(MaidensTreeColor.GRAPEFRUIT), Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT)),  ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<CustomSaplingBlock> lemonSapling = createBlock("lemon_sapling",
             () -> new CustomSaplingBlock(() ->new FruitTrees(MaidensTreeColor.LEMON), Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT)),  ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
-    public static final RegistryObject<CustomSaplingBlock> limeSapling = createBlock("limee_sapling",
+    public static final RegistryObject<CustomSaplingBlock> limeSapling = createBlock("lime_sapling",
             () -> new CustomSaplingBlock(() ->new FruitTrees(MaidensTreeColor.LIME), Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0F).sound(SoundType.PLANT)),  ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<CustomSaplingBlock> cherrySapling = createBlock("cherry_sapling",
