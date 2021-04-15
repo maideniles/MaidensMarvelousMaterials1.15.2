@@ -1,5 +1,5 @@
 package com.maideniles.maidensmaterials.init;
-
+/*
 import com.maideniles.maidensmaterials.enchant.EnchantmentFloralFeet;
 import com.maideniles.maidensmaterials.enchant.EnchantmentFlowerChild;
 import net.java.games.input.Component;
@@ -28,8 +28,9 @@ public class ModEnchantments  {
         System.out.println("Registering Enchantments");
         ForgeRegistries.ENCHANTMENTS.register(FLOWER_POWER);
         ForgeRegistries.ENCHANTMENTS.register(FANCY_FEET);
-    }*/
+    }
 
 
 
 }
+*/

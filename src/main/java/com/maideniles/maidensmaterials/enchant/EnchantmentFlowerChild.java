@@ -1,7 +1,7 @@
 package com.maideniles.maidensmaterials.enchant;
 
 import com.maideniles.maidensmaterials.init.ModBlocks;
-import com.maideniles.maidensmaterials.init.ModEnchantments;
+//import com.maideniles.maidensmaterials.init.ModEnchantments;
 import com.maideniles.maidensmaterials.init.ModItems;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentHelper;
@@ -16,17 +16,17 @@ import net.minecraft.world.World;
 import net.minecraftforge.event.world.BlockEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-
+/*
 @Mod.EventBusSubscriber
 
 
     public class EnchantmentFlowerChild extends Enchantment {
 
-        public EnchantmentFlowerChild() {
-            super(Enchantment.Rarity.UNCOMMON, EnchantmentType.WEAPON, new EquipmentSlotType[] {EquipmentSlotType.MAINHAND});
-            this.setRegistryName("flower_power");
+    public EnchantmentFlowerChild() {
+        super(Enchantment.Rarity.UNCOMMON, EnchantmentType.WEAPON, new EquipmentSlotType[]{EquipmentSlotType.MAINHAND});
+        this.setRegistryName("flower_power");
 
-        }
+    }
 
 
     @Override
@@ -38,7 +38,6 @@ import net.minecraftforge.fml.common.Mod;
     public boolean canApply(ItemStack stack) {
         return stack.getItem().getToolTypes(stack).contains("shovel");
     }
-
 
 
     @Override
@@ -67,8 +66,7 @@ import net.minecraftforge.fml.common.Mod;
     }
 
 
-
-    /*@SubscribeEvent
+    @SubscribeEvent
     public static void canHarvestOrnamentalGrass(BlockEvent.BreakEvent event) {
 
         PlayerEntity player = event.getPlayer();
@@ -88,5 +86,5 @@ import net.minecraftforge.fml.common.Mod;
             }
 
         }
-    }*/
-}
+    }
+}*/

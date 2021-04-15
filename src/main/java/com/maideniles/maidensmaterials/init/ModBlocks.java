@@ -25,6 +25,7 @@ import com.maideniles.maidensmaterials.block.SparklingSand;
 import com.maideniles.maidensmaterials.block.leaves.*;
 import com.maideniles.maidensmaterials.block.leaves.fruit.*;
 import com.maideniles.maidensmaterials.block.tree.BlockCoconutNut;
+import com.maideniles.maidensmaterials.block.vase.*;
 import com.maideniles.maidensmaterials.world.feature.tree.FruitTrees;
 import com.maideniles.maidensmaterials.block.leaves.BlockPalmLeaves;
 //import com.maideniles.maidensmaterials.block.vase.*;
@@ -3452,8 +3453,8 @@ public class ModBlocks
 
 
     //VASES-NO FLOWERS//
- /*  COMMENTING OUT UNTIL FIXED
-    public static final RegistryObject<Block> RedVaseNoFlower = createBlock( "red_vase_no_flower",
+  // COMMENTING OUT UNTIL FIXED
+    public static final RegistryObject<Block> redVaseNoFlower = createBlock( "red_vase_no_flower",
             () -> new BlockClayVaseRed(BlockClayVaseRed.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block> orangeVaseNoFlower = createBlock( "orange_vase_no_flower",
@@ -4385,7 +4386,7 @@ public class ModBlocks
 
     public static final RegistryObject<Block> BrownVaseWhiteSapling = BLOCKS.register( "brown_vase_white_sapling",
             () -> new BlockClayVaseBrown(BlockClayVaseBrown.Properties.create(Material.CLAY).hardnessAndResistance(2.0F, 2.0F)));
-*/
+
 
     public static void registerFlammables() {
         // Automatically sets fire info for some blocks

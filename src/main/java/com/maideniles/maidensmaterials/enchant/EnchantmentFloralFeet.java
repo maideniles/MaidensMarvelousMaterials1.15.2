@@ -3,7 +3,7 @@ package com.maideniles.maidensmaterials.enchant;
 import com.maideniles.maidensmaterials.MarvelousMaterials;
 
 import com.maideniles.maidensmaterials.init.ModBlocks;
-import com.maideniles.maidensmaterials.init.ModEnchantments;
+//import com.maideniles.maidensmaterials.init.ModEnchantments;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -24,7 +24,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.event.entity.living.LivingEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-
+/*
 @Mod.EventBusSubscriber(modid = MarvelousMaterials.MODID, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class EnchantmentFloralFeet extends Enchantment{
 
@@ -114,7 +114,7 @@ public class EnchantmentFloralFeet extends Enchantment{
             }
         }*/
 
-    }
+
 
 
 
