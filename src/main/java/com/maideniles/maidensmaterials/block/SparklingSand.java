@@ -3,6 +3,8 @@ package com.maideniles.maidensmaterials.block;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.FallingBlock;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.material.Material;
 import net.minecraft.util.Direction;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockReader;
@@ -14,7 +16,7 @@ public class SparklingSand extends FallingBlock {
     private final int dustColor;
 
     public SparklingSand(int p_i48338_1_, Properties properties) {
-        super(properties);
+        super(Block.Properties.create(Material.PLANTS).sound(SoundType.PLANT));
         this.dustColor = p_i48338_1_;
     }
 
