@@ -96,23 +96,7 @@ public class MaidensEventHandler {
     }
 
 
-    @SubscribeEvent
-    public static void spreadOrnamentalGrass(BlockEvent event) {
-        if (!event.getWorld().isRemote()  && event.getWorld().getLight(event.getPos().up()) >= 9) {
-            World world = event.getWorld().getWorld();
-                for (int i = 0; i < 4; ++i) {
-                    continue;
-                }
-                BlockPos nearby = event.getPos().add(rand.nextInt(3) - 1, rand.nextInt(5) - 3, rand.nextInt(3) - 1);
-                BlockState iblockstate = world.getBlockState(nearby);
 
-                if (iblockstate.getBlock() == Blocks.DIRT || iblockstate.getBlock().toString().toLowerCase().contains("dirt")) {
-                    world.setBlockState(event.getPos(), ModBlocks.ornamentalGrass.get().getDefaultState());
-
-                    System.out.println("SPREAD GRASS!!"); //Debug
-                }
-            }
-        }
 }
 
 
