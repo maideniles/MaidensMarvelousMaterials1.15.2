@@ -4,14 +4,22 @@ import java.util.Random;
 
 import com.maideniles.maidensmaterials.MarvelousMaterials;
 import com.maideniles.maidensmaterials.init.ModBlocks;
+import com.maideniles.maidensmaterials.init.ModEnchantments;
 import com.maideniles.maidensmaterials.init.ModItems;
 import com.maideniles.maidensmaterials.potion.MaidensPotions;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.Blocks;
+import net.minecraft.enchantment.EnchantmentHelper;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.item.ItemEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.Potion;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.event.entity.living.LivingEvent;
 import net.minecraftforge.event.world.BlockEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -25,28 +33,27 @@ public class MaidensEventHandler {
     //ADD EARTHEN ESSENCE DROPS TO ORE AND WOOD BLOCKS//  //this is now useless in 1.14  :(  //
 
 
-
     @SubscribeEvent
     public static void onBlockBreakEvent3(BlockEvent.BreakEvent event) {
         PlayerEntity player = event.getPlayer();
 
-        if(!player.isCreative())
-        if (ModBlocks.validBlocks.contains(event.getState().getBlock())) {
-            if (rand.nextInt(10) ==0) {
-                ItemEntity item = new ItemEntity(event.getWorld().getWorld(), event.getPos().getX()+0.5,
-                        event.getPos().getY(), event.getPos().getZ()+0.5, new ItemStack((ModItems.EARTHEN_ESSENCE.get()), 1));
-                if (!event.getWorld().isRemote()) {
-                    item.setPickupDelay(40); // To Set a Small Pickup Delay
+        if (!player.isCreative())
+            if (ModBlocks.validBlocks.contains(event.getState().getBlock())) {
+                if (rand.nextInt(10) == 0) {
+                    ItemEntity item = new ItemEntity(event.getWorld().getWorld(), event.getPos().getX() + 0.5,
+                            event.getPos().getY(), event.getPos().getZ() + 0.5, new ItemStack((ModItems.EARTHEN_ESSENCE.get()), 1));
+                    if (!event.getWorld().isRemote()) {
+                        item.setPickupDelay(40); // To Set a Small Pickup Delay
 
                         event.getWorld().addEntity(item);
-                    item.addVelocity(0, 0.01d, 0);
-                    MarvelousMaterials.LOGGER.debug("Event fired");
+                        item.addVelocity(0, 0.01d, 0);
+                        MarvelousMaterials.LOGGER.debug("Event fired");
+                    }
                 }
             }
-        }
     }
 
-//GATHERER'S GLEE POTION--GET EXTRA DROPS  1 IN 20 CHANCE OF DOUBLING ORE//
+    //GATHERER'S GLEE POTION--GET EXTRA DROPS  1 IN 20 CHANCE OF DOUBLING ORE//
     @SubscribeEvent
     public static void onBlockBreak(BlockEvent.BreakEvent event) {
         PlayerEntity player = event.getPlayer();
@@ -59,16 +66,16 @@ public class MaidensEventHandler {
 
                 if (!event.getWorld().isRemote()) {
                     item.setPickupDelay(40); // To Set a Small Pickup Delay
-                    if (rand.nextInt(20) ==0)  //set 1 in 20 chance?// {
+                    if (rand.nextInt(20) == 0)  //set 1 in 20 chance?// {
                         event.getWorld().addEntity(item);
-                        MarvelousMaterials.LOGGER.debug("Event fired");
-                    }
+                    MarvelousMaterials.LOGGER.debug("Event fired");
                 }
             }
         }
+    }
 
 
-//MAKE ORNAMENTAL GRASS DROP WHILE POTION ACTIVE
+    //MAKE ORNAMENTAL GRASS DROP WHILE POTION ACTIVE
     @SubscribeEvent
     public static void onBlockBreak2(BlockEvent.BreakEvent event) {
         PlayerEntity player = event.getPlayer();
@@ -89,8 +96,26 @@ public class MaidensEventHandler {
     }
 
 
+    @SubscribeEvent
+    public static void spreadOrnamentalGrass(BlockEvent event) {
+        if (!event.getWorld().isRemote()  && event.getWorld().getLight(event.getPos().up()) >= 9) {
+            World world = event.getWorld().getWorld();
+                for (int i = 0; i < 4; ++i) {
+                    continue;
+                }
+                BlockPos nearby = event.getPos().add(rand.nextInt(3) - 1, rand.nextInt(5) - 3, rand.nextInt(3) - 1);
+                BlockState iblockstate = world.getBlockState(nearby);
 
+                if (iblockstate.getBlock() == Blocks.DIRT || iblockstate.getBlock().toString().toLowerCase().contains("dirt")) {
+                    world.setBlockState(event.getPos(), ModBlocks.ornamentalGrass.get().getDefaultState());
 
-
-
+                    System.out.println("SPREAD GRASS!!"); //Debug
+                }
+            }
+        }
 }
+
+
+
+
+

@@ -1,7 +1,7 @@
 package com.maideniles.maidensmaterials.enchant;
 
 import com.maideniles.maidensmaterials.init.ModBlocks;
-//import com.maideniles.maidensmaterials.init.ModEnchantments;
+import com.maideniles.maidensmaterials.init.ModEnchantments;
 import com.maideniles.maidensmaterials.init.ModItems;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentHelper;
@@ -16,7 +16,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.event.world.BlockEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-/*
+
 @Mod.EventBusSubscriber
 
 
@@ -24,7 +24,7 @@ import net.minecraftforge.fml.common.Mod;
 
     public EnchantmentFlowerChild() {
         super(Enchantment.Rarity.UNCOMMON, EnchantmentType.WEAPON, new EquipmentSlotType[]{EquipmentSlotType.MAINHAND});
-        this.setRegistryName("flower_power");
+
 
     }
 
@@ -71,7 +71,7 @@ import net.minecraftforge.fml.common.Mod;
 
         PlayerEntity player = event.getPlayer();
 
-        int hasflowerpower = EnchantmentHelper.getEnchantmentLevel(ModEnchantments.FLOWER_POWER,
+        int hasflowerpower = EnchantmentHelper.getEnchantmentLevel(ModEnchantments.FLOWER_CHILD.get(),
                 player.inventory.getCurrentItem());
         if (hasflowerpower > 0) {
 
@@ -87,4 +87,4 @@ import net.minecraftforge.fml.common.Mod;
 
         }
     }
-}*/
+}

@@ -74,7 +74,7 @@ public class MaidensTrees extends Tree {
             case PALM:
             return ModConfiguredFeatures.PALM_TREE.base;
         default:
-            return null; // TODO other trees
+            return null;
         }
     }
     

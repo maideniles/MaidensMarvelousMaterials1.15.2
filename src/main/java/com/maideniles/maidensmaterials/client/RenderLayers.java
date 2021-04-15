@@ -56,6 +56,7 @@ public class RenderLayers {
         RenderTypeLookup.setRenderLayer(ModBlocks.ornamentalMushroom.get(), RenderType.getCutoutMipped());
 
         RenderTypeLookup.setRenderLayer(ModBlocks.fairyGlowCup.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.walkFlowers.get(), RenderType.getCutoutMipped());
 
  //leaves
         RenderTypeLookup.setRenderLayer(ModBlocks.palmLeaves.get(), RenderType.getCutout());

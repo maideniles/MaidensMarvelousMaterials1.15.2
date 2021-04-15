@@ -11,15 +11,16 @@ import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.world.IWorldReader;
 import net.minecraft.world.World;
+import net.minecraft.world.server.ServerWorld;
 
 import java.util.Random;
 
 public class BlockFlowerGrass extends BushBlock {
 
-    private static final VoxelShape SHAPE = Block.makeCuboidShape(4.8, 0, 4.8, 11.2, 1.0, 11.2);
+    private static final VoxelShape SHAPE = Block.makeCuboidShape(0, 0, 0, 16, 1.0, 16);
 
     public BlockFlowerGrass(Properties properties) {
-        super(Block.Properties.create(Material.PLANTS).sound(SoundType.PLANT));
+        super(Block.Properties.create(Material.PLANTS).sound(SoundType.PLANT).notSolid());
 
 
 
@@ -44,7 +45,8 @@ public class BlockFlowerGrass extends BushBlock {
 @Override
     public boolean isValidGround(BlockState state, IBlockReader worldIn, BlockPos pos) {
         Block block = state.getBlock();
-        return block == Blocks.GRASS_BLOCK || block == Blocks.DIRT || block == Blocks.COARSE_DIRT || block == Blocks.PODZOL ;
+        return block == Blocks.GRASS_BLOCK || block == Blocks.DIRT || block == Blocks.COARSE_DIRT
+                || block == Blocks.PODZOL || block == Blocks.SAND || block == ModBlocks.sparklingSand.get() ;
     }
 
     public boolean isValidPosition(BlockState state, IWorldReader worldIn, BlockPos pos) {
@@ -59,11 +61,11 @@ public class BlockFlowerGrass extends BushBlock {
     }
 
     public int tickRate(World worldIn) {
-        return 2;
+        return 3;
     }
 
-    public void randomTick(BlockState state, World worldIn, BlockPos pos, Random random) {
-        if (state.getBlock() == ModBlocks.walkFlowers.get()) {
+    public void tick(BlockState state, ServerWorld worldIn, BlockPos pos, Random rand) {
+        if (state.getBlock() == this) {
             worldIn.setBlockState(pos, Blocks.AIR.getDefaultState());
         }
 
@@ -73,7 +75,5 @@ public class BlockFlowerGrass extends BushBlock {
 
 
 
-    /*public BlockRenderLayer getBlockLayer() {
-        return BlockRenderLayer.CUTOUT;
-    }*/
+
 }

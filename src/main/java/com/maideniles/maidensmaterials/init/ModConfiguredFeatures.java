@@ -118,6 +118,7 @@ public class ModConfiguredFeatures {
             ModFeatures.PALM_TREE,
             ModBlocks.palmLog.get().getDefaultState(),
             ModBlocks.palmLeaves.get().getDefaultState(),
+
             5,
             9,
             0.5f,

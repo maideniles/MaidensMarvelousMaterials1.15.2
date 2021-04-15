@@ -1,6 +1,7 @@
 package com.maideniles.maidensmaterials;
 
 
+import com.maideniles.maidensmaterials.init.*;
 import com.maideniles.maidensmaterials.world.gen.decorator.tree.MaidensTreeDecoratorTypes;
 import net.minecraft.world.gen.treedecorator.TreeDecoratorType;
 
@@ -9,10 +10,6 @@ import org.apache.logging.log4j.Logger;
 
 import com.maideniles.maidensmaterials.client.RenderLayers;
 import com.maideniles.maidensmaterials.config.Config;
-import com.maideniles.maidensmaterials.init.BiomeInit;
-import com.maideniles.maidensmaterials.init.ModBlocks;
-import com.maideniles.maidensmaterials.init.ModFeatures;
-import com.maideniles.maidensmaterials.init.ModItems;
 import com.maideniles.maidensmaterials.potion.MaidensPotions;
 import com.maideniles.maidensmaterials.world.gen.OreGen;
 
@@ -47,6 +44,8 @@ public final class MarvelousMaterials {
 
         final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::setup);
+
+        ModEnchantments.ENCHANTMENTS.register(modEventBus);
 
         LOGGER.debug("Hello from Maiden's Materials!");
 

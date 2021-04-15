@@ -3,7 +3,7 @@ package com.maideniles.maidensmaterials.enchant;
 import com.maideniles.maidensmaterials.MarvelousMaterials;
 
 import com.maideniles.maidensmaterials.init.ModBlocks;
-//import com.maideniles.maidensmaterials.init.ModEnchantments;
+import com.maideniles.maidensmaterials.init.ModEnchantments;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -24,14 +24,14 @@ import net.minecraft.world.World;
 import net.minecraftforge.event.entity.living.LivingEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-/*
+
 @Mod.EventBusSubscriber(modid = MarvelousMaterials.MODID, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class EnchantmentFloralFeet extends Enchantment{
 
     public EnchantmentFloralFeet() {
         super(Enchantment.Rarity.VERY_RARE, EnchantmentType.ARMOR_FEET, new EquipmentSlotType[] {EquipmentSlotType.FEET});
 
-        this.setRegistryName("fancy_feet");
+
         ModBlocks.GRASS.add(ModBlocks.ornamentalGrass.get());
     }
 
@@ -75,13 +75,13 @@ public class EnchantmentFloralFeet extends Enchantment{
         return canApply(stack);
     }
 
-    /*@SubscribeEvent
+    @SubscribeEvent
     public static void growFlowersUnderFeet(LivingEvent.LivingUpdateEvent event) {
         if (!event.getEntity().world.isRemote) {
-            int level = EnchantmentHelper.getMaxEnchantmentLevel(ModEnchantments.FANCY_FEET,
+            int level = EnchantmentHelper.getMaxEnchantmentLevel(ModEnchantments.FANCY_FEET.get(),
                     event.getEntityLiving());
 
-            if (level >0 && event.getEntityLiving().onGround) {
+            if (level > 0 && event.getEntityLiving().onGround) {
                 Entity entity = event.getEntity();
                 if (entity instanceof PlayerEntity && ((PlayerEntity) entity).isSpectator()) {
                     return;
@@ -101,21 +101,21 @@ public class EnchantmentFloralFeet extends Enchantment{
 
                         if (iblockstate.getBlock() == Blocks.GRASS
 
-                                || iblockstate.getBlock().toString().toLowerCase().contains("grass")){
-                            if(world.getBlockState(entity.getPosition()).getBlock() != Blocks.SNOW) {
-                                if(ModBlocks.walkFlowers.get().isValidPosition(iblockstate, world, pos)) {
+                                || iblockstate.getBlock().toString().toLowerCase().contains("grass")) {
+                            if (world.getBlockState(entity.getPosition()).getBlock() != Blocks.SNOW) {
+                                if (ModBlocks.walkFlowers.get().isValidPosition(iblockstate, world, pos)) {
                                     world.setBlockState(pos, ModBlocks.walkFlowers.get().getDefaultState());
-                                   //Debug System.out.println("GROW FLOWERS!");
+                                    //Debug System.out.println("GROW FLOWERS!");
                                 }
                             }
                         }
                     }
                 }
             }
-        }*/
+        }
+    }
 
-
-
+    }
 
 
 

@@ -33,7 +33,9 @@ public class MaidensTreeCategory {
                 .heightRandA(maxHeight - baseHeight)
                 .foliageHeight(3)
                 .ignoreVines()
+                .decorators(ImmutableList.of(new BeehiveTreeDecorator(0.2f)))
                 .setSapling(sapling);
+
 
         // Create configured feature with these settings
         this.base = feature.withConfiguration(configBuilder.build());
@@ -45,9 +47,7 @@ public class MaidensTreeCategory {
 
         int baseTreesPerChunk = MathHelper.floor(treesPerChunk);
 
-        this.beehives = feature.withConfiguration(configBuilder
-                .decorators(ImmutableList.of(new BeehiveTreeDecorator(1.0f)))
-                .build());
+
 
         this.mushrooms = feature.withConfiguration(configBuilder
                 .decorators(ImmutableList.of(new MushroomTreeDecorator(0.25f)))
@@ -64,7 +64,7 @@ public class MaidensTreeCategory {
                         Placement.COUNT_EXTRA_HEIGHTMAP.configure(new AtSurfaceWithExtraConfig(baseTreesPerChunk, treesPerChunk - baseTreesPerChunk, 1)));
     }
 
-    public final ConfiguredFeature<TreeFeatureConfig, ?> beehives;
+
     public final ConfiguredFeature<TreeFeatureConfig, ?> mushrooms;
     public final ConfiguredFeature<TreeFeatureConfig, ?> base;
     public final ConfiguredFeature<TreeFeatureConfig, ?> vines;
