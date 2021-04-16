@@ -15,7 +15,7 @@
                   "predicate": {
                     "enchantments": [
                       {
-                        "enchantment": "maidensmaterials:flower_power",
+                        "enchantment": "maidensmaterials:flower_child",
                         "levels": {
                           "min": 1
                         }

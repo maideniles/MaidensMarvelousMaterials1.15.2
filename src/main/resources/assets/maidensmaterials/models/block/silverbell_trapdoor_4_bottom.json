@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"13": "maidensmaterials:block/silverbell_planks",
+		"13": "maidensmaterials:block/silverbell_trapdoor_4",
 		
-		"particle": "maidensmaterials:block/silverbell_planks"
+		"particle": "maidensmaterials:block/silverbell_trapdoor_4"
 	},
 	"elements": [
 		{

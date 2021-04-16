@@ -54,110 +54,163 @@ public class BlockClayVasePurple extends Block {
 
             if (blossom.getItem() == ModItems.CRABAPPLE_BLOSSOMS.get()){
 
-                System.out.println("RED FLOWER!");
+            //    System.out.println("RED FLOWER!");
                 worldIn.setBlockState(pos, ModBlocks.PurpleVaseRedFlower.get().getDefaultState());
             }
 
             if (blossom.getItem() == ModItems.POINCIANA_BLOSSOMS.get()){
 
-                System.out.println("ORANGE FLOWER!");
+           //     System.out.println("ORANGE FLOWER!");
                 worldIn.setBlockState(pos, ModBlocks.PurpleVaseOrangeFlower.get().getDefaultState());
             }
 
             if (blossom.getItem() == ModItems.LABURNUM_BLOSSOMS.get()){
 
-                System.out.println("YELLOW FLOWER!");
+           //     System.out.println("YELLOW FLOWER!");
                 worldIn.setBlockState(pos, ModBlocks.PurpleVaseYellowFlower.get().getDefaultState());
             }
 
             if (blossom.getItem() == ModItems.JADE_BLOSSOMS.get()){
 
-                System.out.println("GREEN FLOWER!");
+            //    System.out.println("GREEN FLOWER!");
                 worldIn.setBlockState(pos, ModBlocks.PurpleVaseGreenFlower.get().getDefaultState());
             }
 
             if (blossom.getItem() == ModItems.PAULOWNIA_BLOSSOMS.get()){
 
-                System.out.println("CYAN FLOWER!");
+           //     System.out.println("CYAN FLOWER!");
                 worldIn.setBlockState(pos, ModBlocks.PurpleVaseCyanFlower.get().getDefaultState());
             }
 
             if (blossom.getItem() == ModItems.WISTERIA_BLOSSOMS.get()){
 
-                System.out.println("BLUE FLOWER!");
+          //      System.out.println("BLUE FLOWER!");
                 worldIn.setBlockState(pos, ModBlocks.PurpleVaseBlueFlower.get().getDefaultState());
             }
 
             if (blossom.getItem() == ModItems.JACARANDA_BLOSSOMS.get()){
 
-                System.out.println("PURPLE FLOWER!");
+           //     System.out.println("PURPLE FLOWER!");
                 worldIn.setBlockState(pos, ModBlocks.PurpleVasePurpleFlower.get().getDefaultState());
             }
 
             if (blossom.getItem() == ModItems.DOGWOOD_BLOSSOMS.get()){
 
-                System.out.println("PINK FLOWER!");
+            //    System.out.println("PINK FLOWER!");
                 worldIn.setBlockState(pos, ModBlocks.PurpleVasePinkFlower.get().getDefaultState());
             }
 
             if (blossom.getItem() == ModItems.SILVERBELL_BLOSSOMS.get()){
 
-                System.out.println("WHITE FLOWER!");
+            //    System.out.println("WHITE FLOWER!");
                 worldIn.setBlockState(pos, ModBlocks.PurpleVaseWhiteFlower.get().getDefaultState());
             }
 
             if (blossom.getItem() == Item.getItemFromBlock(ModBlocks.crabappleSapling.get())){
 
-                System.out.println("RED SAPLING!");
+           //     System.out.println("RED SAPLING!");
                 worldIn.setBlockState(pos, ModBlocks.PurpleVaseRedSapling.get().getDefaultState());
             }
 
             if (blossom.getItem() == Item.getItemFromBlock(ModBlocks.poincianaSapling.get())){
 
-                System.out.println("ORANGE SAPLING!");
+            //    System.out.println("ORANGE SAPLING!");
                 worldIn.setBlockState(pos, ModBlocks.PurpleVaseOrangeSapling.get().getDefaultState());
             }
 
             if (blossom.getItem() == Item.getItemFromBlock(ModBlocks.laburnumSapling.get())){
 
-                System.out.println("YELLOW SAPLING!");
+           //     System.out.println("YELLOW SAPLING!");
                 worldIn.setBlockState(pos, ModBlocks.PurpleVaseYellowSapling.get().getDefaultState());
             }
 
             if (blossom.getItem() == Item.getItemFromBlock(ModBlocks.jadeSapling.get())){
 
-                System.out.println("GREEN SAPLING!");
+            //    System.out.println("GREEN SAPLING!");
                 worldIn.setBlockState(pos, ModBlocks.PurpleVaseGreenSapling.get().getDefaultState());
             }
 
             if (blossom.getItem() == Item.getItemFromBlock(ModBlocks.paulowniaSapling.get())){
 
-                System.out.println("CYAN SAPLING!");
+            //    System.out.println("CYAN SAPLING!");
                 worldIn.setBlockState(pos, ModBlocks.PurpleVaseCyanSapling.get().getDefaultState());
             }
 
             if (blossom.getItem() == Item.getItemFromBlock(ModBlocks.wisteriaSapling.get())){
 
-                System.out.println("BLUE SAPLING!");
+            //    System.out.println("BLUE SAPLING!");
                 worldIn.setBlockState(pos, ModBlocks.PurpleVaseBlueSapling.get().getDefaultState());
             }
 
             if (blossom.getItem() == Item.getItemFromBlock(ModBlocks.jacarandaSapling.get())){
 
-                System.out.println("PURPLE SAPLING!");
+             //   System.out.println("PURPLE SAPLING!");
                 worldIn.setBlockState(pos, ModBlocks.PurpleVasePurpleSapling.get().getDefaultState());
             }
 
             if (blossom.getItem() == Item.getItemFromBlock(ModBlocks.dogwoodSapling.get())){
 
-                System.out.println("PINK SAPLING!");
+              //  System.out.println("PINK SAPLING!");
                 worldIn.setBlockState(pos, ModBlocks.PurpleVasePinkSapling.get().getDefaultState());
             }
 
             if (blossom.getItem() == Item.getItemFromBlock(ModBlocks.silverbellSapling.get())){
 
-                System.out.println("WHITE SAPLING!");
+             //   System.out.println("WHITE SAPLING!");
                 worldIn.setBlockState(pos, ModBlocks.PurpleVaseWhiteSapling.get().getDefaultState());
+            }
+            if (blossom.getItem() == Item.getItemFromBlock(ModBlocks.appleSapling.get())){
+
+             //   System.out.println("APPLE SAPLING!");
+                worldIn.setBlockState(pos, ModBlocks.purpleVaseAppleSapling.get().getDefaultState());
+            }
+
+            if (blossom.getItem() == Item.getItemFromBlock(ModBlocks.pearSapling.get())){
+
+             //   System.out.println("APPLE SAPLING!");
+                worldIn.setBlockState(pos, ModBlocks.purpleVasePearSapling.get().getDefaultState());
+            }
+
+            if (blossom.getItem() == Item.getItemFromBlock(ModBlocks.peachSapling.get())){
+
+             //   System.out.println("APPLE SAPLING!");
+                worldIn.setBlockState(pos, ModBlocks.purpleVasePeachSapling.get().getDefaultState());
+            }
+
+            if (blossom.getItem() == Item.getItemFromBlock(ModBlocks.plumSapling.get())){
+
+             //   System.out.println("APPLE SAPLING!");
+                worldIn.setBlockState(pos, ModBlocks.purpleVasePlumSapling.get().getDefaultState());
+            }
+
+            if (blossom.getItem() == Item.getItemFromBlock(ModBlocks.orangeSapling.get())){
+
+              //  System.out.println("APPLE SAPLING!");
+                worldIn.setBlockState(pos, ModBlocks.purpleVaseOrangeFruitSapling.get().getDefaultState());
+            }
+
+            if (blossom.getItem() == Item.getItemFromBlock(ModBlocks.grapefruitSapling.get())){
+
+              //  System.out.println("APPLE SAPLING!");
+                worldIn.setBlockState(pos, ModBlocks.purpleVaseGrapeFruitSapling.get().getDefaultState());
+            }
+
+            if (blossom.getItem() == Item.getItemFromBlock(ModBlocks.lemonSapling.get())){
+
+              //  System.out.println("APPLE SAPLING!");
+                worldIn.setBlockState(pos, ModBlocks.purpleVaseLemonSapling.get().getDefaultState());
+            }
+
+            if (blossom.getItem() == Item.getItemFromBlock(ModBlocks.limeSapling.get())){
+
+       //         System.out.println("APPLE SAPLING!");
+                worldIn.setBlockState(pos, ModBlocks.purpleVaseLimeFruitSapling.get().getDefaultState());
+            }
+
+            if (blossom.getItem() == Item.getItemFromBlock(ModBlocks.cherrySapling.get())){
+
+        //        System.out.println("APPLE SAPLING!");
+                worldIn.setBlockState(pos, ModBlocks.purpleVaseCherrySapling.get().getDefaultState());
             }
 
         }

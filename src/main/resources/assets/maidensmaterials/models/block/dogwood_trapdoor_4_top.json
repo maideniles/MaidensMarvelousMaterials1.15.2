@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"13": "maidensmaterials:block/dogwood_planks",
+		"13": "maidensmaterials:block/dogwood_trapdoor_4",
 		
-		"particle": "maidensmaterials:block/dogwood_planks"
+		"particle": "maidensmaterials:block/dogwood_trapdoor_4"
 	},
 	"elements": [
 		{

@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "maidensmaterials:block/jade_planks",
-		"particle": "maidensmaterials:block/jade_planks"
+		"1": "maidensmaterials:block/jade_trapdoor_4",
+		"particle": "maidensmaterials:block/jade_trapdoor_4"
 	},
 		"elements": [
 		{

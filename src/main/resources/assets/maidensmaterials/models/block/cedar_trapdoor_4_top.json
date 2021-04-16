@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"13": "maidensmaterials:block/cedar_planks",
+		"13": "maidensmaterials:block/cedar_trapdoor_4",
 		
-		"particle": "maidensmaterials:block/cedar_planks"
+		"particle": "maidensmaterials:block/cedar_trapdoor_4"
 	},
 	"elements": [
 		{

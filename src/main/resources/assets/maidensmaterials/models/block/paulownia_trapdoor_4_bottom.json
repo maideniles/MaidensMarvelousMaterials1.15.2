@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"13": "maidensmaterials:block/paulownia_planks",
+		"13": "maidensmaterials:block/paulownia_trapdoor_4",
 		
-		"particle": "maidensmaterials:block/paulownia_planks"
+		"particle": "maidensmaterials:block/paulownia_trapdoor_4"
 	},
 	"elements": [
 		{

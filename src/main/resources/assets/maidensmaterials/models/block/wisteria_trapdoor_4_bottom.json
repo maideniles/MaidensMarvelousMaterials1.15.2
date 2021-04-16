@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"13": "maidensmaterials:block/wisteria_planks",
+		"13": "maidensmaterials:block/wisteria_trapdoor_4",
 		
-		"particle": "maidensmaterials:block/wisteria_planks"
+		"particle": "maidensmaterials:block/wisteria_trapdoor_4"
 	},
 	"elements": [
 		{

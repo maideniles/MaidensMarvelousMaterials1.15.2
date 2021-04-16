@@ -1,7 +1,7 @@
 {
     "parent": "block/door_bottom",
     "textures": {
-        "bottom": "maidensmaterials:block/door3_cedar_bottom",
-        "top": "maidensmaterials:block/door3_cedar_top"
+        "bottom": "maidensmaterials:block/cedar_door3_bottom",
+        "top": "maidensmaterials:block/cedar_door3_top"
     }
 }

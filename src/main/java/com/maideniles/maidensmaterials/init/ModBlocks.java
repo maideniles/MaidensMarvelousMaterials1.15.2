@@ -200,69 +200,69 @@ public class ModBlocks
 
     //LEAVES
     public static final RegistryObject<Block>  crabappleLeaves = createBlock("crabapple_leaves",
-            () -> new BlockCrabappleLeaves(Block.Properties.create(Material.PLANTS).hardnessAndResistance(0.5F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new BlockCrabappleLeaves(Block.Properties.create(Material.LEAVES).hardnessAndResistance(0.2F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block>   poincianaLeaves = createBlock( "poinciana_leaves",
-            () -> new BlockPoincianaLeaves(Block.Properties.create(Material.PLANTS).hardnessAndResistance(0.5F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new BlockPoincianaLeaves(Block.Properties.create(Material.LEAVES).hardnessAndResistance(0.2F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block>   laburnumLeaves = createBlock( "laburnum_leaves",
-            () -> new BlockLaburnumLeaves(Block.Properties.create(Material.PLANTS).hardnessAndResistance(0.5F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new BlockLaburnumLeaves(Block.Properties.create(Material.LEAVES).hardnessAndResistance(0.2F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block>  jadeLeaves = createBlock("jade_leaves",
-            () -> new BlockJadeLeaves(Block.Properties.create(Material.PLANTS).hardnessAndResistance(0.5F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new BlockJadeLeaves(Block.Properties.create(Material.LEAVES).hardnessAndResistance(0.2F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block>   paulowniaLeaves = createBlock("paulownia_leaves",
-            () -> new BlockPaulowniaLeaves(Block.Properties.create(Material.PLANTS).hardnessAndResistance(0.5F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new BlockPaulowniaLeaves(Block.Properties.create(Material.LEAVES).hardnessAndResistance(0.2F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block>   wisteriaLeaves = createBlock("wisteria_leaves",
-            () -> new BlockWisteriaLeaves(Block.Properties.create(Material.PLANTS).hardnessAndResistance(0.5F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new BlockWisteriaLeaves(Block.Properties.create(Material.LEAVES).hardnessAndResistance(0.2F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block>   jacarandaLeaves = createBlock("jacaranda_leaves",
-            () -> new BlockJacarandaLeaves(Block.Properties.create(Material.PLANTS).hardnessAndResistance(0.5F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new BlockJacarandaLeaves(Block.Properties.create(Material.LEAVES).hardnessAndResistance(0.2F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block>   dogwoodLeaves = createBlock("dogwood_leaves",
-            () -> new BlockDogwoodLeaves(Block.Properties.create(Material.PLANTS).hardnessAndResistance(0.5F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new BlockDogwoodLeaves(Block.Properties.create(Material.LEAVES).hardnessAndResistance(0.2F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block>   silverbellLeaves = createBlock("silverbell_leaves",
-            () -> new BlockSilverbellLeaves(Block.Properties.create(Material.PLANTS).hardnessAndResistance(0.5F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new BlockSilverbellLeaves(Block.Properties.create(Material.LEAVES).hardnessAndResistance(0.2F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block>   cedarLeaves = createBlock("cedar_leaves",
-            () -> new BlockCedarLeaves(Block.Properties.create(Material.PLANTS).hardnessAndResistance(0.5F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new BlockCedarLeaves(Block.Properties.create(Material.LEAVES).hardnessAndResistance(0.2F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
 //COMMENTING OUT UNTIL FIXED
 
     public static final RegistryObject<Block>   growingAppleLeaves = createBlock("apple_leaves",
-            () -> new GrowingAppleLeaves(Block.Properties.create(Material.PLANTS).notSolid().hardnessAndResistance(0.5F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new GrowingAppleLeaves(Block.Properties.create(Material.LEAVES).notSolid().hardnessAndResistance(0.2F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
 
     public static final RegistryObject<Block>   growingGrapefruitLeaves = createBlock("grapefruit_leaves",
-            () -> new GrowingGrapefruitLeaves(Block.Properties.create(Material.PLANTS).hardnessAndResistance(0.5F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new GrowingGrapefruitLeaves(Block.Properties.create(Material.LEAVES).hardnessAndResistance(0.2F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block>   growingLimeLeaves = createBlock("lime_leaves",
-            () -> new GrowingLimeLeaves(Block.Properties.create(Material.PLANTS).hardnessAndResistance(0.5F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new GrowingLimeLeaves(Block.Properties.create(Material.LEAVES).hardnessAndResistance(0.2F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block>   growingOrangeLeaves = createBlock("orange_leaves",
-            () -> new GrowingOrangeLeaves(Block.Properties.create(Material.PLANTS).hardnessAndResistance(0.5F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new GrowingOrangeLeaves(Block.Properties.create(Material.LEAVES).hardnessAndResistance(0.2F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block>   growingLemonLeaves = createBlock("lemon_leaves",
-            () -> new GrowingLemonLeaves(Block.Properties.create(Material.PLANTS).hardnessAndResistance(0.5F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new GrowingLemonLeaves(Block.Properties.create(Material.LEAVES).hardnessAndResistance(0.2F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block>   growingPeachLeaves = createBlock("peach_leaves",
-            () -> new GrowingPeachLeaves(Block.Properties.create(Material.PLANTS).hardnessAndResistance(0.5F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new GrowingPeachLeaves(Block.Properties.create(Material.LEAVES).hardnessAndResistance(0.2F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block>   growingPearLeaves = createBlock("pear_leaves",
-            () -> new GrowingPearLeaves(Block.Properties.create(Material.PLANTS).hardnessAndResistance(0.5F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new GrowingPearLeaves(Block.Properties.create(Material.LEAVES).hardnessAndResistance(0.2F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block>   growingPlumLeaves = createBlock("plum_leaves",
-            () -> new GrowingPlumLeaves(Block.Properties.create(Material.PLANTS).hardnessAndResistance(0.5F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new GrowingPlumLeaves(Block.Properties.create(Material.LEAVES).hardnessAndResistance(0.2F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block>   growingCherryLeaves = createBlock("cherry_leaves",
-            () -> new GrowingCherryLeaves(Block.Properties.create(Material.PLANTS).hardnessAndResistance(0.5F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new GrowingCherryLeaves(Block.Properties.create(Material.LEAVES).hardnessAndResistance(0.2F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
 
 
     public static final RegistryObject<Block> palmLeaves = createBlock("palm_leaves",
-            () -> new BlockPalmLeaves(Block.Properties.create(Material.PLANTS).hardnessAndResistance(0.5F, 2.0F).sound(SoundType.PLANT)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new BlockPalmLeaves(Block.Properties.create(Material.LEAVES).hardnessAndResistance(0.2F, 2.0F).sound(SoundType.PLANT)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     //SAPLINGS
 
@@ -1048,86 +1048,86 @@ public class ModBlocks
     public static final RegistryObject<Block> sparklingSand = createBlock("sparkling_sand",
             () -> new SparklingSand(14406560, Block.Properties.create(Material.SAND, MaterialColor.QUARTZ).hardnessAndResistance(0.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
-
-
     //STAIRS--WOOD--STAINED//
     public static final RegistryObject<Block> crabappleStairs = createBlock( "crabapple_stairs",
-            () -> new StairsBlock(() -> ModBlocks.crabapplePlanks.get().getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new StairsBlock(() -> ModBlocks.crabapplePlanks.get().getDefaultState(), Block.Properties.create(Material.WOOD, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block> poincianaStairs = createBlock( "poinciana_stairs",
-            () -> new StairsBlock(() -> ModBlocks.poincianaPlanks.get().getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new StairsBlock(() -> ModBlocks.poincianaPlanks.get().getDefaultState(), Block.Properties.create(Material.WOOD, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block> laburnumStairs = createBlock( "laburnum_stairs",
-            () -> new StairsBlock(() -> ModBlocks.laburnumPlanks.get().getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new StairsBlock(() -> ModBlocks.laburnumPlanks.get().getDefaultState(), Block.Properties.create(Material.WOOD, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block> jadeStairs = createBlock( "jade_stairs",
-            () -> new StairsBlock(() -> ModBlocks.jadePlanks.get().getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new StairsBlock(() -> ModBlocks.jadePlanks.get().getDefaultState(), Block.Properties.create(Material.WOOD, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block> paulowniaStairs = createBlock( "paulownia_stairs",
-            () -> new StairsBlock(() -> ModBlocks.paulowniaPlanks.get().getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new StairsBlock(() -> ModBlocks.paulowniaPlanks.get().getDefaultState(), Block.Properties.create(Material.WOOD, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block> wisteriaStairs = createBlock( "wisteria_stairs",
-            () -> new StairsBlock(() -> ModBlocks.wisteriaPlanks.get().getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new StairsBlock(() -> ModBlocks.wisteriaPlanks.get().getDefaultState(), Block.Properties.create(Material.WOOD, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block> jacarandaStairs = createBlock( "jacaranda_stairs",
-            () -> new StairsBlock(() -> ModBlocks.jacarandaPlanks.get().getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new StairsBlock(() -> ModBlocks.jacarandaPlanks.get().getDefaultState(), Block.Properties.create(Material.WOOD, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block> dogwoodStairs = createBlock( "dogwood_stairs",
-            () -> new StairsBlock(() -> ModBlocks.dogwoodPlanks.get().getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new StairsBlock(() -> ModBlocks.dogwoodPlanks.get().getDefaultState(), Block.Properties.create(Material.WOOD, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block> silverbellStairs = createBlock( "silverbell_stairs",
-            () -> new StairsBlock(() -> ModBlocks.silverbellPlanks.get().getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new StairsBlock(() -> ModBlocks.silverbellPlanks.get().getDefaultState(), Block.Properties.create(Material.WOOD, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block> cedarStairs = createBlock( "cedar_stairs",
-            () -> new StairsBlock(() -> ModBlocks.cedarPlanks.get().getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new StairsBlock(() -> ModBlocks.cedarPlanks.get().getDefaultState(), Block.Properties.create(Material.WOOD, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     //STAIRS--WOOD--STAINED//
     public static final RegistryObject<Block> redStainedStairs = createBlock( "red_stained_stairs",
-            () -> new StairsBlock(() -> ModBlocks.redStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new StairsBlock(() -> ModBlocks.redStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.WOOD, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block> orangeStainedStairs = createBlock( "orange_stained_stairs",
-            () -> new StairsBlock(() -> ModBlocks.orangeStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new StairsBlock(() -> ModBlocks.orangeStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.WOOD, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block> yellowStainedStairs = createBlock( "yellow_stained_stairs",
-            () -> new StairsBlock(() -> ModBlocks.yellowStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new StairsBlock(() -> ModBlocks.yellowStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.WOOD, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block> limeStainedStairs = createBlock( "lime_stained_stairs",
-            () -> new StairsBlock(() -> ModBlocks.limeStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new StairsBlock(() -> ModBlocks.limeStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.WOOD, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block> greenStainedStairs = createBlock( "green_stained_stairs",
-            () -> new StairsBlock(() -> ModBlocks.greenStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new StairsBlock(() -> ModBlocks.greenStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.WOOD, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block> cyanStainedStairs = createBlock( "cyan_stained_stairs",
-            () -> new StairsBlock(() -> ModBlocks.cyanStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new StairsBlock(() -> ModBlocks.cyanStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.WOOD, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block> lightBlueStainedStairs = createBlock( "light_blue_stained_stairs",
-            () -> new StairsBlock(() -> ModBlocks.lightBlueStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new StairsBlock(() -> ModBlocks.lightBlueStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.WOOD, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
     public static final RegistryObject<Block> blueStainedStairs = createBlock( "blue_stained_stairs",
-            () -> new StairsBlock(() -> ModBlocks.blueStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new StairsBlock(() -> ModBlocks.blueStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.WOOD, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block> purpleStainedStairs = createBlock( "purple_stained_stairs",
-            () -> new StairsBlock(() -> ModBlocks.purpleStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new StairsBlock(() -> ModBlocks.purpleStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.WOOD, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block> magentaStainedStairs = createBlock( "magenta_stained_stairs",
-            () -> new StairsBlock(() -> ModBlocks.magentaStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new StairsBlock(() -> ModBlocks.magentaStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.WOOD, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block> pinkStainedStairs = createBlock( "pink_stained_stairs",
-            () -> new StairsBlock(() -> ModBlocks.pinkStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new StairsBlock(() -> ModBlocks.pinkStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.WOOD, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block> whiteStainedStairs = createBlock( "white_stained_stairs",
-            () -> new StairsBlock(() -> ModBlocks.whiteStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new StairsBlock(() -> ModBlocks.whiteStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.WOOD, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block> lightGrayStainedStairs = createBlock( "light_gray_stained_stairs",
-            () -> new StairsBlock(() -> ModBlocks.lightGrayStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new StairsBlock(() -> ModBlocks.lightGrayStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.WOOD, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block> grayStainedStairs = createBlock( "gray_stained_stairs" ,
-            () -> new StairsBlock(() -> ModBlocks.grayStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new StairsBlock(() -> ModBlocks.grayStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.WOOD, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block> blackStainedStairs = createBlock( "black_stained_stairs",
-            () -> new StairsBlock(() -> ModBlocks.blackStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new StairsBlock(() -> ModBlocks.blackStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.WOOD, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block> brownStainedStairs = createBlock( "brown_stained_stairs",
-            () -> new StairsBlock(() -> ModBlocks.brownStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new StairsBlock(() -> ModBlocks.brownStainedPlanks.get().getDefaultState(), Block.Properties.create(Material.WOOD, MaterialColor.GOLD).hardnessAndResistance(1.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+
 
     //STAIRS--CLAY//
     public static final RegistryObject<Block> redClayStairs = createBlock( "red_clay_stairs",
@@ -3454,8 +3454,443 @@ public class ModBlocks
 
     //VASES-NO FLOWERS//
   // COMMENTING OUT UNTIL FIXED
-    public static final RegistryObject<Block> redVaseNoFlower = createBlock( "red_vase_no_flower",
+
+//vases with fruit tree saplings//
+    public static final RegistryObject<Block> blackVaseAppleSapling = createBlock( "black_vase_apple_sapling",
+            () -> new BlockClayVaseBlack(BlockClayVaseBlack.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> blackVasePearSapling = createBlock( "black_vase_pear_sapling",
+            () -> new BlockClayVaseBlack(BlockClayVaseBlack.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> blackVasePeachSapling = createBlock( "black_vase_peach_sapling",
+            () -> new BlockClayVaseBlack(BlockClayVaseBlack.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> blackVasePlumSapling = createBlock( "black_vase_plum_sapling",
+            () -> new BlockClayVaseBlack(BlockClayVaseBlack.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> blackVaseOrangeFruitSapling = createBlock( "black_vase_orange_fruit_sapling",
+            () -> new BlockClayVaseBlack(BlockClayVaseBlack.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> blackVaseGrapeFruitSapling = createBlock( "black_vase_grapefruit_sapling",
+            () -> new BlockClayVaseBlack(BlockClayVaseBlack.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> blackVaseLemonSapling = createBlock( "black_vase_lemon_sapling",
+            () -> new BlockClayVaseBlack(BlockClayVaseBlack.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> blackVaseLimeFruitSapling = createBlock( "black_vase_lime_fruit_sapling",
+            () -> new BlockClayVaseBlack(BlockClayVaseBlack.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> blackVaseCherrySapling = createBlock( "black_vase_cherry_sapling",
+            () -> new BlockClayVaseBlack(BlockClayVaseBlack.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> brownVaseAppleSapling = createBlock( "brown_vase_apple_sapling",
+            () -> new BlockClayVaseBrown(BlockClayVaseBrown.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> brownVasePearSapling = createBlock( "brown_vase_pear_sapling",
+            () -> new BlockClayVaseBrown(BlockClayVaseBrown.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> brownVasePeachSapling = createBlock( "brown_vase_peach_sapling",
+            () -> new BlockClayVaseBrown(BlockClayVaseBrown.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> brownVasePlumSapling = createBlock( "brown_vase_plum_sapling",
+            () -> new BlockClayVaseBrown(BlockClayVaseBrown.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> brownVaseOrangeFruitSapling = createBlock( "brown_vase_orange_fruit_sapling",
+            () -> new BlockClayVaseBrown(BlockClayVaseBrown.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> brownVaseGrapeFruitSapling = createBlock( "brown_vase_grapefruit_sapling",
+            () -> new BlockClayVaseBrown(BlockClayVaseBrown.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> brownVaseLemonSapling = createBlock( "brown_vase_lemon_sapling",
+            () -> new BlockClayVaseBrown(BlockClayVaseBrown.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> brownVaseLimeFruitSapling = createBlock( "brown_vase_lime_fruit_sapling",
+            () -> new BlockClayVaseBrown(BlockClayVaseBrown.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> brownVaseCherrySapling = createBlock( "brown_vase_cherry_sapling",
+            () -> new BlockClayVaseBrown(BlockClayVaseBrown.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> grayVaseAppleSapling = createBlock( "gray_vase_apple_sapling",
+            () -> new BlockClayVaseGray(BlockClayVaseGray.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> grayVasePearSapling = createBlock( "gray_vase_pear_sapling",
+            () -> new BlockClayVaseGray(BlockClayVaseGray.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> grayVasePeachSapling = createBlock( "gray_vase_peach_sapling",
+            () -> new BlockClayVaseGray(BlockClayVaseGray.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> grayVasePlumSapling = createBlock( "gray_vase_plum_sapling",
+            () -> new BlockClayVaseGray(BlockClayVaseGray.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> grayVaseOrangeFruitSapling = createBlock( "gray_vase_orange_fruit_sapling",
+            () -> new BlockClayVaseGray(BlockClayVaseGray.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> grayVaseGrapeFruitSapling = createBlock( "gray_vase_grapefruit_sapling",
+            () -> new BlockClayVaseGray(BlockClayVaseGray.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> grayVaseLemonSapling = createBlock( "gray_vase_lemon_sapling",
+            () -> new BlockClayVaseGray(BlockClayVaseGray.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> grayVaseLimeFruitSapling = createBlock( "gray_vase_lime_fruit_sapling",
+            () -> new BlockClayVaseGray(BlockClayVaseGray.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> grayVaseCherrySapling = createBlock( "gray_vase_cherry_sapling",
+            () -> new BlockClayVaseGray(BlockClayVaseGray.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> lightGrayVaseAppleSapling = createBlock( "light_gray_vase_apple_sapling",
+            () -> new BlockClayVaseLightGray(BlockClayVaseLightGray.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> lightGrayVasePearSapling = createBlock( "light_gray_vase_pear_sapling",
+            () -> new BlockClayVaseLightGray(BlockClayVaseLightGray.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> lightGrayVasePeachSapling = createBlock( "light_gray_vase_peach_sapling",
+            () -> new BlockClayVaseLightGray(BlockClayVaseLightGray.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> lightGrayVasePlumSapling = createBlock( "light_gray_vase_plum_sapling",
+            () -> new BlockClayVaseLightGray(BlockClayVaseLightGray.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> lightGrayVaseOrangeFruitSapling = createBlock( "light_gray_vase_orange_fruit_sapling",
+            () -> new BlockClayVaseLightGray(BlockClayVaseLightGray.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> lightGrayVaseGrapeFruitSapling = createBlock( "light_gray_vase_grapefruit_sapling",
+            () -> new BlockClayVaseLightGray(BlockClayVaseLightGray.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> lightGrayVaseLemonSapling = createBlock( "light_gray_vase_lemon_sapling",
+            () -> new BlockClayVaseLightGray(BlockClayVaseLightGray.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> lightGrayVaseLimeFruitSapling = createBlock( "light_gray_vase_lime_fruit_sapling",
+            () -> new BlockClayVaseLightGray(BlockClayVaseLightGray.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> lightGrayVaseCherrySapling = createBlock( "light_gray_vase_cherry_sapling",
+            () -> new BlockClayVaseLightGray(BlockClayVaseLightGray.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> whiteVaseAppleSapling = createBlock( "white_vase_apple_sapling",
+            () -> new BlockClayVaseWhite(BlockClayVaseWhite.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> whiteVasePearSapling = createBlock( "white_vase_pear_sapling",
+            () -> new BlockClayVaseWhite(BlockClayVaseWhite.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> whiteVasePeachSapling = createBlock( "white_vase_peach_sapling",
+            () -> new BlockClayVaseWhite(BlockClayVaseWhite.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> whiteVasePlumSapling = createBlock( "white_vase_plum_sapling",
+            () -> new BlockClayVaseWhite(BlockClayVaseWhite.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> whiteVaseOrangeFruitSapling = createBlock( "white_vase_orange_fruit_sapling",
+            () -> new BlockClayVaseWhite(BlockClayVaseWhite.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> whiteVaseGrapeFruitSapling = createBlock( "white_vase_grapefruit_sapling",
+            () -> new BlockClayVaseWhite(BlockClayVaseWhite.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> whiteVaseLemonSapling = createBlock( "white_vase_lemon_sapling",
+            () -> new BlockClayVaseWhite(BlockClayVaseWhite.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> whiteVaseLimeFruitSapling = createBlock( "white_vase_lime_fruit_sapling",
+            () -> new BlockClayVaseWhite(BlockClayVaseWhite.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> whiteVaseCherrySapling = createBlock( "white_vase_cherry_sapling",
+            () -> new BlockClayVaseWhite(BlockClayVaseWhite.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> pinkVaseAppleSapling = createBlock( "pink_vase_apple_sapling",
+            () -> new BlockClayVasePink(BlockClayVasePink.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> pinkVasePearSapling = createBlock( "pink_vase_pear_sapling",
+            () -> new BlockClayVasePink(BlockClayVasePink.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> pinkVasePeachSapling = createBlock( "pink_vase_peach_sapling",
+            () -> new BlockClayVasePink(BlockClayVasePink.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> pinkVasePlumSapling = createBlock( "pink_vase_plum_sapling",
+            () -> new BlockClayVasePink(BlockClayVasePink.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> pinkVaseOrangeFruitSapling = createBlock( "pink_vase_orange_fruit_sapling",
+            () -> new BlockClayVasePink(BlockClayVasePink.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> pinkVaseGrapeFruitSapling = createBlock( "pink_vase_grapefruit_sapling",
+            () -> new BlockClayVasePink(BlockClayVasePink.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> pinkVaseLemonSapling = createBlock( "pink_vase_lemon_sapling",
+            () -> new BlockClayVasePink(BlockClayVasePink.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> pinkVaseLimeFruitSapling = createBlock( "pink_vase_lime_fruit_sapling",
+            () -> new BlockClayVasePink(BlockClayVasePink.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> pinkVaseCherrySapling = createBlock( "pink_vase_cherry_sapling",
+            () -> new BlockClayVasePink(BlockClayVasePink.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> magentaVaseAppleSapling = createBlock( "magenta_vase_apple_sapling",
+            () -> new BlockClayVaseMagenta(BlockClayVaseMagenta.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> magentaVasePearSapling = createBlock( "magenta_vase_pear_sapling",
+            () -> new BlockClayVaseMagenta(BlockClayVaseMagenta.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> magentaVasePeachSapling = createBlock( "magenta_vase_peach_sapling",
+            () -> new BlockClayVaseMagenta(BlockClayVaseMagenta.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> magentaVasePlumSapling = createBlock( "magenta_vase_plum_sapling",
+            () -> new BlockClayVaseMagenta(BlockClayVaseMagenta.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> magentaVaseOrangeFruitSapling = createBlock( "magenta_vase_orange_fruit_sapling",
+            () -> new BlockClayVaseMagenta(BlockClayVaseMagenta.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> magentaVaseGrapeFruitSapling = createBlock( "magenta_vase_grapefruit_sapling",
+            () -> new BlockClayVaseMagenta(BlockClayVaseMagenta.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> magentaVaseLemonSapling = createBlock( "magenta_vase_lemon_sapling",
+            () -> new BlockClayVaseMagenta(BlockClayVaseMagenta.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> magentaVaseLimeFruitSapling = createBlock( "magenta_vase_lime_fruit_sapling",
+            () -> new BlockClayVaseMagenta(BlockClayVaseMagenta.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> magentaVaseCherrySapling = createBlock( "magenta_vase_cherry_sapling",
+            () -> new BlockClayVaseMagenta(BlockClayVaseMagenta.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> purpleVaseAppleSapling = createBlock( "purple_vase_apple_sapling",
+            () -> new BlockClayVasePurple(BlockClayVasePurple.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> purpleVasePearSapling = createBlock( "purple_vase_pear_sapling",
+            () -> new BlockClayVasePurple(BlockClayVasePurple.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> purpleVasePeachSapling = createBlock( "purple_vase_peach_sapling",
+            () -> new BlockClayVasePurple(BlockClayVasePurple.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> purpleVasePlumSapling = createBlock( "purple_vase_plum_sapling",
+            () -> new BlockClayVasePurple(BlockClayVasePurple.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> purpleVaseOrangeFruitSapling = createBlock( "purple_vase_orange_fruit_sapling",
+            () -> new BlockClayVasePurple(BlockClayVasePurple.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> purpleVaseGrapeFruitSapling = createBlock( "purple_vase_grapefruit_sapling",
+            () -> new BlockClayVasePurple(BlockClayVasePurple.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> purpleVaseLemonSapling = createBlock( "purple_vase_lemon_sapling",
+            () -> new BlockClayVasePurple(BlockClayVasePurple.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> purpleVaseLimeFruitSapling = createBlock( "purple_vase_lime_fruit_sapling",
+            () -> new BlockClayVasePurple(BlockClayVasePurple.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> purpleVaseCherrySapling = createBlock( "purple_vase_cherry_sapling",
+            () -> new BlockClayVasePurple(BlockClayVasePurple.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> blueVaseAppleSapling = createBlock( "blue_vase_apple_sapling",
+            () -> new BlockClayVaseBlue(BlockClayVaseBlue.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> blueVasePearSapling = createBlock( "blue_vase_pear_sapling",
+            () -> new BlockClayVaseBlue(BlockClayVaseBlue.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> blueVasePeachSapling = createBlock( "blue_vase_peach_sapling",
+            () -> new BlockClayVaseBlue(BlockClayVaseBlue.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> blueVasePlumSapling = createBlock( "blue_vase_plum_sapling",
+            () -> new BlockClayVaseBlue(BlockClayVaseBlue.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> blueVaseOrangeFruitSapling = createBlock( "blue_vase_orange_fruit_sapling",
+            () -> new BlockClayVaseBlue(BlockClayVaseBlue.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> blueVaseGrapeFruitSapling = createBlock( "blue_vase_grapefruit_sapling",
+            () -> new BlockClayVaseBlue(BlockClayVaseBlue.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> blueVaseLemonSapling = createBlock( "blue_vase_lemon_sapling",
+            () -> new BlockClayVaseBlue(BlockClayVaseBlue.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> blueVaseLimeFruitSapling = createBlock( "blue_vase_lime_fruit_sapling",
+            () -> new BlockClayVaseBlue(BlockClayVaseBlue.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> blueVaseCherrySapling = createBlock( "blue_vase_cherry_sapling",
+            () -> new BlockClayVaseBlue(BlockClayVaseBlue.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> lightBlueVaseAppleSapling = createBlock( "light_blue_vase_apple_sapling",
+            () -> new BlockClayVaseLightBlue(BlockClayVaseLightBlue.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> lightBlueVasePearSapling = createBlock( "light_blue_vase_pear_sapling",
+            () -> new BlockClayVaseLightBlue(BlockClayVaseLightBlue.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> lightBlueVasePeachSapling = createBlock( "light_blue_vase_peach_sapling",
+            () -> new BlockClayVaseLightBlue(BlockClayVaseLightBlue.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> lightBlueVasePlumSapling = createBlock( "light_blue_vase_plum_sapling",
+            () -> new BlockClayVaseLightBlue(BlockClayVaseLightBlue.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> lightBlueVaseOrangeFruitSapling = createBlock( "light_blue_vase_orange_fruit_sapling",
+            () -> new BlockClayVaseLightBlue(BlockClayVaseLightBlue.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> lightBlueVaseGrapeFruitSapling = createBlock( "light_blue_vase_grapefruit_sapling",
+            () -> new BlockClayVaseLightBlue(BlockClayVaseLightBlue.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> lightBlueVaseLemonSapling = createBlock( "light_blue_vase_lemon_sapling",
+            () -> new BlockClayVaseLightBlue(BlockClayVaseLightBlue.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> lightBlueVaseLimeFruitSapling = createBlock( "light_blue_vase_lime_fruit_sapling",
+            () -> new BlockClayVaseLightBlue(BlockClayVaseLightBlue.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> lightBlueVaseCherrySapling = createBlock( "light_blue_vase_cherry_sapling",
+            () -> new BlockClayVaseLightBlue(BlockClayVaseLightBlue.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> cyanVaseAppleSapling = createBlock( "cyan_vase_apple_sapling",
+            () -> new BlockClayVaseCyan(BlockClayVaseCyan.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> cyanVasePearSapling = createBlock( "cyan_vase_pear_sapling",
+            () -> new BlockClayVaseCyan(BlockClayVaseCyan.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> cyanVasePeachSapling = createBlock( "cyan_vase_peach_sapling",
+            () -> new BlockClayVaseCyan(BlockClayVaseCyan.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> cyanVasePlumSapling = createBlock( "cyan_vase_plum_sapling",
+            () -> new BlockClayVaseCyan(BlockClayVaseCyan.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> cyanVaseOrangeFruitSapling = createBlock( "cyan_vase_orange_fruit_sapling",
+            () -> new BlockClayVaseCyan(BlockClayVaseCyan.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> cyanVaseGrapeFruitSapling = createBlock( "cyan_vase_grapefruit_sapling",
+            () -> new BlockClayVaseCyan(BlockClayVaseCyan.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> cyanVaseLemonSapling = createBlock( "cyan_vase_lemon_sapling",
+            () -> new BlockClayVaseCyan(BlockClayVaseCyan.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> cyanVaseLimeFruitSapling = createBlock( "cyan_vase_lime_fruit_sapling",
+            () -> new BlockClayVaseCyan(BlockClayVaseCyan.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> cyanVaseCherrySapling = createBlock( "cyan_vase_cherry_sapling",
+            () -> new BlockClayVaseCyan(BlockClayVaseCyan.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> greenVaseAppleSapling = createBlock( "green_vase_apple_sapling",
+            () -> new BlockClayVaseGreen(BlockClayVaseGreen.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> greenVasePearSapling = createBlock( "green_vase_pear_sapling",
+            () -> new BlockClayVaseGreen(BlockClayVaseGreen.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> greenVasePeachSapling = createBlock( "green_vase_peach_sapling",
+            () -> new BlockClayVaseGreen(BlockClayVaseGreen.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> greenVasePlumSapling = createBlock( "green_vase_plum_sapling",
+            () -> new BlockClayVaseGreen(BlockClayVaseGreen.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> greenVaseOrangeFruitSapling = createBlock( "green_vase_orange_fruit_sapling",
+            () -> new BlockClayVaseGreen(BlockClayVaseGreen.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> greenVaseGrapeFruitSapling = createBlock( "green_vase_grapefruit_sapling",
+            () -> new BlockClayVaseGreen(BlockClayVaseGreen.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> greenVaseLemonSapling = createBlock( "green_vase_lemon_sapling",
+            () -> new BlockClayVaseGreen(BlockClayVaseGreen.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> greenVaseLimeFruitSapling = createBlock( "green_vase_lime_fruit_sapling",
+            () -> new BlockClayVaseGreen(BlockClayVaseGreen.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> greenVaseCherrySapling = createBlock( "green_vase_cherry_sapling",
+            () -> new BlockClayVaseGreen(BlockClayVaseGreen.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> limeVaseAppleSapling = createBlock( "lime_vase_apple_sapling",
+            () -> new BlockClayVaseLime(BlockClayVaseLime.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> limeVasePearSapling = createBlock( "lime_vase_pear_sapling",
+            () -> new BlockClayVaseLime(BlockClayVaseLime.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> limeVasePeachSapling = createBlock( "lime_vase_peach_sapling",
+            () -> new BlockClayVaseLime(BlockClayVaseLime.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> limeVasePlumSapling = createBlock( "lime_vase_plum_sapling",
+            () -> new BlockClayVaseLime(BlockClayVaseLime.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> limeVaseOrangeFruitSapling = createBlock( "lime_vase_orange_fruit_sapling",
+            () -> new BlockClayVaseLime(BlockClayVaseLime.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> limeVaseGrapeFruitSapling = createBlock( "lime_vase_grapefruit_sapling",
+            () -> new BlockClayVaseLime(BlockClayVaseLime.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> limeVaseLemonSapling = createBlock( "lime_vase_lemon_sapling",
+            () -> new BlockClayVaseLime(BlockClayVaseLime.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> limeVaseLimeFruitSapling = createBlock( "lime_vase_lime_fruit_sapling",
+            () -> new BlockClayVaseLime(BlockClayVaseLime.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> limeVaseCherrySapling = createBlock( "lime_vase_cherry_sapling",
+            () -> new BlockClayVaseLime(BlockClayVaseLime.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> yellowVaseAppleSapling = createBlock( "yellow_vase_apple_sapling",
+            () -> new BlockClayVaseYellow(BlockClayVaseYellow.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> yellowVasePearSapling = createBlock( "yellow_vase_pear_sapling",
+            () -> new BlockClayVaseYellow(BlockClayVaseYellow.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> yellowVasePeachSapling = createBlock( "yellow_vase_peach_sapling",
+            () -> new BlockClayVaseYellow(BlockClayVaseYellow.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> yellowVasePlumSapling = createBlock( "yellow_vase_plum_sapling",
+            () -> new BlockClayVaseYellow(BlockClayVaseYellow.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> yellowVaseOrangeFruitSapling = createBlock( "yellow_vase_orange_fruit_sapling",
+            () -> new BlockClayVaseYellow(BlockClayVaseYellow.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> yellowVaseGrapeFruitSapling = createBlock( "yellow_vase_grapefruit_sapling",
+            () -> new BlockClayVaseYellow(BlockClayVaseYellow.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> yellowVaseLemonSapling = createBlock( "yellow_vase_lemon_sapling",
+            () -> new BlockClayVaseYellow(BlockClayVaseYellow.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> yellowVaseLimeFruitSapling = createBlock( "yellow_vase_lime_fruit_sapling",
+            () -> new BlockClayVaseYellow(BlockClayVaseYellow.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> yellowVaseCherrySapling = createBlock( "yellow_vase_cherry_sapling",
+            () -> new BlockClayVaseYellow(BlockClayVaseYellow.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> orangeVaseAppleSapling = createBlock( "orange_vase_apple_sapling",
+            () -> new BlockClayVaseOrange(BlockClayVaseOrange.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> orangeVasePearSapling = createBlock( "orange_vase_pear_sapling",
+            () -> new BlockClayVaseOrange(BlockClayVaseOrange.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> orangeVasePeachSapling = createBlock( "orange_vase_peach_sapling",
+            () -> new BlockClayVaseOrange(BlockClayVaseOrange.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> orangeVasePlumSapling = createBlock( "orange_vase_plum_sapling",
+            () -> new BlockClayVaseOrange(BlockClayVaseOrange.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> orangeVaseOrangeFruitSapling = createBlock( "orange_vase_orange_fruit_sapling",
+            () -> new BlockClayVaseOrange(BlockClayVaseOrange.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> orangeVaseGrapeFruitSapling = createBlock( "orange_vase_grapefruit_sapling",
+            () -> new BlockClayVaseOrange(BlockClayVaseOrange.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> orangeVaseLemonSapling = createBlock( "orange_vase_lemon_sapling",
+            () -> new BlockClayVaseOrange(BlockClayVaseOrange.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> orangeVaseLimeFruitSapling = createBlock( "orange_vase_lime_fruit_sapling",
+            () -> new BlockClayVaseOrange(BlockClayVaseOrange.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> orangeVaseCherrySapling = createBlock( "orange_vase_cherry_sapling",
+            () -> new BlockClayVaseOrange(BlockClayVaseOrange.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> redVaseAppleSapling = createBlock( "red_vase_apple_sapling",
             () -> new BlockClayVaseRed(BlockClayVaseRed.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> redVasePearSapling = createBlock( "red_vase_pear_sapling",
+            () -> new BlockClayVaseRed(BlockClayVaseRed.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> redVasePeachSapling = createBlock( "red_vase_peach_sapling",
+            () -> new BlockClayVaseRed(BlockClayVaseRed.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> redVasePlumSapling = createBlock( "red_vase_plum_sapling",
+            () -> new BlockClayVaseRed(BlockClayVaseRed.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> redVaseOrangeFruitSapling = createBlock( "red_vase_orange_fruit_sapling",
+            () -> new BlockClayVaseRed(BlockClayVaseRed.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> redVaseGrapeFruitSapling = createBlock( "red_vase_grapefruit_sapling",
+            () -> new BlockClayVaseRed(BlockClayVaseRed.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> redVaseLemonSapling = createBlock( "red_vase_lemon_sapling",
+            () -> new BlockClayVaseRed(BlockClayVaseRed.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> redVaseLimeFruitSapling = createBlock( "red_vase_lime_fruit_sapling",
+            () -> new BlockClayVaseRed(BlockClayVaseRed.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> redVaseCherrySapling = createBlock( "red_vase_cherry_sapling",
+            () -> new BlockClayVaseRed(BlockClayVaseRed.Properties.create(Material.ROCK).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+
+    public static final RegistryObject<Block> redVaseNoFlower = createBlock( "red_vase_no_flower",
+            () -> new BlockClayVaseRed(BlockClayVaseRed.Properties.create(Material.CLAY).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block> orangeVaseNoFlower = createBlock( "orange_vase_no_flower",
             () -> new BlockClayVaseOrange(BlockClayVaseOrange.Properties.create(Material.CLAY).hardnessAndResistance(2.0F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);

@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"13": "maidensmaterials:block/crabapple_planks",
+		"13": "maidensmaterials:block/crabapple_trapdoor_4",
 		
-		"particle": "maidensmaterials:block/crabapple_planks"
+		"particle": "maidensmaterials:block/crabapple_trapdoor_4"
 	},
 	"elements": [
 		{

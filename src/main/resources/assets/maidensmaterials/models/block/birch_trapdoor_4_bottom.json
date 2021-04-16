@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"13": "maidensmaterials:block/birch_planks",
+		"13": "maidensmaterials:block/birch_trapdoor_4",
 		
-		"particle": "maidensmaterials:block/birch_planks"
+		"particle": "maidensmaterials:block/birch_trapdoor_4"
 	},
 	"elements": [
 		{

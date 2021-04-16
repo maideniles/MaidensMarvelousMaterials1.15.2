@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "maidensmaterials:block/laburnum_planks",
-		"particle": "maidensmaterials:block/laburnum_planks"
+		"1": "maidensmaterials:block/laburnum_trapdoor_4",
+		"particle": "maidensmaterials:block/laburnum_trapdoor_4"
 	},
 		"elements": [
 		{
