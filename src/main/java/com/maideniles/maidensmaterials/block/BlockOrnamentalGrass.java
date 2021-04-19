@@ -26,91 +26,57 @@ import net.minecraftforge.common.IPlantable;
 
 import java.util.List;
 import java.util.Random;
-
 public class BlockOrnamentalGrass extends GrassBlock implements IGrowable {
-
-
-    private Block spreadsTo;
-
     public BlockOrnamentalGrass(Properties properties) {
-
-        super(Block.Properties.create(Material.PLANTS).sound(SoundType.PLANT));
-        this.spreadsTo = spreadsTo;
+        super(properties);
     }
-
-
-    public boolean canUseBonemeal(World worldIn, Random rand, BlockPos pos, BlockState state) {
-        return true;
-    }
-
-
-
-    public void tick(BlockState state, ServerWorld world, BlockPos pos, Random rand) {
-        if (!checkLight(state, world, pos)) {
-            if (!world.isAreaLoaded(pos, 3)) {
-                return;
-            }
-
-            world.setBlockState(pos, this.spreadsTo.getDefaultState());
-        } else {
-            BlockState ourState = this.getDefaultState();
-            BlockState grassState = ModBlocks.ornamentalGrass.get().getDefaultState();
-
-            if (world.getLight(pos.up()) >= 9) {
-                for(int i = 0; i < 4; ++i) {
-                    BlockPos blockpos = pos.add(rand.nextInt(3) - 1, rand.nextInt(5) - 3, rand.nextInt(3) - 1);
-                    Block blocc = world.getBlockState(blockpos).getBlock();
-                    boolean stone = blocc == this.spreadsTo;
-                    boolean dirt = blocc == Blocks.DIRT || blocc == Blocks.COARSE_DIRT;
-
-                    if (stone) {
-                        // spreading to stone is 3x rarer.
-                        if (rand.nextInt(3) == 0 && checkFluidAndLight(ourState, world, blockpos)) {
-                            world.setBlockState(blockpos, ourState);
+    /*
+        public boolean canUseBonemeal(World worldIn, Random rand, BlockPos pos, BlockState state) {
+            return true;
+        }
+        public void grow(World worldIn, Random rand, BlockPos pos, BlockState state) {
+            BlockPos blockpos = pos.up();
+            BlockState blockstate = Blocks.GRASS.getDefaultState();
+            for(int i = 0; i < 128; ++i) {
+                BlockPos blockpos1 = blockpos;
+                int j = 0;
+                while(true) {
+                    if (j >= i / 16) {
+                        BlockState blockstate2 = worldIn.getBlockState(blockpos1);
+                        if (blockstate2.getBlock() == blockstate.getBlock() && rand.nextInt(10) == 0) {
+                            ((IGrowable)blockstate.getBlock()).grow(worldIn, rand, blockpos1, blockstate2);
                         }
-                    } else if (dirt) {
-                        if (checkFluidAndLight(ourState, world, blockpos)) {
-                            world.setBlockState(blockpos, grassState);
+                        if (!blockstate2.isAir()) {
+                            break;
                         }
+                        BlockState blockstate1;
+                        if (rand.nextInt(8) == 0) {
+                            List<ConfiguredFeature<?>> list = worldIn.getBiome(blockpos1).getFlowers();
+                            if (list.isEmpty()) {
+                                break;
+                            }
+                            blockstate1 = ((FlowersFeature)((DecoratedFeatureConfig)(list.get(0)).config).feature.feature).getRandomFlower(rand, blockpos1);
+                        } else {
+                            blockstate1 = blockstate;
+                        }
+                        if (blockstate1.isValidPosition(worldIn, blockpos1)) {
+                            worldIn.setBlockState(blockpos1, blockstate1, 3);
+                        }
+                        break;
                     }
+                    blockpos1 = blockpos1.add(rand.nextInt(3) - 1, (rand.nextInt(3) - 1) * rand.nextInt(3) / 2, rand.nextInt(3) - 1);
+                    if (worldIn.getBlockState(blockpos1.down()).getBlock() != this || worldIn.getBlockState(blockpos1).func_224756_o(worldIn, blockpos1)) {
+                        break;
+                    }
+                    ++j;
                 }
             }
 
-        }
-    }
-
+     */
 
 
     @Override
     public boolean canSustainPlant(BlockState state, IBlockReader world, BlockPos pos, Direction facing, IPlantable plantable) {
         return true;
     }
-
-    private static boolean checkFluidAndLight(BlockState state, IWorldReader worldReader, BlockPos pos) {
-        BlockPos upPos = pos.up();
-        return checkLight(state, worldReader, pos) && !worldReader.getFluidState(upPos).isTagged(FluidTags.WATER);
-    }
-
-    private static boolean checkLight(BlockState state, IWorldReader worldReader, BlockPos pos) {
-        BlockPos upPos = pos.up();
-        BlockState upState = worldReader.getBlockState(upPos);
-        int lightLevel = LightEngine.func_215613_a(worldReader, state, pos, upState, upPos, Direction.UP, upState.getOpacity(worldReader, upPos));
-        return lightLevel < worldReader.getMaxLightLevel();
-    }
-
-
-    @Override
-    public boolean ticksRandomly(BlockState state) {
-        return true;
-    }
-
 }
-
-
-
-
-
-
-
-
-

@@ -19,53 +19,63 @@ public class OreGen {
 
     public static void setupOreGen()
     {
-        //Aventurine
-        ConfiguredPlacement configAventurine = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.aventurine_chance.get(), 5, 5, 25));
-        ConfiguredPlacement configAventurineNether = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.aventurine_nether_chance.get(), 5, 5, 25));
 
-        //Carnelian
-        ConfiguredPlacement configCarnelian = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.carnelian_chance.get(), 5, 5, 25));
-        ConfiguredPlacement configCarnelianNether = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.carnelian_nether_chance.get(), 5, 5, 25));
-
-        //Chalcopyrite
-        ConfiguredPlacement configChalcopyrite = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.chalcopyrite_chance.get(), 5, 5, 25));
-        ConfiguredPlacement configChalcopyriteNether = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.chalcopyrite_nether_chance.get(), 5, 5, 25));
+    //COMMON
 
         //Citrine
-        ConfiguredPlacement configCitrine = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.citrine_chance.get(), 5, 5, 25));
-        ConfiguredPlacement configCitrineNether = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.citrine_nether_chance.get(), 5, 5, 25));
+        ConfiguredPlacement configCitrine = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.citrine_chance.get(), 5, 5, 15));
+        ConfiguredPlacement configCitrineNether = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.citrine_nether_chance.get(), 5, 5, 15));
 
         //Jade
-        ConfiguredPlacement configJade = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.jade_chance.get(), 5, 5, 25));
-        ConfiguredPlacement configJadeNether = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.jade_nether_chance.get(), 5, 5, 25));
+        ConfiguredPlacement configJade = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.jade_chance.get(), 5, 5, 15));
+        ConfiguredPlacement configJadeNether = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.jade_nether_chance.get(), 5, 5, 15));
 
         //Jasper
-        ConfiguredPlacement configJasper = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.jasper_chance.get(), 5, 5, 25));
-        ConfiguredPlacement configJasperNether = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.jasper_nether_chance.get(), 5, 5, 25));
+        ConfiguredPlacement configJasper = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.jasper_chance.get(), 5, 5, 15));
+        ConfiguredPlacement configJasperNether = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.jasper_nether_chance.get(), 5, 5, 15));
+
+        //Moonstone
+        ConfiguredPlacement configMoonstone = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.moonstone_chance.get(), 5, 5, 15));
+        ConfiguredPlacement configMoonstoneNether = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.moonstone_nether_chance.get(), 5, 5, 15));
+
+
+    //UNCOMMON
 
         //Labradorite
-        ConfiguredPlacement configLabradorite = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.labradorite_chance.get(), 5, 5, 25));
-        ConfiguredPlacement configLabradoriteNether = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.labradorite_nether_chance.get(), 5, 5, 25));
+        ConfiguredPlacement configLabradorite = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.labradorite_chance.get(), 5, 5, 12));
+        ConfiguredPlacement configLabradoriteNether = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.labradorite_nether_chance.get(), 5, 5, 12));
 
         //Mica
-        ConfiguredPlacement configMica = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.mica_chance.get(), 5, 5, 25));
-        ConfiguredPlacement configMicaNether = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.mica_nether_chance.get(), 5, 5, 25));
+        ConfiguredPlacement configMica = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.mica_chance.get(), 5, 5, 12));
+        ConfiguredPlacement configMicaNether = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.mica_nether_chance.get(), 5, 5, 12));
 
-        //Moonstone
-        ConfiguredPlacement configMoonstone = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.moonstone_chance.get(), 5, 5, 25));
-        ConfiguredPlacement configMoonstoneNether = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.moonstone_nether_chance.get(), 5, 5, 25));
+        //Aventurine
+        ConfiguredPlacement configAventurine = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.aventurine_chance.get(), 5, 5, 12));
+        ConfiguredPlacement configAventurineNether = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.aventurine_nether_chance.get(), 5, 5, 12));
 
-        //Moonstone
-        ConfiguredPlacement configRoseQuartz = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.rosequartz_chance.get(), 5, 5, 25));
-        ConfiguredPlacement configRoseQuartzNether = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.rosequartz_nether_chance.get(), 5, 5, 25));
+        //Rose Quartz
+        ConfiguredPlacement configRoseQuartz = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.rosequartz_chance.get(), 5, 5, 12));
+        ConfiguredPlacement configRoseQuartzNether = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.rosequartz_nether_chance.get(), 5, 5, 12));
 
-        //Soladite
-        ConfiguredPlacement configSodalite = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.sodalite_chance.get(), 5, 5, 25));
-        ConfiguredPlacement configSodaliteNether = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.sodalite_nether_chance.get(), 5, 5, 25));
+    //RARE
 
-        //Soladite
-        ConfiguredPlacement configAmethyst = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.amethyst_chance.get(), 5, 5, 25));
-        ConfiguredPlacement configAmethystNether = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.amethyst_nether_chance.get(), 5, 5, 25));
+        //Carnelian
+        ConfiguredPlacement configCarnelian = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.carnelian_chance.get(), 5, 5, 10));
+        ConfiguredPlacement configCarnelianNether = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.carnelian_nether_chance.get(), 5, 5, 10));
+
+        //Chalcopyrite
+        ConfiguredPlacement configChalcopyrite = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.chalcopyrite_chance.get(), 5, 5, 10));
+        ConfiguredPlacement configChalcopyriteNether = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.chalcopyrite_nether_chance.get(), 5, 5, 10));
+
+        //Sodalite
+        ConfiguredPlacement configSodalite = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.sodalite_chance.get(), 5, 5, 10));
+        ConfiguredPlacement configSodaliteNether = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.sodalite_nether_chance.get(), 5, 5, 10));
+
+        //Amethyst
+        ConfiguredPlacement configAmethyst = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.amethyst_chance.get(), 5, 5, 10));
+        ConfiguredPlacement configAmethystNether = Placement.COUNT_RANGE.configure(new CountRangeConfig(ConfigBuilder.amethyst_nether_chance.get(), 5, 5, 10));
+
+
 
         for (Biome biome : ForgeRegistries.BIOMES.getValues())
         {
@@ -144,62 +154,62 @@ public class OreGen {
                 {
                     biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE
                             .withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE,
-                                    ModBlocks.aventurineOre.get().getDefaultState(), 10))
+                                    ModBlocks.aventurineOre.get().getDefaultState(), 7))
                             .withPlacement(configAventurine));
 
                     biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE
                             .withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE,
-                                    ModBlocks.carnelianOre.get().getDefaultState(), 10))
+                                    ModBlocks.carnelianOre.get().getDefaultState(), 4))
                             .withPlacement(configCarnelian));
 
                     biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE
                             .withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE,
-                                    ModBlocks.chalcopyriteOre.get().getDefaultState(), 10))
+                                    ModBlocks.chalcopyriteOre.get().getDefaultState(), 5))
                             .withPlacement(configChalcopyrite));
 
                     biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE
                             .withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE,
-                                    ModBlocks.citrineOre.get().getDefaultState(), 10))
+                                    ModBlocks.citrineOre.get().getDefaultState(), 6))
                             .withPlacement(configCitrine));
 
                     biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE
                             .withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE,
-                                    ModBlocks.jadeOre.get().getDefaultState(), 10))
+                                    ModBlocks.jadeOre.get().getDefaultState(), 7))
                             .withPlacement(configJade));
 
                     biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE
                             .withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE,
-                                    ModBlocks.jasperOre.get().getDefaultState(), 10))
+                                    ModBlocks.jasperOre.get().getDefaultState(), 7))
                             .withPlacement(configJasper));
 
                     biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE
                             .withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE,
-                                    ModBlocks.labradoriteOre.get().getDefaultState(), 10))
+                                    ModBlocks.labradoriteOre.get().getDefaultState(), 6))
                             .withPlacement(configLabradoriteNether));
 
                     biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE
                             .withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE,
-                                    ModBlocks.micaOre.get().getDefaultState(), 10))
+                                    ModBlocks.micaOre.get().getDefaultState(), 6))
                             .withPlacement(configMica));
 
                     biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE
                             .withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE,
-                                    ModBlocks.moonstoneOre.get().getDefaultState(), 10))
+                                    ModBlocks.moonstoneOre.get().getDefaultState(), 7))
                             .withPlacement(configMoonstone));
 
                     biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE
                             .withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE,
-                                    ModBlocks.roseQuartzOre.get().getDefaultState(), 10))
+                                    ModBlocks.roseQuartzOre.get().getDefaultState(), 6))
                             .withPlacement(configRoseQuartz));
 
                     biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE
                             .withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE,
-                                    ModBlocks.sodaliteOre.get().getDefaultState(), 10))
+                                    ModBlocks.sodaliteOre.get().getDefaultState(), 3))
                             .withPlacement(configSodalite));
 
                     biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE
                             .withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE,
-                                    ModBlocks.amethystOre.get().getDefaultState(), 10))
+                                    ModBlocks.amethystOre.get().getDefaultState(), 3))
                             .withPlacement(configAmethyst));
                 }
 

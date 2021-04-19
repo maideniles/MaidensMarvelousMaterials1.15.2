@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": [{
+    "item": "maidensmaterials:dye_bath_light_gray"
+  }],
+  "result": "maidensmaterials:stain_light_gray",
+  "experience": 0.1,
+ 
+  "cookingtime": 40
+ 
+}

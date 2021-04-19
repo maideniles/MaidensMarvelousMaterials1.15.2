@@ -1,0 +1,29 @@
+
+
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "CC",
+		
+		"CC"
+    ],
+    
+    "key":
+    {
+        
+		"C":
+		{
+			"item": "maidensmaterials:palm_log"
+		}
+		
+		
+    },
+    
+    "result":
+    {
+        "item": "maidensmaterials:palm_wood",
+        "count": 1
+    }
+}

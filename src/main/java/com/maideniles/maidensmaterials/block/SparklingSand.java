@@ -16,7 +16,7 @@ public class SparklingSand extends FallingBlock {
     private final int dustColor;
 
     public SparklingSand(int p_i48338_1_, Properties properties) {
-        super(Block.Properties.create(Material.PLANTS).sound(SoundType.PLANT));
+        super(Block.Properties.create(Material.SAND).sound(SoundType.PLANT));
         this.dustColor = p_i48338_1_;
     }
 

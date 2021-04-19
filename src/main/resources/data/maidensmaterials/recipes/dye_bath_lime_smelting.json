@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient":[ {
+    "item": "maidensmaterials:dye_bath_lime"
+  }],
+  "result": "maidensmaterials:stain_lime",
+  "experience": 0.1,
+ 
+  "cookingtime": 40
+ 
+}

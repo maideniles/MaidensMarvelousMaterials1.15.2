@@ -1,0 +1,29 @@
+
+
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        
+		
+		"PPI","PPI","PPB"
+    ],
+    
+    "key":
+    {
+        
+		"P":
+		{
+			"item": "maidensmaterials:red_stained_planks"     },  "B":  {  "item": "maidensmaterials:door_plans_4"},  "I": { "item": "maidensmaterials:dark_iron_inlay"}
+		
+		
+	
+    },
+    
+    "result":
+    {
+        "item": "maidensmaterials:red_stained_door_4",
+       "count": 3
+    }
+}

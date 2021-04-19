@@ -49,100 +49,100 @@ public class ConfigBuilder {
 
         amethyst_chance = server
                 .comment("Maximum number of ore veins of the amethyst ore that can spawn in one chunk.")
-                .defineInRange("oregen.amethyst_chance", 17, 1, 1000000);
+                .defineInRange("oregen.amethyst_chance", 1, 1, 1000000);
 
         amethyst_nether_chance = server
                 .comment("Maximum number of ore veins of the amethyst nether ore that can spawn in one chunk.")
-                .defineInRange("oregen.amethyst_nether_chance", 17, 1, 1000000);
+                .defineInRange("oregen.amethyst_nether_chance", 1, 1, 1000000);
 
         aventurine_chance = server
                 .comment("Maximum number of ore veins of the aventurine ore that can spawn in one chunk.")
-                .defineInRange("oregen.aventurine_chance", 17, 1, 1000000);
+                .defineInRange("oregen.aventurine_chance", 5, 1, 1000000);
 
 
         aventurine_nether_chance = server
                 .comment("Maximum number of ore veins of the aventurine nether ore that can spawn in one chunk.")
-                .defineInRange("oregen.aventurine_nether_chance", 17, 1, 1000000);
+                .defineInRange("oregen.aventurine_nether_chance", 5, 1, 1000000);
 
         carnelian_chance = server
                 .comment("Maximum number of ore veins of the carnelian ore that can spawn in one chunk.")
-                .defineInRange("oregen.carnelian_chance", 17, 1, 1000000);
+                .defineInRange("oregen.carnelian_chance", 1, 1, 1000000);
 
         carnelian_nether_chance = server
                 .comment("Maximum number of ore veins of the carnelian nether ore that can spawn in one chunk.")
-                .defineInRange("oregen.carnelian_nether_chance", 17, 1, 1000000);
+                .defineInRange("oregen.carnelian_nether_chance", 1, 1, 1000000);
 
         chalcopyrite_chance = server
                 .comment("Maximum number of ore veins of the chalcopyrite  ore that can spawn in one chunk.")
-                .defineInRange("oregen.chalcopyrite_chance", 17, 1, 1000000);
+                .defineInRange("oregen.chalcopyrite_chance", 1, 1, 1000000);
 
         chalcopyrite_nether_chance = server
                 .comment("Maximum number of ore veins of the chalcopyrite nether ore that can spawn in one chunk.")
-                .defineInRange("oregen.chalcopyrite_nether_chance", 17, 1, 1000000);
+                .defineInRange("oregen.chalcopyrite_nether_chance", 1, 1, 1000000);
 
         citrine_chance = server
                 .comment("Maximum number of ore veins of the citrine  ore that can spawn in one chunk.")
-                .defineInRange("oregen.citrine_chance", 17, 1, 1000000);
+                .defineInRange("oregen.citrine_chance", 3, 1, 1000000);
 
         citrine_nether_chance = server
                 .comment("Maximum number of ore veins of the citrine nether ore that can spawn in one chunk.")
-                .defineInRange("oregen.citrine_nether_chance", 17, 1, 1000000);
+                .defineInRange("oregen.citrine_nether_chance", 3, 1, 1000000);
 
         jade_chance = server
                 .comment("Maximum number of ore veins of the jade ore that can spawn in one chunk.")
-                .defineInRange("oregen.jade_chance", 17, 1, 1000000);
+                .defineInRange("oregen.jade_chance", 3, 1, 1000000);
 
         jade_nether_chance = server
                 .comment("Maximum number of ore veins of the jade nether ore that can spawn in one chunk.")
-                .defineInRange("oregen.jade_nether_chance", 17, 1, 1000000);
+                .defineInRange("oregen.jade_nether_chance", 3, 1, 1000000);
 
         jasper_chance = server
                 .comment("Maximum number of ore veins of the jasper ore that can spawn in one chunk.")
-                .defineInRange("oregen.jasper_chance", 17, 1, 1000000);
+                .defineInRange("oregen.jasper_chance", 3, 1, 1000000);
 
         jasper_nether_chance = server
                 .comment("Maximum number of ore veins of the jasper nether ore that can spawn in one chunk.")
-                .defineInRange("oregen.jasper_nether_chance", 17, 1, 1000000);
+                .defineInRange("oregen.jasper_nether_chance", 3, 1, 1000000);
 
         labradorite_chance = server
                 .comment("Maximum number of ore veins of the labradorite ore that can spawn in one chunk.")
-                .defineInRange("oregen.labradorite_chance", 17, 1, 1000000);
+                .defineInRange("oregen.labradorite_chance", 5, 1, 1000000);
 
         labradorite_nether_chance = server
                 .comment("Maximum number of ore veins of the labradorite nether ore that can spawn in one chunk.")
-                .defineInRange("oregen.labradorite_nether_chance", 17, 1, 1000000);
+                .defineInRange("oregen.labradorite_nether_chance", 5, 1, 1000000);
 
         mica_chance = server
                 .comment("Maximum number of ore veins of the mica ore that can spawn in one chunk.")
-                .defineInRange("oregen.mica_chance", 17, 1, 1000000);
+                .defineInRange("oregen.mica_chance", 7, 1, 1000000);
 
         mica_nether_chance = server
                 .comment("Maximum number of ore veins of the mica nether ore that can spawn in one chunk.")
-                .defineInRange("oregen.mica_nether_chance", 17, 1, 1000000);
+                .defineInRange("oregen.mica_nether_chance", 7, 1, 1000000);
 
         moonstone_chance = server
                 .comment("Maximum number of ore veins of the moonstone ore that can spawn in one chunk.")
-                .defineInRange("oregen.moonstone_chance", 17, 1, 1000000);
+                .defineInRange("oregen.moonstone_chance", 3, 1, 1000000);
 
         moonstone_nether_chance = server
                 .comment("Maximum number of ore veins of the moonstone nether ore that can spawn in one chunk.")
-                .defineInRange("oregen.moonstone_nether_chance", 17, 1, 1000000);
+                .defineInRange("oregen.moonstone_nether_chance", 3, 1, 1000000);
 
         rosequartz_chance = server
                 .comment("Maximum number of ore veins of the rosequartz ore that can spawn in one chunk.")
-                .defineInRange("oregen.rosequartz_chance", 17, 1, 1000000);
+                .defineInRange("oregen.rosequartz_chance", 6, 1, 1000000);
 
         rosequartz_nether_chance = server
                 .comment("Maximum number of ore veins of the rosequartz nether ore that can spawn in one chunk.")
-                .defineInRange("oregen.rosequartz_nether_chance", 17, 1, 1000000);
+                .defineInRange("oregen.rosequartz_nether_chance", 6, 1, 1000000);
 
         sodalite_chance = server
                 .comment("Maximum number of ore veins of the sodalite ore that can spawn in one chunk.")
-                .defineInRange("oregen.sodalite_chance", 17, 1, 1000000);
+                .defineInRange("oregen.sodalite_chance", 1, 1, 1000000);
 
         sodalite_nether_chance = server
                 .comment("Maximum number of ore veins of the sodalite nether ore that can spawn in one chunk.")
-                .defineInRange("oregen.sodalite_nether_chance", 17, 1, 1000000);
+                .defineInRange("oregen.sodalite_nether_chance", 1, 1, 1000000);
 
 
 

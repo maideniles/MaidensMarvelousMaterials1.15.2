@@ -1,0 +1,29 @@
+
+
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        
+		
+		"PPP","PBP"
+    ],
+    
+    "key":
+    {
+        
+		"P":
+		{
+			"item": "maidensmaterials:lime_stained_slab" }, "B": {"item": "maidensmaterials:dark_iron_inlay"}
+		
+		
+	
+    },
+    
+    "result":
+    {
+        "item": "maidensmaterials:lime_stained_trapdoor_2",
+       "count": 2
+    }
+}

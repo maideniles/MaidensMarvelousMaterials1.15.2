@@ -166,6 +166,10 @@ public class ModBlocks
     public static final RegistryObject<Block>  cedarWood = createBlock("cedar_wood",
             () -> new Block(Block.Properties.create(Material.WOOD).hardnessAndResistance(1.5F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
+    public static final RegistryObject<Block>   palmWood = createBlock( "palm_wood",
+            () -> new Block(Block.Properties.create(Material.WOOD).hardnessAndResistance(1.5F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+
     //WOOD--STRIPPED//
     public static final RegistryObject<Block>  crabappleStrippedWood = createBlock("crabapple_stripped_wood",
             () -> new Block(Block.Properties.create(Material.WOOD).hardnessAndResistance(1.5F, 2.0F)) , ModItemGroups.MAIDENS_BLOCKS_GROUP);
@@ -1046,7 +1050,7 @@ public class ModBlocks
             () -> new BlockVineTie(Block.Properties.create(Material.WEB).doesNotBlockMovement().hardnessAndResistance(0.2F, 2.0F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     public static final RegistryObject<Block> sparklingSand = createBlock("sparkling_sand",
-            () -> new SparklingSand(14406560, Block.Properties.create(Material.SAND, MaterialColor.QUARTZ).hardnessAndResistance(0.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+            () -> new SparklingSand(14406560, Block.Properties.create(Material.SAND, MaterialColor.SAND).hardnessAndResistance(0.5F)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
     //STAIRS--WOOD--STAINED//
     public static final RegistryObject<Block> crabappleStairs = createBlock( "crabapple_stairs",

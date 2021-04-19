@@ -321,6 +321,6 @@ public class PalmTreeFeature extends MaidensTreeFeature {
     }
 
     private void placeCocoa(IWorldGenerationReader worldIn, int age, BlockPos pos, Direction side) {
-        this.setBlockState(worldIn, pos, ModBlocks.fairyGlowCup.get().getDefaultState().with(CocoaBlock.AGE, Integer.valueOf(age)).with(CocoaBlock.HORIZONTAL_FACING, side));
+        this.setBlockState(worldIn, pos, ModBlocks.coconutNut.get().getDefaultState().with(CocoaBlock.AGE, Integer.valueOf(age)).with(CocoaBlock.HORIZONTAL_FACING, side));
     }
 }

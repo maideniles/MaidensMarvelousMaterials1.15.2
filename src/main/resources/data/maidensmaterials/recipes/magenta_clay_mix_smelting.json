@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": [ 
+	{
+	  "item": "maidensmaterials:magenta_clay_mix"
+	} 
+  ],
+  "result": "maidensmaterials:magenta_clay_block",
+  "experience": 0.1,
+  "cookingtime": 40
+ }

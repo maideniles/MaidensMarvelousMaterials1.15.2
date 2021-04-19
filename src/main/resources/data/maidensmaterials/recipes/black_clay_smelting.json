@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": [ 
+	{
+	  "item": "maidensmaterials:black_clay"
+	} 
+  ],
+  "result": "maidensmaterials:black_brick",
+  "experience": 0.1,
+  "cookingtime": 40
+ }

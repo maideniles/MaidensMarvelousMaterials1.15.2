@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": [{
+    "item": "maidensmaterials:clay_vase_light_blue"
+  }],
+  "result": "maidensmaterials:light_blue_vase_no_flower",
+  "experience": 0.1,
+ 
+  "cookingtime": 40
+ 
+}

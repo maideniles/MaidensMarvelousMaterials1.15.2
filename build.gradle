@@ -144,3 +144,15 @@ publishing {
         }
     }
 }
+
+repositories {
+    maven { url 'https://maven.blamejared.com' }
+}
+
+dependencies {
+    // 1.14+
+    compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.15.2-1.2-35.2:api")
+    runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.15.2-1.2-35.2")
+
+   
+}

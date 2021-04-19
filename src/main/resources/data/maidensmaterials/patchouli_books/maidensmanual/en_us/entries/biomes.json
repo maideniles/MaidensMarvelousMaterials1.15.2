@@ -1,0 +1,11 @@
+{
+    "name": "Biomes",
+    "icon": "minecraft:writable_book",
+    "category": "biomes",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Testing Biomes descriptions!"
+        }
+    ]
+}
