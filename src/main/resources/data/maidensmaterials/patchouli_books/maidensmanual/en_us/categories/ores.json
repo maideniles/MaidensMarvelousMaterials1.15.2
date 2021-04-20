@@ -1,5 +1,5 @@
 {
 	"name": "Gemstone Ores",
-	"description": "This is a description of the Mod Gemstone Ores!",
-	"icon": "minecraft:writable_book"
+	"description": "Gemstone ores are scattered throughout the depths of the world.$(br2) They come in all of the fashionable gemstone colors, and some of them are rare finds.",
+	"icon": "maidensmaterials:amethyst_ore"
 }

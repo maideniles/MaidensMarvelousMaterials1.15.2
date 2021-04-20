@@ -1,5 +1,5 @@
 {
 	"name": "Trees",
-	"description": "This is a description of the Mod Trees!",
-	"icon": "minecraft:writable_book"
+	"description": "In this mod, you'll find three different types of trees:$(br2)-Flowering Forest Trees$(br2)-Fruit-Bearing Orchard Trees$(br2)-Tropical Palm Trees",
+	"icon": "maidensmaterials:dogwood_sapling"
 }

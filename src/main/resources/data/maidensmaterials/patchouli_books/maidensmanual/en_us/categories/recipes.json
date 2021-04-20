@@ -1,5 +1,5 @@
 {
 	"name": "Recipes",
-	"description": "This is a description of the Mod Recipes!",
-	"icon": "minecraft:writable_book"
+	"description": "Crafting Recipes",
+	"icon": "minecraft:crafting_table"
 }

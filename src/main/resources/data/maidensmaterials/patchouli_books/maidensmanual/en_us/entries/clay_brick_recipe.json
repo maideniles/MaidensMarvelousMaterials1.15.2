@@ -1,0 +1,55 @@
+{
+    "name": "Colored Clay Brick Recipe",
+    "icon": "maidensmaterials:textures/item/blue_brick.png",
+    "category": "smelting",
+    "pages": [
+		{
+		"type": "smelting",
+    "recipe": "maidensmaterials:red_clay_smelting",
+		"recipe2": "maidensmaterials:orange_clay_smelting"
+	},	
+	
+	{
+		"type": "smelting",
+    "recipe": "maidensmaterials:yellow_clay_smelting",
+		 "recipe2": "maidensmaterials:lime_clay_smelting"
+	},
+	
+	{
+		"type": "smelting",
+    "recipe": "maidensmaterials:green_clay_smelting",
+		"recipe2": "maidensmaterials:cyan_clay_smelting"
+	},
+	
+	{
+		"type": "smelting",
+    "recipe": "maidensmaterials:light_blue_clay_smelting",
+		"recipe2": "maidensmaterials:blue_clay_smelting"
+	},
+	
+	{
+		"type": "smelting",
+    "recipe": "maidensmaterials:purple_clay_smelting",
+		 "recipe2": "maidensmaterials:magenta_clay_smelting"
+	},
+	
+	{
+		"type": "smelting",
+    "recipe": "maidensmaterials:pink_clay_smelting",
+		 "recipe2": "maidensmaterials:white_clay_smelting"
+	},
+	
+	{
+		"type": "smelting",
+    "recipe": "maidensmaterials:light_gray_clay_smelting",
+		 "recipe2": "maidensmaterials:gray_clay_smelting"
+	},
+	
+	{
+		"type": "smelting",
+     "recipe": "maidensmaterials:black_clay_smelting",
+		 "recipe2": "maidensmaterials:brown_clay_smelting"
+	}
+	
+	]
+}

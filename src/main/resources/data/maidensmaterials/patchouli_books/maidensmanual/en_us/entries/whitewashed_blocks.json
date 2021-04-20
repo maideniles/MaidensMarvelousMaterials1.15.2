@@ -1,0 +1,31 @@
+{
+    "name": "Whitewashed Blocks",
+    "icon": "maidensmaterials:textures/block/whitewashed_planks.png",
+    "category": "recipes",
+    "pages": [
+		
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:whitewashed_planks",
+		"recipe2": "maidensmaterials:whitewashed_stairs"
+	},	
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:whitewashed_slab",
+		 "recipe2": "maidensmaterials:whitewashed_fence"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:whitewashed_fence_gate"
+		
+	}
+	
+	
+	
+	
+	
+	
+    ]
+}

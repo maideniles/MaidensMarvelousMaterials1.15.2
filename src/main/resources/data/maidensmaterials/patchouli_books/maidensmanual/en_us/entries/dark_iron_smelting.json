@@ -1,0 +1,19 @@
+{
+    "name": "Dark Iron Ingot",
+    "icon": "maidensmaterials:textures/item/dark_iron_ingot.png",
+    "category": "smelting",
+    "pages": [
+	
+	
+	
+	
+	 
+	 {
+	"type": "smelting",
+	"recipe2": "maidensmaterials:dark_iron_mix_smelting"
+	
+
+        }	
+		
+    ]
+}

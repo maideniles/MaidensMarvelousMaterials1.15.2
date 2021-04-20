@@ -1,0 +1,206 @@
+{
+    "name": "Stained TrapDoor Recipe",
+    "icon": "maidensmaterials:textures/block/pink_stained_trapdoor_4.png",
+    "category": "recipes",
+    "pages": [
+	
+	
+	
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:red_stained_trapdoor_1",
+		"recipe2": "maidensmaterials:orange_stained_trapdoor_1"
+	},	
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:yellow_stained_trapdoor_1",
+		 "recipe2": "maidensmaterials:lime_stained_trapdoor_1"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:green_stained_trapdoor_1",
+		"recipe2": "maidensmaterials:cyan_stained_trapdoor_1"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:light_blue_stained_trapdoor_1",
+		"recipe2": "maidensmaterials:blue_stained_trapdoor_1"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:purple_stained_trapdoor_1",
+		 "recipe2": "maidensmaterials:magenta_stained_trapdoor_1"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:pink_stained_trapdoor_1",
+		 "recipe2": "maidensmaterials:white_stained_trapdoor_1"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:light_gray_stained_trapdoor_1",
+		 "recipe2": "maidensmaterials:gray_stained_trapdoor_1"
+	},
+	
+	{
+		"type": "crafting",
+     "recipe": "maidensmaterials:black_stained_trapdoor_1",
+		 "recipe2": "maidensmaterials:brown_stained_trapdoor_1"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:red_stained_trapdoor_2",
+		"recipe2": "maidensmaterials:orange_stained_trapdoor_2"
+	},	
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:yellow_stained_trapdoor_2",
+		 "recipe2": "maidensmaterials:lime_stained_trapdoor_2"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:green_stained_trapdoor_2",
+		"recipe2": "maidensmaterials:cyan_stained_trapdoor_2"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:light_blue_stained_trapdoor_2",
+		"recipe2": "maidensmaterials:blue_stained_trapdoor_2"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:purple_stained_trapdoor_2",
+		 "recipe2": "maidensmaterials:magenta_stained_trapdoor_2"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:pink_stained_trapdoor_2",
+		 "recipe2": "maidensmaterials:white_stained_trapdoor_2"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:light_gray_stained_trapdoor_2",
+		 "recipe2": "maidensmaterials:gray_stained_trapdoor_2"
+	},
+	
+	{
+		"type": "crafting",
+     "recipe": "maidensmaterials:black_stained_trapdoor_2",
+		 "recipe2": "maidensmaterials:brown_stained_trapdoor_2"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:red_stained_trapdoor_3",
+		"recipe2": "maidensmaterials:orange_stained_trapdoor_3"
+	},	
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:yellow_stained_trapdoor_3",
+		 "recipe2": "maidensmaterials:lime_stained_trapdoor_3"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:green_stained_trapdoor_3",
+		"recipe2": "maidensmaterials:cyan_stained_trapdoor_3"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:light_blue_stained_trapdoor_3",
+		"recipe2": "maidensmaterials:blue_stained_trapdoor_3"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:purple_stained_trapdoor_3",
+		 "recipe2": "maidensmaterials:magenta_stained_trapdoor_3"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:pink_stained_trapdoor_3",
+		 "recipe2": "maidensmaterials:white_stained_trapdoor_3"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:light_gray_stained_trapdoor_3",
+		 "recipe2": "maidensmaterials:gray_stained_trapdoor_3"
+	},
+	
+	{
+		"type": "crafting",
+     "recipe": "maidensmaterials:black_stained_trapdoor_3",
+		 "recipe2": "maidensmaterials:brown_stained_trapdoor_3"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:red_stained_trapdoor_4",
+		"recipe2": "maidensmaterials:orange_stained_trapdoor_4"
+	},	
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:yellow_stained_trapdoor_4",
+		 "recipe2": "maidensmaterials:lime_stained_trapdoor_4"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:green_stained_trapdoor_4",
+		"recipe2": "maidensmaterials:cyan_stained_trapdoor_4"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:light_blue_stained_trapdoor_4",
+		"recipe2": "maidensmaterials:blue_stained_trapdoor_4"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:purple_stained_trapdoor_4",
+		 "recipe2": "maidensmaterials:magenta_stained_trapdoor_4"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:pink_stained_trapdoor_4",
+		 "recipe2": "maidensmaterials:white_stained_trapdoor_4"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:light_gray_stained_trapdoor_4",
+		 "recipe2": "maidensmaterials:gray_stained_trapdoor_4"
+	},
+	
+	{
+		"type": "crafting",
+     "recipe": "maidensmaterials:black_stained_trapdoor_4",
+		 "recipe2": "maidensmaterials:brown_stained_trapdoor_4"
+	}
+	
+	
+	
+	
+    ]
+}

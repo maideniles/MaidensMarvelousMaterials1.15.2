@@ -1,0 +1,29 @@
+{
+    "name": "Dye Baths and Stains",
+    "icon": "maidensmaterials:dye_bath_light_blue",
+    "category": "items",
+    "pages": [
+        {
+    "type": "text",
+    "text": "In order to color your wood blocks, you'll need to make dye baths, which when heated, become colored stains.$(br2) These Stains can be a little tricky to make, but the payoff is worth it.$(br2) One bucket goes a long way...64 blocks!"
+					
+        },
+		
+		{
+			
+			"type": "spotlight",
+			"item": "maidensmaterials:dye_bath_light_blue",
+			"text": "Dye Baths are made with pigments, a ball of slime, and a bucket of water.$(br2) They require heat in order to activate and become Colored Stains."
+			
+		},
+		
+		  {
+    "type": "spotlight",
+	"item": "maidensmaterials:stain_light_blue",
+    "text": " Just pop your Dye Bath into the furnace for a bit, and you'll have a bright, vibrant colored stain for all of your favorite wood blocks."
+			
+			
+			
+        }
+    ]
+}

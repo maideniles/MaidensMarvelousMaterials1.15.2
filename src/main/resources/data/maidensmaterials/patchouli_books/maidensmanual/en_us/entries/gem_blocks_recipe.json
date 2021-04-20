@@ -1,0 +1,47 @@
+{
+    "name": "Gemstone Block Recipe",
+    "icon": "maidensmaterials:textures/block/amethyst_block.png",
+    "category": "recipes",
+    "pages": [
+		
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:jasper_block",
+		"recipe2": "maidensmaterials:carnelian_block"
+	},	
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:citrine_block",
+		 "recipe2": "maidensmaterials:aventurine_block"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:jade_block",
+		"recipe2": "maidensmaterials:chalcopyrite_block"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:labradorite_block",
+		"recipe2": "maidensmaterials:moonstone_block"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:sodalite_block",
+		 "recipe2": "maidensmaterials:amethyst_block"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:rose_quartz_block",
+		 "recipe2": "maidensmaterials:mica_block"
+	}
+	
+	
+	
+	
+    ]
+}

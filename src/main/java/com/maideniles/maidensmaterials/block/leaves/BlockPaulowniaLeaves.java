@@ -8,6 +8,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.LeavesBlock;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
+import net.minecraft.entity.EntityType;
 import net.minecraft.entity.item.ItemEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.inventory.EquipmentSlotType;
@@ -64,6 +65,10 @@ public class BlockPaulowniaLeaves extends LeavesBlock {
     @Override
     public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
         return 1;
+    }
+
+    public boolean canEntitySpawn(BlockState state, IBlockReader worldIn, BlockPos pos, EntityType<?> type) {
+        return  type == EntityType.PARROT;
     }
 
 }

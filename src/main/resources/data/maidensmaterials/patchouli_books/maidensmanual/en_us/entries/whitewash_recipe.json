@@ -1,0 +1,18 @@
+{
+    "name": "Whitewash Recipe",
+    "icon": "maidensmaterials:textures/item/whitewash.png",
+    "category": "recipes",
+    "pages": [
+	
+	
+        {
+    "type": "crafting",
+    "recipe": "maidensmaterials:whitewash"
+	
+	
+			
+			
+			
+        }
+    ]
+}

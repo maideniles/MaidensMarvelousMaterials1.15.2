@@ -1,0 +1,19 @@
+{
+    "name": "Floral Fortune Potion",
+    "icon": "maidensmaterials:textures/gui/floral_potion_item.png",
+    "category": "potions",
+    "pages": [
+	{
+		"type": "spotlight",
+		"item": "maidensmaterials:floral_potion_item",
+		"text": "Floral Fortune gives you the ability to harvest Blossoms without Pruning Shears, making the collecting of blossoms even easier!$(br2) It also gives you one more ability, but it's is a secret!$(br2) Can you find out what it is?"
+		
+	},
+	
+     {
+            "type": "image",
+            "images": ["maidensmaterials:textures/gui/potion_floral.png"],
+			"text": "Brewing Recipe:$(br)Mundane Potion, Floral Essence"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Dark Iron",
+    "icon": "maidensmaterials:textures/item/dark_iron_mix.png",
+    "category": "items",
+    "pages": [
+	
+	{
+		"type": "text",
+		"text": "To make the intricate inlays in the doors and trapdoors, you will need to go through a couple of steps.  $(br2) "
+		
+	},
+	
+	{
+		"type": "spotlight",
+		"item": "maidensmaterials:dark_iron_mix",
+		"text": "Let's start with some dark iron mix.$(br2) This requires some charcoal and iron nuggets."
+		
+	},
+	
+	{
+		"type": "spotlight",
+		"item": "maidensmaterials:dark_iron_ingot",
+		"text": "Once you have mixed it all up, just pop it in the furnace. Now you now have Dark Iron Ingots!"
+		
+	},
+	
+	{
+		"type": "spotlight",
+		"item": "maidensmaterials:dark_iron_inlay",
+		"text": "Finally, the Dark Iron Inlay is crafted using the Dark Iron ingots.$(br2) Voila! You have a lovely Dark Iron Inlay for your new door!"
+		
+	}
+	
+	
+   
+    ]
+}

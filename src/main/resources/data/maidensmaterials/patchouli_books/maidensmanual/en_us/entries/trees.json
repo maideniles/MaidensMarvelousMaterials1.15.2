@@ -1,0 +1,76 @@
+{
+    "name": "Ornamental Forest Trees",
+    "icon": "minecraft:writable_book",
+    "category": "trees",
+    "pages": [
+        {
+            "type": "image",
+            "images": ["maidensmaterials:textures/gui/crabapple_tree.png"],
+			"text": "Crabapple Tree"
+        },
+		
+		 {
+            "type": "image",
+            "images": ["maidensmaterials:textures/gui/poinciana_tree.png"],
+			"text": "Poinciana Tree"
+        },
+		
+		 {
+            "type": "image",
+            "images": ["maidensmaterials:textures/gui/laburnum_tree.png"],
+			"text": "Laburnum Tree"
+        },
+		
+		 {
+            "type": "image",
+            "images": ["maidensmaterials:textures/gui/jade_tree.png"],
+			"text": "Jade Tree"
+        },
+		
+		 {
+            "type": "image",
+            "images": ["maidensmaterials:textures/gui/paulownia_tree.png"],
+			"text": "Paulownia Tree"
+        },
+		
+		 {
+            "type": "image",
+            "images": ["maidensmaterials:textures/gui/wisteria_tree.png"],
+			"text": "Wisteria Tree"
+        },
+		
+		 {
+            "type": "image",
+            "images": ["maidensmaterials:textures/gui/jacaranda_tree.png"],
+			"text": "Jacaranda Tree"
+        },
+		
+		 {
+            "type": "image",
+            "images": ["maidensmaterials:textures/gui/dogwood_tree.png"],
+			"text": "Dogwood Tree"
+        },
+		
+		 {
+            "type": "image",
+            "images": ["maidensmaterials:textures/gui/silverbell_tree.png"],
+			"text": "Silverbell Tree"
+        },
+		
+		 {
+            "type": "image",
+            "images": ["maidensmaterials:textures/gui/cedar_tree.png"],
+			"text": "Cedar Tree"
+        },
+		
+		 {
+            "type": "image",
+            "images": ["maidensmaterials:textures/gui/palm_tree.png"],
+			"text": "Palm Tree"
+        }
+		
+		
+		
+		
+    ]
+}

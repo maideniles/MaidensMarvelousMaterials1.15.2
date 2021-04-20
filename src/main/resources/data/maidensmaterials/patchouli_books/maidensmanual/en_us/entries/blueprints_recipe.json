@@ -1,0 +1,26 @@
+{
+    "name": "Door Blueprints Recipe",
+    "icon": "maidensmaterials:textures/item/door_plans_2.png",
+    "category": "recipes",
+    "pages": [
+	
+	
+        {
+    "type": "crafting",
+    "recipe": "maidensmaterials:door_plans_1",
+	"recipe2": "maidensmaterials:door_plans_2"
+        },
+		
+		    {
+    "type": "crafting",
+    "recipe": "maidensmaterials:door_plans_3",
+	"recipe2": "maidensmaterials:door_plans_4"
+        },
+		
+		    {
+    "type": "crafting",
+    "recipe": "maidensmaterials:door_plans_5",
+	"recipe2": "maidensmaterials:door_plans_6"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Pigments",
+    "icon": "maidensmaterials:textures/item/pulverized_magenta.png",
+    "category": "items",
+    "pages": [
+        {
+    
+    "type": "text",
+   	"text": " Using the Mortar and Pestle, you can crush the blossoms from the trees of the Ornamental Forest, to create 9 different colors of pigments. $(br2) These pigments can be combined to form many colors, some of which will require Mica or Charcoal." 
+		
+        },
+		
+		{
+			"type": "spotlight",
+			"item": "maidensmaterials:pulverized_magenta",
+			"text": " Pigments are used to create colored stains for wood blocks, and to color clay for blocks, bricks, and decorative vases. $(br2) Unlike Minecraft Dyes, these pigmants are more vibrant, so the color of your clay stays bright and true."
+			
+		}
+    ]
+}

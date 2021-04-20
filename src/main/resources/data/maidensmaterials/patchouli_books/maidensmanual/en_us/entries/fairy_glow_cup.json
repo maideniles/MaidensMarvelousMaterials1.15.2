@@ -1,0 +1,16 @@
+{
+    "name": "Fairy GlowCup",
+    "icon": "maidensmaterials:textures/block/fairy_glow_cup.png",
+    "category": "mushrooms",
+    "pages": [
+     
+		
+		{
+			"type": "spotlight",
+			"item": "maidensmaterials:fairy_glow_cup",
+			"text": "$(br2)  The Fairy GlowCup can be found nestled in the treetops of the Ornamental Forest.$(br2) This softly glowing mushroom is very delicate, and will turn to Glowstone Dust upon breaking."
+			
+			
+		}
+    ]
+}

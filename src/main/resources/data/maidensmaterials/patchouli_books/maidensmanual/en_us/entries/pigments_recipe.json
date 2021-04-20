@@ -1,0 +1,57 @@
+{
+    "name": "Pigments Recipe",
+    "icon": "maidensmaterials:textures/item/pulverized_magenta.png",
+    "category": "recipes",
+    "pages": [
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:pigment_red",
+		"recipe2": "maidensmaterials:pigment_orange"
+	},	
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:pigment_yellow",
+		 "recipe2": "maidensmaterials:pigment_lime"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:pigment_green",
+		"recipe2": "maidensmaterials:pigment_cyan"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:pigment_light_blue",
+		"recipe2": "maidensmaterials:pigment_blue"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:pigment_purple",
+		 "recipe2": "maidensmaterials:pigment_magenta"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:pigment_pink",
+		 "recipe2": "maidensmaterials:pigment_white"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:pigment_light_gray",
+		 "recipe2": "maidensmaterials:pigment_gray"
+	},
+	
+	{
+		"type": "crafting",
+     "recipe": "maidensmaterials:pigment_black",
+		 "recipe2": "maidensmaterials:pigment_brown"
+	}
+	
+	
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Gatherer's Glee Potion",
+    "icon": "maidensmaterials:textures/gui/earthen_potion_item.png",
+    "category": "potions",
+    "pages": [
+	{
+		"type": "spotlight",
+		"item": "maidensmaterials:earthen_potion_item",
+		"text": " Gatherer's Glee helps you expertly harvest extra drops from ore and wood blocks for a short time. (Very short, but hey, it can't be too OP, right?)$(br2) You will need Earthen Essence to make Gatherer's Glee, which can be hard to find, but persistance pays off. And so does this potion!"
+
+		
+	},
+	
+     {
+            "type": "image",
+            "images": ["maidensmaterials:textures/gui/potion_earthen.png"],
+			"text": "Brewing Recipe:$(br)Mundane Potion, Earthen Essence"
+        }
+    ]
+}

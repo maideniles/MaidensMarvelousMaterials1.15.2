@@ -1,0 +1,47 @@
+{
+    "name": "Wood Button Recipe",
+    "icon": "maidensmaterials:textures/block/wisteria_button.png",
+    "category": "recipes",
+    "pages": [
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:crabapple_button",
+		"recipe2": "maidensmaterials:poinciana_button"
+	},	
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:laburnum_button",
+		 "recipe2": "maidensmaterials:jade_button"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:paulownia_button",
+		"recipe2": "maidensmaterials:wisteria_button"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:jacaranda_button",
+		"recipe2": "maidensmaterials:dogbutton_button"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:silverbell_button",
+		 "recipe2": "maidensmaterials:cedar_button"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:palm_button"
+		
+	}
+	
+	
+	
+	
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Whitewash",
+    "icon": "maidensmaterials:textures/item/whitewash.png",
+    "category": "items",
+    "pages": [
+        {
+    "type": "text",
+    "text": "Whitewash is used to pre-treat any kind of wood block, to prepare it for staining."
+			
+			
+			
+        },
+		
+		{
+			"type": "spotlight",
+			"item": "maidensmaterials:whitewash",
+			"text": "$(br2)  Whitewash can be used on planks, slabs, stairs, fences, and gates.$(br2) One bucket of Whitewash will cover 64 blocks."
+			
+			
+		}
+    ]
+}

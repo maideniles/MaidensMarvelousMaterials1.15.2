@@ -1,0 +1,21 @@
+{
+    "name": "Colored Clay Mix",
+    "icon": "maidensmaterials:textures/item/green_clay_mix.png",
+    "category": "items",
+    "pages": [
+        {
+    
+    "type": "text",
+   	"text": "Clay mix is used to create clay blocks, which can be used to make large clay bricks."
+		
+        },
+		
+		{
+			"type": "spotlight",
+			"item": "maidensmaterials:green_clay_mix",
+			"text": "To make a batch of clay mix, You just need 1 block of sand and 8 pieces of your choice of colored clay."
+			
+			
+		}
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Essence Block Recipe",
+    "icon": "maidensmaterials:textures/block/floral_essence_block.png",
+    "category": "recipes",
+    "pages": [
+	
+	
+        {
+    "type": "crafting",
+    "recipe": "maidensmaterials:floral_block",
+	"recipe2": "maidensmaterials:earthen_block"
+        },
+		
+		 {
+    "type": "crafting",
+    "recipe": "maidensmaterials:floral_essence_break",
+	"recipe2": "maidensmaterials:earthen_essence_break"
+        }
+    ]
+}

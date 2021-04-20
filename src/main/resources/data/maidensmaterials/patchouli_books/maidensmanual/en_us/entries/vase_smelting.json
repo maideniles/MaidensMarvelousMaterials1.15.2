@@ -1,0 +1,59 @@
+{
+    "name": "Clay Vases",
+    "icon": "maidensmaterials:textures/item/clay_vase_light_blue.png",
+    "category": "smelting",
+    "pages": [
+	
+	
+	
+	{
+		"type": "smelting",
+    "recipe": "maidensmaterials:clay_vase_red_smelting",
+		"recipe2": "maidensmaterials:clay_vase_orange_smelting"
+	},	
+	
+	{
+		"type": "smelting",
+    "recipe": "maidensmaterials:clay_vase_yellow_smelting",
+		 "recipe2": "maidensmaterials:clay_vase_lime_smelting"
+	},
+	
+	{
+		"type": "smelting",
+    "recipe": "maidensmaterials:clay_vase_green_smelting",
+		"recipe2": "maidensmaterials:clay_vase_cyan_smelting"
+	},
+	
+	{
+		"type": "smelting",
+    "recipe": "maidensmaterials:clay_vase_light_blue_smelting",
+		"recipe2": "maidensmaterials:clay_vase_blue_smelting"
+	},
+	
+	{
+		"type": "smelting",
+    "recipe": "maidensmaterials:clay_vase_purple_smelting",
+		 "recipe2": "maidensmaterials:clay_vase_magenta_smelting"
+	},
+	
+	{
+		"type": "smelting",
+    "recipe": "maidensmaterials:clay_vase_pink_smelting",
+		 "recipe2": "maidensmaterials:clay_vase_white_smelting"
+	},
+	
+	{
+		"type": "smelting",
+    "recipe": "maidensmaterials:clay_vase_light_gray_smelting",
+		 "recipe2": "maidensmaterials:clay_vase_gray_smelting"
+	},
+	
+	{
+		"type": "smelting",
+     "recipe": "maidensmaterials:clay_vase_black_smelting",
+		 "recipe2": "maidensmaterials:clay_vase_brown_smelting"
+	}
+	
+	
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "The Oasis Shores",
+    "icon": "minecraft:writable_book",
+    "category": "biomes",
+    "pages": [
+        {
+    "type": "text",
+    "text": "Do you wish you had a lush, tropical, oceanside paradise to make a home in? Look no further than the Sparkling Oasis! $(br) Here, you'll find warm waters full of tropical wildlife, twinkling sands scattered with beautiful flowers and tall, shady palm trees full of delicous coconuts just waiting to be harvested. Paradise awaits!"
+			
+			
+			
+        },
+		
+		 {
+            "type": "image",
+            "images": ["maidensmaterials:textures/gui/oasis.png"],
+			"text": "The Oasis Shores"
+        }
+    ]
+}

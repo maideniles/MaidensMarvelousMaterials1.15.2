@@ -1,0 +1,21 @@
+{
+    "name": "Clay Bricks",
+    "icon": "maidensmaterials:textures/item/cyan_brick.png",
+    "category": "items",
+    "pages": [
+        {
+    "type": "text",
+    "text": "One of the uses for colored clay is colored bricks.$(br2) Colored brick blocks come in two sizes: regular and large."
+			
+        },
+		
+		{
+			"type": "spotlight",
+			"item": "maidensmaterials:cyan_brick",
+			"text": "Colored bricks are made just like regular bricks: Smelt a piece of colored clay to make a colored brick."
+			
+			
+		}
+		
+    ]
+}

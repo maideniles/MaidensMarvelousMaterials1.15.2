@@ -1,0 +1,20 @@
+{
+    "name": "Tropical Tree",
+    "icon": "minecraft:writable_book",
+    "category": "trees",
+    "pages": [
+        {
+            "type": "image",
+            "images": ["maidensmaterials:textures/gui/palm_tree.png"],
+			"text": "Palm Tree"
+        }
+		
+		
+		
+		 
+		
+		
+		
+		
+    ]
+}

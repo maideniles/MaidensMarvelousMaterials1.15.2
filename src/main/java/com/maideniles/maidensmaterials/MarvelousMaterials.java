@@ -2,7 +2,10 @@ package com.maideniles.maidensmaterials;
 
 
 import com.maideniles.maidensmaterials.init.*;
+import com.maideniles.maidensmaterials.util.CompostingUtil;
 import com.maideniles.maidensmaterials.world.gen.decorator.tree.MaidensTreeDecoratorTypes;
+import net.minecraft.block.ComposterBlock;
+import net.minecraft.util.IItemProvider;
 import net.minecraft.world.gen.treedecorator.TreeDecoratorType;
 
 import org.apache.logging.log4j.LogManager;
@@ -95,8 +98,14 @@ public final class MarvelousMaterials {
 
     public void setup(final FMLCommonSetupEvent event) {// K9#8016
         OreGen.setupOreGen();
+        CompostingUtil.setup();
+
+
         LOGGER.debug("Oregen Registered!");
         ModBlocks.registerFlammables();
+
     }
+
+
 
 }

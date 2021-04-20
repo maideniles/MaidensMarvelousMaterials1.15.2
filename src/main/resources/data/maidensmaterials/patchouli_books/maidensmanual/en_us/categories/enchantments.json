@@ -1,5 +1,5 @@
 {
 	"name": "Enchantments",
-	"description": "This is a description of the Mod Enchantments!",
-	"icon": "minecraft:writable_book"
+	"description": "Maiden's Marvelous Materials offers two Enchantments:$(br2)-Fancy Feet$(br2)-Flower Power",
+	"icon": "minecraft:enchanted_book"
 }

@@ -1,0 +1,18 @@
+{
+    "name": "Flower Power Enchantment",
+    "icon": "minecraft:textures/item/diamond_shovel.png",
+    "category": "enchantments",
+    "pages": [
+	{
+		"type": "text",
+		"text": "Flower Power Enchantment$(br2)Type: Tool (Spade)$(br)Rarity: Uncommon$(br2)$(br2)This special enchant goes on a shovel, and has two purposes:$(br2) You can harvest Ornamental Grass, and you can use your enchanted shovel to create an Ornamental Path." 
+		
+	},
+	
+     {
+            "type": "image",
+            "images": ["maidensmaterials:textures/gui/flower_power.png"],
+			"text": "Flower Power Enchantment"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Colored Clay",
+    "icon": "maidensmaterials:textures/item/yellow_clay.png",
+    "category": "items",
+    "pages": [
+        {
+    
+    "type": "text",
+   	"text": "Pigments can be mixed with balls of Clay to make colored clay.$(br2)Colored clay is useful for making colored clay blocks and bricks, and clay vases."
+		
+        },
+		
+		{
+			"type": "spotlight",
+			"item": "maidensmaterials:yellow_clay",
+			"text": "Making colored clay is easy enough; just combine four balls of Clay with four pigments of your choice and your Mortar & Pestle."
+			
+			
+		}
+    ]
+}

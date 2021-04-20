@@ -1,0 +1,18 @@
+{
+    "name": "Fancy Feet Enchantment",
+    "icon": "minecraft:textures/item/diamond_boots.png",
+    "category": "enchantments",
+    "pages": [
+	{
+		"type": "text",
+		"text": "Fancy Feet Enchantment$(br2)Type: Armor (Feet)$(br)Rarity: Rare$(br2)$(br2) Be Extra!  This enchantments leaves a path of tiny flowers whenever you walk across grass.$(br2) Don't worry, the flowers will disappear after a short time..."
+		
+	},
+	
+     {
+            "type": "image",
+            "images": ["maidensmaterials:textures/gui/fancy_feet.png"],
+			"text": "Fancy Feet Enchantment"
+        }
+    ]
+}

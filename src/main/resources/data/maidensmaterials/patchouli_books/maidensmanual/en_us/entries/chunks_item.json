@@ -1,0 +1,21 @@
+{
+    "name": "Gemstone Chunks",
+    "icon": "maidensmaterials:textures/item/sodalite_chunk.png",
+    "category": "items",
+    "pages": [
+        {
+    
+    "type": "text",
+   	"text": "Gemstone chunks are obtained by mining the different gemstone ores found in the world."
+		
+        },
+		
+		{
+			"type": "spotlight",
+			"item": "maidensmaterials:sodalite_chunk",
+			"text": "You can smash these chunks into fragments, using a Mortar & Pestle.$(br2) One gem yields 8 fragments."
+			
+			
+		}
+    ]
+}

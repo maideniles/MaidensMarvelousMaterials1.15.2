@@ -1,0 +1,47 @@
+{
+    "name": "Wood Slab Recipe",
+    "icon": "maidensmaterials:textures/block/dogwood_slab.png",
+    "category": "recipes",
+    "pages": [
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:crabapple_slab",
+		"recipe2": "maidensmaterials:poinciana_slab"
+	},	
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:laburnum_slab",
+		 "recipe2": "maidensmaterials:jade_slab"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:paulownia_slab",
+		"recipe2": "maidensmaterials:wisteria_slab"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:jacaranda_slab",
+		"recipe2": "maidensmaterials:dogslab_slab"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:silverbell_slab",
+		 "recipe2": "maidensmaterials:cedar_slab"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:palm_slab"
+		
+	}
+	
+	
+	
+	
+    ]
+}

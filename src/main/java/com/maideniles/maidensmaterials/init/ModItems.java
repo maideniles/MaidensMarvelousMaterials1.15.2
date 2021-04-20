@@ -1,6 +1,7 @@
 package com.maideniles.maidensmaterials.init;
 
 import com.maideniles.maidensmaterials.MarvelousMaterials;
+import com.maideniles.maidensmaterials.item.BlueprintsItem;
 import com.maideniles.maidensmaterials.item.GuideBookItem;
 import com.maideniles.maidensmaterials.item.MortarNPestleItem;
 import net.minecraft.item.Foods;
@@ -250,7 +251,7 @@ public class ModItems {
 
 
 	public static final RegistryObject<Item>GUIDE_BOOK = ITEMS.register("guide_book",
-			() -> new GuideBookItem(new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP).maxStackSize(1)));
+			() -> new GuideBookItem(new Item.Properties().group(null).maxStackSize(1)));
 
 
 
@@ -325,22 +326,22 @@ public class ModItems {
 
 
 	public static final RegistryObject<Item>DOOR_PLANS_1 = ITEMS.register("door_plans_1",
-			() -> new Item(new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP).maxStackSize(64)));
+			() -> new BlueprintsItem(new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP).maxStackSize(64)));
 
 	public static final RegistryObject<Item>DOOR_PLANS_2 = ITEMS.register("door_plans_2",
-			() -> new Item(new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP).maxStackSize(64)));
+			() -> new BlueprintsItem(new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP).maxStackSize(64)));
 
 	public static final RegistryObject<Item>DOOR_PLANS_3 = ITEMS.register("door_plans_3",
-			() -> new Item(new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP).maxStackSize(64)));
+			() -> new BlueprintsItem(new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP).maxStackSize(64)));
 
 	public static final RegistryObject<Item>DOOR_PLANS_4 = ITEMS.register("door_plans_4",
-			() -> new Item(new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP).maxStackSize(64)));
+			() -> new BlueprintsItem(new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP).maxStackSize(64)));
 
 	public static final RegistryObject<Item>DOOR_PLANS_5 = ITEMS.register("door_plans_5",
-			() -> new Item(new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP).maxStackSize(64)));
+			() -> new BlueprintsItem(new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP).maxStackSize(64)));
 
 	public static final RegistryObject<Item>DOOR_PLANS_6 = ITEMS.register("door_plans_6",
-			() -> new Item(new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP).maxStackSize(64)));
+			() -> new BlueprintsItem(new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP).maxStackSize(64)));
 
 
 	public static final RegistryObject<Item>CRABAPPLE_BLOSSOMS = ITEMS.register("crabapple_blossoms",
@@ -546,6 +547,14 @@ public class ModItems {
 
 	public static final RegistryObject<Item>COCONUT = ITEMS.register("coconut",
 			() -> new Item(new Item.Properties().food(Foods.APPLE).group(ModItemGroups.MAIDENS_ITEMS_GROUP).maxStackSize(64)));
+
+	//POTION ITEMS FOR BOOK PURPOSES//
+
+	public static final RegistryObject<Item>POTION_ITEM_EARTHEN = ITEMS.register("earthen_potion_item",
+			() -> new Item(new Item.Properties().group(null).maxStackSize(64)));
+
+	public static final RegistryObject<Item>POTION_ITEM_FLORAL = ITEMS.register("floral_potion_item",
+			() -> new Item(new Item.Properties().group(null).maxStackSize(64)));
 
 
 }

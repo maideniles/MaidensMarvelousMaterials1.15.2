@@ -1,0 +1,24 @@
+{
+    "name": "Dark Iron Mix Recipe",
+    "icon": "maidensmaterials:textures/item/dark_iron_mix.png",
+    "category": "recipes",
+    "pages": [
+	
+	
+	
+	
+	 {
+    "type": "crafting",
+    "recipe": "maidensmaterials:dark_iron_mix"
+	
+	 },
+	 
+	 {
+	"type": "smelting",
+	"recipe2": "maidensmaterials:dark_iron_mix_smelting",
+	"text": "Smelt the Dark Iron Mix into Ingots by placing it into a furnace."
+
+        }	
+		
+    ]
+}

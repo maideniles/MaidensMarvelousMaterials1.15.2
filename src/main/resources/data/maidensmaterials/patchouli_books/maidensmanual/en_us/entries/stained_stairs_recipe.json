@@ -1,0 +1,62 @@
+{
+    "name": "Stained Stairs Recipe",
+    "icon": "maidensmaterials:textures/block/lime_stained_stairs.png",
+    "category": "recipes",
+    "pages": [
+	
+	
+	
+	
+	 
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:stained_stairs_red",
+		"recipe2": "maidensmaterials:stained_stairs_orange"
+	},	
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:stained_stairs_yellow",
+		 "recipe2": "maidensmaterials:stained_stairs_lime"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:stained_stairs_green",
+		"recipe2": "maidensmaterials:stained_stairs_cyan"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:stained_stairs_light_blue",
+		"recipe2": "maidensmaterials:stained_stairs_blue"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:stained_stairs_purple",
+		 "recipe2": "maidensmaterials:stained_stairs_magenta"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:stained_stairs_pink",
+		 "recipe2": "maidensmaterials:stained_stairs_white"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:stained_stairs_light_gray",
+		 "recipe2": "maidensmaterials:stained_stairs_gray"
+	},
+	
+	{
+		"type": "crafting",
+     "recipe": "maidensmaterials:stained_stairs_black",
+		 "recipe2": "maidensmaterials:stained_stairs_brown"
+	}
+	
+	
+    ]
+}

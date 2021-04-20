@@ -1,0 +1,60 @@
+{
+    "name": "Colored Clay Recipe",
+    "icon": "maidensmaterials:textures/item/light_blue_clay.png",
+    "category": "recipes",
+    "pages": [
+	
+	
+	
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:red_clay",
+		"recipe2": "maidensmaterials:orange_clay"
+	},	
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:yellow_clay",
+		 "recipe2": "maidensmaterials:lime_clay"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:green_clay",
+		"recipe2": "maidensmaterials:cyan_clay"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:light_blue_clay",
+		"recipe2": "maidensmaterials:blue_clay"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:purple_clay",
+		 "recipe2": "maidensmaterials:magenta_clay"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:pink_clay",
+		 "recipe2": "maidensmaterials:white_clay"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:light_gray_clay",
+		 "recipe2": "maidensmaterials:gray_clay"
+	},
+	
+	{
+		"type": "crafting",
+     "recipe": "maidensmaterials:black_clay",
+		 "recipe2": "maidensmaterials:brown_clay"
+	}
+	
+	
+    ]
+}

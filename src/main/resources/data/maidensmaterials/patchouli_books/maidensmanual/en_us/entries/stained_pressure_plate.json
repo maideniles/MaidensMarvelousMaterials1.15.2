@@ -1,0 +1,60 @@
+{
+    "name": "Stained Pressure Plates",
+    "icon": "maidensmaterials:textures/block/blue_stained_planks.png",
+    "category": "recipes",
+    "pages": [
+	
+	
+	
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:red_stained_pressure_plate",
+		"recipe2": "maidensmaterials:orange_stained_pressure_plate"
+	},	
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:yellow_stained_pressure_plate",
+		 "recipe2": "maidensmaterials:lime_stained_pressure_plate"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:green_stained_pressure_plate",
+		"recipe2": "maidensmaterials:cyan_stained_pressure_plate"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:light_blue_stained_pressure_plate",
+		"recipe2": "maidensmaterials:blue_stained_pressure_plate"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:purple_stained_pressure_plate",
+		 "recipe2": "maidensmaterials:magenta_stained_pressure_plate"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:pink_stained_pressure_plate",
+		 "recipe2": "maidensmaterials:white_stained_pressure_plate"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:light_gray_stained_pressure_plate",
+		 "recipe2": "maidensmaterials:gray_stained_pressure_plate"
+	},
+	
+	{
+		"type": "crafting",
+     "recipe": "maidensmaterials:black_stained_pressure_plate",
+		 "recipe2": "maidensmaterials:brown_stained_pressure_plate"
+	}
+	
+	
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Ornamental Orchard",
+    "icon": "minecraft:writable_book",
+    "category": "biomes",
+    "pages": [
+        {
+    "type": "text",
+    "text": "This warm and pleasant biome is scattered with fruit-bearing trees. You'll find everything from Apples to Cherries growing on the leaves of the trees in this small grove. $(br2) The fruit tree saplings can also be placed in clay vases for decoration."
+			
+        },
+		
+		 {
+            "type": "image",
+            "images": ["maidensmaterials:textures/gui/orchard.png"],
+			"text": "The Ornamental Orchard"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Mortar & Pestle",
+    "icon": "maidensmaterials:textures/item/mnp.png",
+    "category": "items",
+    "pages": [
+	
+	{
+		"type": "text",
+		
+		"text": "For all of your grinding needs, look no further than Maiden's Mortar & Pestle.$(br2) You'll need one of these babies in order to  grind the blossoms into pigments, or Gemstone Chunks into Fragments."
+	},
+	
+	{
+		"type":"spotlight",
+		"item": "maidensmaterials:mortar_and_pestle",
+		"text": "It will require a bit of iron to make this, but it will last you for many uses before it needs to be replaced."
+		
+		
+	}
+       
+    ]
+}

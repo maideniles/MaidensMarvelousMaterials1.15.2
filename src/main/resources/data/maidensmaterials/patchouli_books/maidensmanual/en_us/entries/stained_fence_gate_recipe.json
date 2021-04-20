@@ -1,0 +1,62 @@
+{
+    "name": "Stained Fence Gate Recipe",
+    "icon": "maidensmaterials:textures/block/light_gray_fence_gate.png",
+    "category": "recipes",
+    "pages": [
+	
+	
+	
+	
+	 
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:stained_fence_gate_red",
+		"recipe2": "maidensmaterials:stained_fence_gate_orange"
+	},	
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:stained_fence_gate_yellow",
+		 "recipe2": "maidensmaterials:stained_fence_gate_lime"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:stained_fence_gate_green",
+		"recipe2": "maidensmaterials:stained_fence_gate_cyan"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:stained_fence_gate_light_blue",
+		"recipe2": "maidensmaterials:stained_fence_gate_blue"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:stained_fence_gate_purple",
+		 "recipe2": "maidensmaterials:stained_fence_gate_magenta"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:stained_fence_gate_pink",
+		 "recipe2": "maidensmaterials:stained_fence_gate_white"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:stained_fence_gate_light_gray",
+		 "recipe2": "maidensmaterials:stained_fence_gate_gray"
+	},
+	
+	{
+		"type": "crafting",
+     "recipe": "maidensmaterials:stained_fence_gate_black",
+		 "recipe2": "maidensmaterials:stained_fence_gate_brown"
+	}
+	
+	
+    ]
+}

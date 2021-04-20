@@ -1,0 +1,21 @@
+{
+    "name": "Gemstone Fragments",
+    "icon": "maidensmaterials:textures/item/chalcopyrite_fragments.png",
+    "category": "items",
+    "pages": [
+	
+	{
+		"type": "text",
+		"text": "Gemstone fragments are created by smashing gemstone chunks to bits with the mortar and pestle."
+		
+		
+	},
+        {
+    
+     "type": "spotlight",
+	"item": "maidensmaterials:chalcopyrite_fragments",
+   	"text": "These Fragments are used to create gemstone tile blocks, stairs, and slabs."
+		
+        }
+    ]
+}

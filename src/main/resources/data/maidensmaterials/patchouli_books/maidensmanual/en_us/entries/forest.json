@@ -1,0 +1,20 @@
+{
+    "name": "Ornamental Forest",
+    "icon": "minecraft:writable_book",
+    "category": "biomes",
+    "pages": [
+        {
+    "type": "text",
+    "text": "This forest is full of vibrant, flowering trees whose blossoms can be crushed into a variety of colorful pigments. $(br2) The brightly-colored saplings of this forest look especially cheerful when placed into a clay vase for decoration."
+			
+			
+			
+        },
+		
+		 {
+            "type": "image",
+            "images": ["maidensmaterials:textures/gui/forest.png"],
+			"text": "The Ornamental Forest"
+        }
+    ]
+}

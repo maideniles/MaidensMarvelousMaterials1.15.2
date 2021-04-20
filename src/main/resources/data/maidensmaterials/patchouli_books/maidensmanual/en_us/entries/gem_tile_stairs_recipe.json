@@ -1,0 +1,227 @@
+{
+    "name": "Gemstone Tile Stairs Recipe",
+    "icon": "maidensmaterials:textures/block/labradorite_tile_5_stairs.png",
+    "category": "recipes",
+    "pages": [
+		
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:jasper_tile_1_stairs",
+		"recipe2": "maidensmaterials:carnelian_tile_1_stairs"
+	},	
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:citrine_tile_1_stairs",
+		 "recipe2": "maidensmaterials:aventurine_tile_1_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:jade_tile_1_stairs",
+		"recipe2": "maidensmaterials:chalcopyrite_tile_1_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:labradorite_tile_1_stairs",
+		"recipe2": "maidensmaterials:moonstone_tile_1_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:sodalite_tile_1_stairs",
+		 "recipe2": "maidensmaterials:amethyst_tile_1_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:rose_quartz_tile_1_stairs",
+		 "recipe2": "maidensmaterials:mica_tile_1_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:jasper_tile_2_stairs",
+		"recipe2": "maidensmaterials:carnelian_tile_2_stairs"
+	},	
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:citrine_tile_2_stairs",
+		 "recipe2": "maidensmaterials:aventurine_tile_2_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:jade_tile_2_stairs",
+		"recipe2": "maidensmaterials:chalcopyrite_tile_2_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:labradorite_tile_2_stairs",
+		"recipe2": "maidensmaterials:moonstone_tile_2_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:sodalite_tile_2_stairs",
+		 "recipe2": "maidensmaterials:amethyst_tile_2_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:rose_quartz_tile_2_stairs",
+		 "recipe2": "maidensmaterials:mica_tile_2_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:jasper_tile_3_stairs",
+		"recipe2": "maidensmaterials:carnelian_tile_3_stairs"
+	},	
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:citrine_tile_3_stairs",
+		 "recipe2": "maidensmaterials:aventurine_tile_3_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:jade_tile_3_stairs",
+		"recipe2": "maidensmaterials:chalcopyrite_tile_3_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:labradorite_tile_3_stairs",
+		"recipe2": "maidensmaterials:moonstone_tile_3_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:sodalite_tile_3_stairs",
+		 "recipe2": "maidensmaterials:amethyst_tile_3_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:rose_quartz_tile_3_stairs",
+		 "recipe2": "maidensmaterials:mica_tile_3_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:jasper_tile_4_stairs",
+		"recipe2": "maidensmaterials:carnelian_tile_4_stairs"
+	},	
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:citrine_tile_4_stairs",
+		 "recipe2": "maidensmaterials:aventurine_tile_4_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:jade_tile_4_stairs",
+		"recipe2": "maidensmaterials:chalcopyrite_tile_4_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:labradorite_tile_4_stairs",
+		"recipe2": "maidensmaterials:moonstone_tile_4_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:sodalite_tile_4_stairs",
+		 "recipe2": "maidensmaterials:amethyst_tile_4_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:rose_quartz_tile_4_stairs",
+		 "recipe2": "maidensmaterials:mica_tile_4_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:jasper_tile_5_stairs",
+		"recipe2": "maidensmaterials:carnelian_tile_5_stairs"
+	},	
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:citrine_tile_5_stairs",
+		 "recipe2": "maidensmaterials:aventurine_tile_5_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:jade_tile_5_stairs",
+		"recipe2": "maidensmaterials:chalcopyrite_tile_5_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:labradorite_tile_5_stairs",
+		"recipe2": "maidensmaterials:moonstone_tile_5_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:sodalite_tile_5_stairs",
+		 "recipe2": "maidensmaterials:amethyst_tile_5_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:rose_quartz_tile_5_stairs",
+		 "recipe2": "maidensmaterials:mica_tile_5_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:jasper_tile_6_stairs",
+		"recipe2": "maidensmaterials:carnelian_tile_6_stairs"
+	},	
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:citrine_tile_6_stairs",
+		 "recipe2": "maidensmaterials:aventurine_tile_6_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:jade_tile_6_stairs",
+		"recipe2": "maidensmaterials:chalcopyrite_tile_6_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:labradorite_tile_6_stairs",
+		"recipe2": "maidensmaterials:moonstone_tile_6_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:sodalite_tile_6_stairs",
+		 "recipe2": "maidensmaterials:amethyst_tile_6_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:rose_quartz_tile_6_stairs",
+		 "recipe2": "maidensmaterials:mica_tile_6_stairs"
+	}
+	
+	
+	
+	
+    ]
+}

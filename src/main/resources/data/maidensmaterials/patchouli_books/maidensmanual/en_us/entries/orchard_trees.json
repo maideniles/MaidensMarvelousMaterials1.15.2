@@ -1,0 +1,66 @@
+{
+    "name": "Ornamental Orchard Trees",
+    "icon": "minecraft:writable_book",
+    "category": "trees",
+    "pages": [
+        {
+            "type": "image",
+            "images": ["maidensmaterials:textures/gui/apple_tree.png"],
+			"text": "Abapple Tree"
+        },
+		
+		 {
+            "type": "image",
+            "images": ["maidensmaterials:textures/gui/orange_tree.png"],
+			"text": "Orange Tree"
+        },
+		
+		 {
+            "type": "image",
+            "images": ["maidensmaterials:textures/gui/peach_tree.png"],
+			"text": "Peach Tree"
+        },
+		
+		 {
+            "type": "image",
+            "images": ["maidensmaterials:textures/gui/grapefruit_tree.png"],
+			"text": "Grapefruit Tree"
+        },
+		
+		 {
+            "type": "image",
+            "images": ["maidensmaterials:textures/gui/lemon_tree.png"],
+			"text": "Lemon Tree"
+        },
+		
+		 {
+            "type": "image",
+            "images": ["maidensmaterials:textures/gui/lime_tree.png"],
+			"text": "Lime Tree"
+        },
+		
+		 {
+            "type": "image",
+            "images": ["maidensmaterials:textures/gui/pear_tree.png"],
+			"text": "Pear Tree"
+        },
+		
+		 {
+            "type": "image",
+            "images": ["maidensmaterials:textures/gui/plum_tree.png"],
+			"text": "Plum Tree"
+        },
+		
+		 {
+            "type": "image",
+            "images": ["maidensmaterials:textures/gui/cherry_tree.png"],
+			"text": "Cherry Tree"
+        }
+		
+		 
+		
+		
+		
+		
+    ]
+}

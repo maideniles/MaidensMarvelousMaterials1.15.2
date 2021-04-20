@@ -1,0 +1,23 @@
+{
+    "name": "Colored Clay Vases",
+    "icon": "maidensmaterials:textures/item/vase_red.png",
+    "category": "items",
+    "pages": [
+        {
+    "type": "text",
+    "text": "You can use the colored clay to make pretty decorative vases.  The vases must be fired in a furnace before using."
+			
+			
+			
+        },
+		
+		{	
+		 "type": "spotlight",
+		 "item": "maidensmaterials:purple_vase_no_flower",
+    "text": "$(br2)$(br2)  All of the saplings from this mod can be placed into these vases, to add a cheerful pop of color. They make amazing decorations for your house, base, castle, or wherever you hide from Creepers."
+			
+			
+			
+        }
+    ]
+}

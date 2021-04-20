@@ -1,0 +1,47 @@
+{
+    "name": "Gemstone Chunks Recipe",
+    "icon": "maidensmaterials:textures/item/amethyst_chunk.png",
+    "category": "recipes",
+    "pages": [
+		
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:jasper_chunk",
+		"recipe2": "maidensmaterials:carnelian_chunk"
+	},	
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:citrine_chunk",
+		 "recipe2": "maidensmaterials:aventurine_chunk"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:jade_chunk",
+		"recipe2": "maidensmaterials:chalcopyrite_chunk"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:labradorite_chunk",
+		"recipe2": "maidensmaterials:moonstone_chunk"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:sodalite_chunk",
+		 "recipe2": "maidensmaterials:amethyst_chunk"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:rose_quartz_chunk",
+		 "recipe2": "maidensmaterials:mica_chunk"
+	}
+	
+	
+	
+	
+    ]
+}

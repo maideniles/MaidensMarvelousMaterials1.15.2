@@ -1,0 +1,47 @@
+{
+    "name": "Wood Stairs Recipe",
+    "icon": "maidensmaterials:textures/block/laburnum_stairs.png",
+    "category": "recipes",
+    "pages": [
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:crabapple_stairs",
+		"recipe2": "maidensmaterials:poinciana_stairs"
+	},	
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:laburnum_stairs",
+		 "recipe2": "maidensmaterials:jade_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:paulownia_stairs",
+		"recipe2": "maidensmaterials:wisteria_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:jacaranda_stairs",
+		"recipe2": "maidensmaterials:dogstairs_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:silverbell_stairs",
+		 "recipe2": "maidensmaterials:cedar_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:palm_stairs"
+		
+	}
+	
+	
+	
+	
+    ]
+}

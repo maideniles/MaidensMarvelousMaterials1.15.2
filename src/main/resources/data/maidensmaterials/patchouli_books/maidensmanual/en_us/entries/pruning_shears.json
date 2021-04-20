@@ -1,0 +1,23 @@
+{
+    "name": "Pruning Shears",
+    "icon": "maidensmaterials:textures/item/pruning_shears.png",
+    "category": "items",
+    "pages": [
+	
+	{
+		"type": "text",
+		"text": " The Pruning Shears are how you will gather blossoms from the leaves. They're made of iron, and cutting sticks is hard work,so they won't last very long. You may want to take several pairs with you into the Forest."
+		
+	},
+	
+	{
+		"type": "spotlight",
+		"item": "maidensmaterials:pruning_shears",
+		"text": " $(br2) $(br) Shear the leaves by right-clicking. This will release the blossoms-- and occasionally-- floral essence. You'll want to hold onto that for later."
+		
+		
+	}
+	
+      
+    ]
+}

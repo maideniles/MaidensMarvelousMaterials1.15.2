@@ -1,0 +1,17 @@
+{
+    "name": "Ornamental Mushroom",
+    "icon": "maidensmaterials:textures/block/ornamental_mushroom_2.png",
+    "category": "mushrooms",
+    "pages": [
+     		
+		
+		
+		{
+			"type": "spotlight",
+			"item": "maidensmaterials:ornamental_mushroom",
+			"text": "$(br2)  The Ornamental Mushroom is known to grow in more places than just it's native home, The Ornamental Forest.$(br2) What makes this mushroom unique is its ability to grow on grass."
+			
+			
+		}
+    ]
+}

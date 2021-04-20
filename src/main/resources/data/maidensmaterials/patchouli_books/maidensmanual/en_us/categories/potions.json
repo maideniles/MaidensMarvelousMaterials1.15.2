@@ -1,5 +1,5 @@
 {
 	"name": "Potions",
-	"description": "This is a description of the Mod Potions!",
-	"icon": "minecraft:writable_book"
+	"description": "There are two potions that you can use to help you gather all the marvelous materials your little heart desires:$(br2)-Gatherer's Glee$(br2)-Floral Fortune",
+	"icon": "minecraft:potion"
 }

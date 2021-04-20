@@ -1,0 +1,104 @@
+{
+    "name": "Gemstone Ores",
+    "icon": "maidensmaterials:textures/block/amethyst_ore.png",
+    "category": "ores",
+    "pages": [
+		
+	{
+		"type": "spotlight",
+    "item": "maidensmaterials:jasper_ore",
+	"title": "Jasper Ore",
+	"text": "Color: Red$(br2)Yields: Jasper Chunk$(br2)Rarity: Common"
+		
+	},	
+	
+	{
+		"type": "spotlight",
+		"item": "maidensmaterials:carnelian_ore",
+		"title": "Carnelian Ore",
+		"text": "Color: Orange$(br2)Yields: Carnelian Chunk$(br2)Rarity: Rare"
+		
+	},
+	
+	{
+		"type": "spotlight",
+		"item": "maidensmaterials:citrine_ore",
+		"title": "Citrine Ore",
+		"text": "Color: Yellow$(br2)Yields: Citrine Chunk$(br2)Rarity: Common"
+		
+	},
+	
+	{
+		"type": "spotlight",
+		"item": "maidensmaterials:aventurine_ore",
+		"title": "Aventurine Ore",
+		"text": "Color: Green$(br2)Yields: Aventurine Chunk$(br2)Rarity: Uncommon"
+		
+	},
+	
+	{
+		"type": "spotlight",
+		"item": "maidensmaterials:jade_ore",
+		"title": "Jade Ore",
+		"text": "Color: Light Green$(br2)Yields: Jade Chunk$(br2)Rarity: Common"
+	},	
+	
+	{
+		"type": "spotlight",
+		"item": "maidensmaterials:chalcopyrite_ore",
+		"title": "Chalcopyrite Ore",
+		"text": "Color: Cyan$(br2)Yields: Chalcopyrite Chunk$(br2)Rarity: Rare"
+		
+	},
+	
+	{
+		"type": "spotlight",
+		"item": "maidensmaterials:labradorite_ore",
+		"title": "Labradorite Ore",
+		"text": "Color: Teal$(br2)Yields: Labradorite Chunk$(br2)Rarity: Uncommon"
+		
+	},
+	
+	{
+		"type": "spotlight",
+		"item": "maidensmaterials:moonstone_ore",
+		"title": "Moonstone Ore",
+		"text": "Color: Light Blue$(br2)Yields: Moonstone Chunk$(br2)Rarity: Common"
+		
+	},
+	
+	{
+		"type": "spotlight",
+		"item": "maidensmaterials:sodalite_ore",
+		"title": "Sodalite Ore",
+		"text": "Color: Blue$(br2)Yields: Sodalite Chunk$(br2)Rarity: Rare"
+		
+	},
+	
+	{
+		"type": "spotlight",
+		"item": "maidensmaterials:amethyst_ore",
+		"title": "Amethyst Ore",
+		"text": "Color: Purple$(br2)Yields: Amethyst Chunk$(br2)Rarity: Rare"
+		
+	},
+	
+	{
+		"type": "spotlight",
+		"item": "maidensmaterials:rose_quartz_ore",
+		"title": "Rose Quartz Ore",
+		"text": "Color: Pink$(br2)Yields: Rose Quartz Chunk$(br2)Rarity: Unommon"
+		
+	},
+	
+	{
+		"type": "spotlight",
+		"item": "maidensmaterials:mica_ore",
+		"title": "Mica Ore",
+		"text": "Color: White$(br2)Yields: Mica Chunk$(br2)Rarity: Unommon"
+		
+	}
+	
+	
+    ]
+}

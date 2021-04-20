@@ -1,0 +1,47 @@
+{
+    "name": "Wood Recipe",
+    "icon": "maidensmaterials:textures/block/dogwood_log.png",
+    "category": "recipes",
+    "pages": [
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:crabapple_wood",
+		"recipe2": "maidensmaterials:poinciana_wood"
+	},	
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:laburnum_wood",
+		 "recipe2": "maidensmaterials:jade_wood"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:paulownia_wood",
+		"recipe2": "maidensmaterials:wisteria_wood"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:jacaranda_wood",
+		"recipe2": "maidensmaterials:dogwood_wood"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:silverbell_wood",
+		 "recipe2": "maidensmaterials:cedar_wood"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:palm_wood"
+		
+	}
+	
+	
+	
+	
+    ]
+}

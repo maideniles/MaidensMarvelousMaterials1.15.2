@@ -1,0 +1,62 @@
+{
+    "name": "Stained Planks Recipe",
+    "icon": "maidensmaterials:textures/block/pink_stained_planks.png",
+    "category": "recipes",
+    "pages": [
+	
+	
+	
+	
+	 
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:stained_planks_red",
+		"recipe2": "maidensmaterials:stained_planks_orange"
+	},	
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:stained_planks_yellow",
+		 "recipe2": "maidensmaterials:stained_planks_lime"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:stained_planks_green",
+		"recipe2": "maidensmaterials:stained_planks_cyan"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:stained_planks_light_blue",
+		"recipe2": "maidensmaterials:stained_planks_blue"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:stained_planks_purple",
+		 "recipe2": "maidensmaterials:stained_planks_magenta"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:stained_planks_pink",
+		 "recipe2": "maidensmaterials:stained_planks_white"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:stained_planks_light_gray",
+		 "recipe2": "maidensmaterials:stained_planks_gray"
+	},
+	
+	{
+		"type": "crafting",
+     "recipe": "maidensmaterials:stained_planks_black",
+		 "recipe2": "maidensmaterials:stained_planks_brown"
+	}
+	
+	
+    ]
+}

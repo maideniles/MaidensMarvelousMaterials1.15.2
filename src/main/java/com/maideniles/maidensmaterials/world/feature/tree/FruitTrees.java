@@ -31,7 +31,7 @@ public class FruitTrees extends Tree {
             .heightRandA(7 - 3)
             .foliageHeight(3)
             .ignoreVines()
-            .decorators(ImmutableList.of(new BeehiveTreeDecorator(0.2f)))
+            .decorators(ImmutableList.of(new BeehiveTreeDecorator(0.02f)))
             .setSapling((net.minecraftforge.common.IPlantable) ModBlocks.appleSapling.get()).build();
 
     public static TreeFeatureConfig PEAR_TREE = new TreeFeatureConfig.Builder(

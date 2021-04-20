@@ -33,7 +33,7 @@ public class MaidensTreeCategory {
                 .heightRandA(maxHeight - baseHeight)
                 .foliageHeight(3)
                 .ignoreVines()
-                .decorators(ImmutableList.of(new BeehiveTreeDecorator(0.2f)))
+                .decorators(ImmutableList.of(new BeehiveTreeDecorator(0.01f)))
                 .setSapling(sapling);
 
 
@@ -42,7 +42,7 @@ public class MaidensTreeCategory {
 
         // Add vines to the settings then use these modified settings to create a version with vines
         this.vines = feature.withConfiguration(configBuilder
-                .decorators(ImmutableList.of(new MushroomTreeDecorator(0.25f), new BeehiveTreeDecorator(0.15f), new MaidenTrunkVineTreeDecorator(), new MaidenLeavesVineTreeDecorator()))
+                .decorators(ImmutableList.of(new MushroomTreeDecorator(0.25f), new BeehiveTreeDecorator(0.01f), new MaidenTrunkVineTreeDecorator(), new MaidenLeavesVineTreeDecorator()))
                 .build());
 
         int baseTreesPerChunk = MathHelper.floor(treesPerChunk);

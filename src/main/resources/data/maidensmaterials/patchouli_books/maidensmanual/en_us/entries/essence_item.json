@@ -1,0 +1,33 @@
+{
+    "name": "Essences",
+    "icon": "maidensmaterials:textures/item/floral_essence.png",
+    "category": "items",
+    "pages": [
+        {
+    
+    "type": "text",
+   	"text": "There are 2 types of essence that you can harvest: Floral Essence and Earthen essence.$(br2) The essence can be crafted into blocks, and then changed back into its item form, for storage purposes."
+		
+        },
+		
+		{
+			"type": "spotlight",
+			"item": "maidensmaterials:floral_essence",
+			"text": " Floral Essence will occasionally drop when blossoms are harvested from the trees in the Ornamental Forest.$(br2)It's used to make Floral Fortune Potions."
+			
+			
+		},
+		
+	
+		
+		{
+			"type": "spotlight",
+			"item": "maidensmaterials:earthen_essence",
+			"text": " Earthen Essence can be found within ores and tree logs of all kinds.$(br2) It is a very rare item that is used for making the powerful potion, Gatherer's Glee."
+			
+			
+		}
+		
+		
+    ]
+}

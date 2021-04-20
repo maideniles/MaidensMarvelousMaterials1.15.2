@@ -1,0 +1,59 @@
+{
+    "name": "Clay Vase Recipe",
+    "icon": "maidensmaterials:textures/item/clay_vase_gray.png",
+    "category": "recipes",
+    "pages": [
+	
+	
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:clay_vase_red",
+		"recipe2": "maidensmaterials:clay_vase_orange"
+	},	
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:clay_vase_yellow",
+		 "recipe2": "maidensmaterials:clay_vase_lime"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:clay_vase_green",
+		"recipe2": "maidensmaterials:clay_vase_cyan"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:clay_vase_light_blue",
+		"recipe2": "maidensmaterials:clay_vase_blue"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:clay_vase_purple",
+		 "recipe2": "maidensmaterials:clay_vase_magenta"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:clay_vase_pink",
+		 "recipe2": "maidensmaterials:clay_vase_white"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:clay_vase_light_gray",
+		 "recipe2": "maidensmaterials:clay_vase_gray"
+	},
+	
+	{
+		"type": "crafting",
+     "recipe": "maidensmaterials:clay_vase_black",
+		 "recipe2": "maidensmaterials:clay_vase_brown"
+	}
+	
+	
+    ]
+}

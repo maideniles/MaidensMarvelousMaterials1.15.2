@@ -1,0 +1,60 @@
+{
+    "name": "Colored Clay Block",
+    "icon": "maidensmaterials:textures/block/pink_clay_block.png",
+    "category": "smelting",
+    "pages": [
+	
+	
+	
+	
+	{
+		"type": "smelting",
+    "recipe": "maidensmaterials:red_clay_mix_smelting",
+		"recipe2": "maidensmaterials:orange_clay_mix_smelting"
+	},	
+	
+	{
+		"type": "smelting",
+    "recipe": "maidensmaterials:yellow_clay_mix_smelting",
+		 "recipe2": "maidensmaterials:lime_clay_mix_smelting"
+	},
+	
+	{
+		"type": "smelting",
+    "recipe": "maidensmaterials:green_clay_mix_smelting",
+		"recipe2": "maidensmaterials:cyan_clay_mix_smelting"
+	},
+	
+	{
+		"type": "smelting",
+    "recipe": "maidensmaterials:light_blue_clay_mix_smelting",
+		"recipe2": "maidensmaterials:blue_clay_mix_smelting"
+	},
+	
+	{
+		"type": "smelting",
+    "recipe": "maidensmaterials:purple_clay_mix_smelting",
+		 "recipe2": "maidensmaterials:magenta_clay_mix_smelting"
+	},
+	
+	{
+		"type": "smelting",
+    "recipe": "maidensmaterials:pink_clay_mix_smelting",
+		 "recipe2": "maidensmaterials:white_clay_mix_smelting"
+	},
+	
+	{
+		"type": "smelting",
+    "recipe": "maidensmaterials:light_gray_clay_mix_smelting",
+		 "recipe2": "maidensmaterials:gray_clay_mix_smelting"
+	},
+	
+	{
+		"type": "smelting",
+     "recipe": "maidensmaterials:black_clay_mix_smelting",
+		 "recipe2": "maidensmaterials:brown_clay_mix_smelting"
+	}
+	
+	
+    ]
+}

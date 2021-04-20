@@ -1,0 +1,47 @@
+{
+    "name": "Gemstone Fragments Recipe",
+    "icon": "maidensmaterials:textures/item/jasper_fragments.png",
+    "category": "recipes",
+    "pages": [
+		
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:jasper_fragments",
+		"recipe2": "maidensmaterials:carnelian_fragments"
+	},	
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:citrine_fragments",
+		 "recipe2": "maidensmaterials:aventurine_fragments"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:jade_fragments",
+		"recipe2": "maidensmaterials:chalcopyrite_fragments"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:labradorite_fragments",
+		"recipe2": "maidensmaterials:moonstone_fragments"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:sodalite_fragments",
+		 "recipe2": "maidensmaterials:amethyst_fragments"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:rose_quartz_fragments",
+		 "recipe2": "maidensmaterials:mica_fragments"
+	}
+	
+	
+	
+	
+    ]
+}

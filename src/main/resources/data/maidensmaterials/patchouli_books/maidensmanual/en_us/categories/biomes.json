@@ -1,5 +1,5 @@
 {
 	"name": "Biomes",
-	"description": "This is a description of the Mod Biomes!",
-	"icon": "minecraft:writable_book"
+	"description": "This mod has 3 biomes:$(br2) -The Ornamental Forest which is full of Flowering Trees$(br2)-The Ornamental Orchard, which is full of Fruit Bearing Trees$(br2)-The Oasis Shores, which is full of Tropical Palm Trees",
+	"icon": "maidensmaterials:ornamental_grass"
 }

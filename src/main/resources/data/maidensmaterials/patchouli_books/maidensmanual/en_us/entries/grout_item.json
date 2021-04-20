@@ -1,0 +1,20 @@
+{
+    "name": "Grout",
+    "icon": "maidensmaterials:textures/item/grout.png",
+    "category": "items",
+    "pages": [
+        {
+    "type": "text",
+    "text": "Grout is used for making Gemstone Tiles. You'll need a bucket of water, some sand, and clay balls.$(br2) "
+	    },
+		
+		{
+			"type": "spotlight",
+			"item": "maidensmaterials:grout",
+			"text": "A single bucket of grout will cover 64 Gemstone Tile Blocks."
+			
+			
+		}
+		
+    ]
+}

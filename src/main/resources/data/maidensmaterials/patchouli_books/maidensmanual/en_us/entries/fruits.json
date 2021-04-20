@@ -1,0 +1,69 @@
+{
+    "name": "Fruits",
+    "icon": "maidensmaterials:textures/item/peach.png",
+    "category": "items",
+    "pages": [
+        {
+    "type": "text",
+    "text": "Growing upon the branches of fruit bearing trees throughout the world, you will find many delicious fruits.$(br2)  Even the most ravenous Miner will find themselves satisfied by just a few bites!"
+	    },
+		{
+			"type": "spotlight",
+		"item": "minecraft:apple",
+		"text": "Saturation: 2"
+		},
+		
+		{
+			"type": "spotlight",
+		"item": "maidensmaterials:pear",
+		"text": "Saturation: 2"
+		},
+		{
+			"type": "spotlight",
+		"item": "maidensmaterials:peach",
+		"text": "Saturation: 2"
+		},
+		
+		{
+			"type": "spotlight",
+		"item": "maidensmaterials:plum",
+		"text": "Saturation: 2"
+		},
+		
+		{
+			"type": "spotlight",
+		"item": "maidensmaterials:orange",
+		"text": "Saturation: 2"
+		},
+		
+		{
+			"type": "spotlight",
+		"item": "maidensmaterials:grapefruit",
+		"text": "Saturation: 2"
+		},
+		
+		{
+			"type": "spotlight",
+		"item": "maidensmaterials:lemon",
+		"text": "Saturation: 2"
+		},
+		
+		{
+			"type": "spotlight",
+		"item": "maidensmaterials:lime",
+		"text": "Saturation: 2"
+		},
+		
+		{
+			"type": "spotlight",
+		"item": "maidensmaterials:cherries",
+		"text": "Saturation: 2"
+		},
+		
+		{"type": "spotlight",
+		"item": "maidensmaterials:coconutnut",
+		"text": "Saturation: 2"
+		}
+		
+    ]
+}

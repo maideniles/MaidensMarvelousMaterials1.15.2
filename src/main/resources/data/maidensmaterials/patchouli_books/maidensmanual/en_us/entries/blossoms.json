@@ -1,0 +1,22 @@
+{
+    "name": "Blossoms",
+    "icon": "maidensmaterials:textures/item/jacaranda_blossoms.png",
+    "category": "items",
+    "pages": [
+        {
+    "type": "text",
+    "text": "Blossoms are harvested from the leaves of the trees in the Ornamental Forest, using either Pruning Shears, or, your hand, if you're luck enough to be under the effects of the Floral Fortune Potion."
+			
+			
+			
+        },
+		
+		{
+			"type": "spotlight",
+			"item": "maidensmaterials:jacaranda_blossoms",
+			"text": "$(br2)  Blossoms can be crushed with a mortar and pestle to create pigments.$(br2) They can also placed inside decorative clay vases for a nice pop of color."
+			
+			
+		}
+    ]
+}

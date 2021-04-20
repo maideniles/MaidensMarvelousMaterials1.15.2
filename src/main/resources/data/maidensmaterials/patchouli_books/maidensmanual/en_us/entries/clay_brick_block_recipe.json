@@ -1,0 +1,61 @@
+{
+    "name": "Colored Brick Block Recipe",
+    "icon": "maidensmaterials:textures/block/purple_brick_block.png",
+    "category": "recipes",
+    "pages": [
+	
+			
+		
+	{
+		"type": "crafting",
+		"recipe": "maidensmaterials:bricks_block_red",
+		"recipe2": "maidensmaterials:bricks_block_orange"
+	},	
+	
+	{
+		"type": "crafting",
+		"recipe": "maidensmaterials:bricks_block_yellow",
+		"recipe2": "maidensmaterials:bricks_block_lime"
+	},
+	
+	{
+		"type": "crafting",
+    	"recipe": "maidensmaterials:bricks_block_green",
+		"recipe2": "maidensmaterials:bricks_block_cyan"
+	},  
+	
+	{
+		"type": "crafting",
+  		"recipe": "maidensmaterials:bricks_block_light_blue",
+		"recipe2": "maidensmaterials:bricks_block_blue"
+	}, 
+	
+	{
+		"type": "crafting",
+  		"recipe": "maidensmaterials:bricks_block_purple",
+		"recipe2": "maidensmaterials:bricks_block_magenta"
+	},  
+	
+	{
+		"type": "crafting",
+  		"recipe": "maidensmaterials:bricks_block_pink",
+		"recipe2": "maidensmaterials:bricks_block_white"
+	},
+	
+	{
+		"type": "crafting",
+  		"recipe": "maidensmaterials:bricks_block_light_gray",
+		"recipe2": "maidensmaterials:bricks_block_gray"
+	},
+	
+	{
+		"type": "crafting",
+   		"recipe": "maidensmaterials:bricks_block_black",
+		"recipe2": "maidensmaterials:bricks_block_brown"
+	}
+	
+	
+	
+	
+    ]
+}

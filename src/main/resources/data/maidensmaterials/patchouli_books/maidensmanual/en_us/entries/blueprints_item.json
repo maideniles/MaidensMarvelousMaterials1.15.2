@@ -1,0 +1,20 @@
+{
+    "name": "Door Blueprints",
+    "icon": "maidensmaterials:textures/item/door_plans_2.png",
+    "category": "items",
+    "pages": [
+        {
+    "type": "text",
+    "text": "Before you craft one of the many, many options of doors in this mod, you will need the blueprints to do so. You can make these with the following recipes, using black dye and paper."
+		
+        },
+		
+		{
+			
+			 "type": "spotlight",
+			 "item": "maidensmaterials:door_plans_2",
+    "text": "There are 6 styles of blueprints, that create 6 styles of doors.$(br2)Blueprints can be used several times before they have to be replaced."
+			
+		}
+    ]
+}

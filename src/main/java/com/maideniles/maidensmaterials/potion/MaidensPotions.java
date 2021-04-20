@@ -1,10 +1,8 @@
 package com.maideniles.maidensmaterials.potion;
 
 import com.maideniles.maidensmaterials.MarvelousMaterials;
-import com.maideniles.maidensmaterials.init.ItemInit;
 
 import com.maideniles.maidensmaterials.init.ModItems;
-import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;

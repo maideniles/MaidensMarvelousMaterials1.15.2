@@ -1,0 +1,61 @@
+{
+    "name": "Colored Large Brick Stairs",
+    "icon": "maidensmaterials:textures/block/brown_large_brick_stairs.png",
+    "category": "recipes",
+    "pages": [
+	
+			
+		
+	{
+		"type": "crafting",
+		"recipe": "maidensmaterials:red_large_brick_stairs",
+		"recipe2": "maidensmaterials:orange_large_brick_stairs"
+	},	
+	
+	{
+		"type": "crafting",
+		"recipe": "maidensmaterials:yellow_large_brick_stairs",
+		"recipe2": "maidensmaterials:lime_large_brick_stairs"
+	},
+	
+	{
+		"type": "crafting",
+    	"recipe": "maidensmaterials:green_large_brick_stairs",
+		"recipe2": "maidensmaterials:cyan_large_brick_stairs"
+	},  
+	
+	{
+		"type": "crafting",
+  		"recipe": "maidensmaterials:light_blue_large_brick_stairs",
+		"recipe2": "maidensmaterials:blue_large_brick_stairs"
+	}, 
+	
+	{
+		"type": "crafting",
+  		"recipe": "maidensmaterials:purple_large_brick_stairs",
+		"recipe2": "maidensmaterials:magenta_large_brick_stairs"
+	},  
+	
+	{
+		"type": "crafting",
+  		"recipe": "maidensmaterials:pink_large_brick_stairs",
+		"recipe2": "maidensmaterials:white_large_brick_stairs"
+	},
+	
+	{
+		"type": "crafting",
+  		"recipe": "maidensmaterials:light_gray_large_brick_stairs",
+		"recipe2": "maidensmaterials:gray_large_brick_stairs"
+	},
+	
+	{
+		"type": "crafting",
+   		"recipe": "maidensmaterials:black_large_brick_stairs",
+		"recipe2": "maidensmaterials:brown_large_brick_stairs"
+	}
+	
+	
+	
+	
+    ]
+}

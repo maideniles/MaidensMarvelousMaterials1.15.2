@@ -1,0 +1,62 @@
+{
+    "name": "Stained Slab Recipe",
+    "icon": "maidensmaterials:textures/block/light_blue_stained_slab.png",
+    "category": "recipes",
+    "pages": [
+	
+	
+	
+	
+	 
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:stained_slab_red",
+		"recipe2": "maidensmaterials:stained_slab_orange"
+	},	
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:stained_slab_yellow",
+		 "recipe2": "maidensmaterials:stained_slab_lime"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:stained_slab_green",
+		"recipe2": "maidensmaterials:stained_slab_cyan"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:stained_slab_light_blue",
+		"recipe2": "maidensmaterials:stained_slab_blue"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:stained_slab_purple",
+		 "recipe2": "maidensmaterials:stained_slab_magenta"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:stained_slab_pink",
+		 "recipe2": "maidensmaterials:stained_slab_white"
+	},
+	
+	{
+		"type": "crafting",
+    "recipe": "maidensmaterials:stained_slab_light_gray",
+		 "recipe2": "maidensmaterials:stained_slab_gray"
+	},
+	
+	{
+		"type": "crafting",
+     "recipe": "maidensmaterials:stained_slab_black",
+		 "recipe2": "maidensmaterials:stained_slab_brown"
+	}
+	
+	
+    ]
+}
