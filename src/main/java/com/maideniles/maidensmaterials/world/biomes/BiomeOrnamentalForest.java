@@ -58,6 +58,7 @@ public class BiomeOrnamentalForest extends Biome {
         this.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, ModConfiguredFeatures.JACARANDA_TREE.worldgen);
         this.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, ModConfiguredFeatures.DOGWOOD_TREE.worldgen);
         this.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, ModConfiguredFeatures.CEDAR_TREE.worldgen);
+        this.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, ModConfiguredFeatures.SILVERBELL_TREE.worldgen);
 
         DefaultBiomeFeatures.addOres(this);
 
